@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ballenmachine Oefeningen | Padel Method</title>
+    <meta
+      name="description"
+      content="Filterbare bibliotheek met padelmachine-oefeningen voor links- en rechtshandige spelers, per niveau en oefentype."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="site-body">
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-brand" href="/Users/jeremiah/Documents/Padeloefeningen/index.html">
+          <span class="site-brand-mark">PM</span>
+          <span>
+            <strong>Padel Method</strong>
+            <small>Train slim. Bouw logisch.</small>
+          </span>
+        </a>
+        <nav class="site-nav">
+          <a href="/Users/jeremiah/Documents/Padeloefeningen/index.html">Home</a>
+          <a href="/Users/jeremiah/Documents/Padeloefeningen/ball-machine.html" aria-current="page">Ballenmachine</a>
+          <a href="/Users/jeremiah/Documents/Padeloefeningen/strategy.html">Strategie</a>
+          <a href="/Users/jeremiah/Documents/Padeloefeningen/one-on-one.html">1-op-1</a>
+          <a href="/Users/jeremiah/Documents/Padeloefeningen/one-vs-two.html">1-vs-2</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="listing-hero">
+          <div class="section-intro">
+            <p class="eyebrow">Oefeningen met de ballenmachine</p>
+            <h1>Vind snel de juiste oefening voor de juiste speler.</h1>
+            <p class="lead">
+              Dit is de eerste uitgewerkte trainingsmodule binnen het bredere platform. Eerst
+              filteren op speler, niveau en type, daarna door naar een oefeningpagina die wél
+              context geeft: waarom deze situatie telt, wat je moet doen en hoe de machine staat.
+            </p>
+          </div>
+
+          <div class="stats-row">
+            <article class="stat-card">
+              <span>Bron</span>
+              <strong>PadelShooter Smart</strong>
+            </article>
+            <article class="stat-card">
+              <span>Bibliotheek</span>
+              <strong>12 basis-oefeningen</strong>
+            </article>
+            <article class="stat-card">
+              <span>Varianten</span>
+              <strong>Links + rechts</strong>
+            </article>
+            <article class="stat-card">
+              <span>Niveau</span>
+              <strong>KNLTB-indicatie</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="machine-layout">
+          <aside class="filters-panel">
+            <div class="filter-block">
+              <p class="eyebrow">Filter 01</p>
+              <label for="handedness">Links/rechtshandige speler</label>
+              <select id="handedness">
+                <option value="all">Allebei</option>
+                <option value="left" selected>Linkshandig</option>
+                <option value="right">Rechtshandig</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <p class="eyebrow">Filter 02</p>
+              <label for="level">Speelniveau</label>
+              <select id="level">
+                <option value="all">Alle niveaus</option>
+                <option value="beginner">Beginner</option>
+                <option value="average">Gemiddeld</option>
+                <option value="advanced">Advanced</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <p class="eyebrow">Filter 03</p>
+              <label for="type">Type oefening</label>
+              <select id="type">
+                <option value="all">Alle types</option>
+                <option value="transitie">Transitie naar net</option>
+                <option value="defense">Defense & recovery</option>
+                <option value="net">Netdominantie</option>
+                <option value="return">Return & opening</option>
+                <option value="ruimte">Ruimte creëren</option>
+                <option value="decision">Beslissen onder druk</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <p class="eyebrow">Niveau-indeling</p>
+              <div class="rating-note">
+                <strong>Praktische KNLTB-indeling</strong>
+                <p>
+                  Gebaseerd op de KNLTB speelsterkte-logica waarin `9` instapniveau is en `1`
+                  topniveau. Deze site groepeert dat praktisch naar:
+                </p>
+                <ul>
+                  <li>Beginner: KNLTB 8-9</li>
+                  <li>Gemiddeld: KNLTB 6-7</li>
+                  <li>Advanced: KNLTB 1-5</li>
+                </ul>
+                <p class="source-note">
+                  Bronbasis: KNLTB speelsterkte/rating-systematiek en de KNLTB rating-update voor
+                  padel per 1 januari 2025.
+                </p>
+              </div>
+            </div>
+          </aside>
+
+          <div class="listing-main">
+            <div class="results-toolbar">
+              <div>
+                <p class="eyebrow">Overzicht</p>
+                <h2 id="results-title">Linkshandige machine-oefeningen</h2>
+              </div>
+              <span class="results-count" id="results-count">0 oefeningen</span>
+            </div>
+
+            <div class="recipe-grid" id="exercise-list"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="data/exercise-blueprints.js"></script>
+    <script src="ball-machine.js"></script>
+  </body>
+</html>
