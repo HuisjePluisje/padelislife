@@ -1,4 +1,7 @@
-const EXERCISES = Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : [];
+const EXERCISES = [
+  ...(Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : []),
+  ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : [])
+];
 
 const state = {
   handedness: "left",
@@ -92,6 +95,11 @@ function init() {
   updateHeading();
   renderList();
   bindEvents();
+
+  const libraryCount = document.querySelector("#library-count");
+  if (libraryCount) {
+    libraryCount.textContent = `${EXERCISES.length} oefeningen`;
+  }
 }
 
 init();

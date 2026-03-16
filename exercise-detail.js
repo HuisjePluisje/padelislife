@@ -1,4 +1,7 @@
-const EXERCISES = Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : [];
+const EXERCISES = [
+  ...(Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : []),
+  ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : [])
+];
 
 const params = new URLSearchParams(window.location.search);
 const exerciseId = params.get("id") || EXERCISES[0]?.id;
