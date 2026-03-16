@@ -60,7 +60,7 @@ function renderList() {
               <span class="meta-pill">${exercise.typeLabel}</span>
               <span class="meta-pill">${exercise.totalBalls}</span>
             </div>
-            <a class="result-button result-link" href="/Users/jeremiah/Documents/Padeloefeningen/exercise.html?id=${exercise.id}&handedness=${state.handedness}">
+            <a class="result-button result-link" href="./exercise.html?id=${exercise.id}&handedness=${state.handedness}">
               Bekijk oefening
             </a>
           </div>
