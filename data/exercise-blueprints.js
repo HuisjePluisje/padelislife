@@ -4,9 +4,9 @@ window.EXERCISE_BLUEPRINTS = [
     category: "TRANSITIE & DOORSTAPPEN",
     title: "Extreme Defense - Glasbackhand Draaipatroon naar Net",
     shortTitle: "Glasbackhand naar Net",
-    summary: "Van extreme defense bij het glas via een cross-lob terugschakelen naar controle en netdruk.",
-    context: "Je wordt gedwongen naar het glas op je backhand. Dit is een situatie waarin veel spelers blijven hangen in defense en geen herstelpatroon hebben.",
-    matchContext: "In wedstrijden zie je dat een goede lob of bandeja richting de backhandzijde spelers dwingt tot glas-defense. Als de eerste reactie niet goed is, blijft de tegenstander dominant.",
+    summary: "Van extreme defense bij het glas via een cross-lob terugschakelen naar controle en daarna opnieuw netdruk opbouwen.",
+    context: "Je wordt gedwongen naar het glas op je backhand. Dit is zo'n rallymoment waarop de kwaliteit van je eerste keuze alles bepaalt: blijf je hangen in defense, of gebruik je de bal om het punt weer open te breken?",
+    matchContext: "In wedstrijden gebeurt dit na een goede lob of bandeja richting je backhandzijde. Veel spelers overleven de eerste bal nog wel, maar blijven daarna achter plakken. Daardoor houdt de tegenstander het net en verdwijnt jouw kans op herstel.",
     level: "average",
     levelLabel: "Gemiddeld",
     knltb: "6-7",
@@ -28,52 +28,86 @@ window.EXERCISE_BLUEPRINTS = [
         "Behoud hetzelfde patroon: defense bij glas, recovery naar T, daarna netdruk."
       ]
     },
-    goal: "Leer vanuit glas-defense een vast patroon: draaien, hoog cross spelen, herstellen en direct weer het net overnemen.",
+    goal: [
+      {
+        title: "Hoofddoel",
+        text: "Je traint een vast herstelpatroon vanuit extreme defense: glasbal herkennen, draaien, hoog cross spelen, direct herstellen en daarna opnieuw het net opeisen."
+      },
+      {
+        type: "list",
+        title: "Tactische doelen",
+        items: [
+          "De glas-situatie vroeg herkennen en zonder paniek de juiste eerste keuze maken.",
+          "Tijd winnen met een hoge cross-lob en die gewonnen tijd ook echt gebruiken.",
+          "De bal op mid-court niet forceren, maar gebruiken als landing op weg naar voren.",
+          "Aan het net de druk weer overnemen met een lage, bruikbare volley."
+        ]
+      }
+    ],
     setup: [
-      "Positie: glas-homebase achterin op de backhandzijde.",
-      "Houding: start neutraal, niet al half gedraaid.",
-      "Cycli: 3 ballen per herhaling, 20 herhalingen totaal."
+      { title: "Positie", text: "Glas-homebase achterin op de backhandzijde, ongeveer 0,5 tot 1 meter voor het glas." },
+      { title: "Houding", text: "Start neutraal. Lichaam niet al half indraaien; je wilt met de bal mee kunnen draaien." },
+      { title: "Voetenwerk", text: "Voor linkshandig: linkervoet als instap, daarna met de klok mee indraaien en achter de bal komen." },
+      { title: "Cyclus", text: "3-ball sequence, 20 herhalingen, 60 ballen totaal." }
     ],
     targets: [
-      { name: "Glas Cross", text: "Bal 1 hoog en diep cross om 3-4 seconden recovery-tijd te kopen." },
-      { name: "T-zone", text: "Bal 2 gecontroleerd naar T als stabiele landing tijdens de transitie." },
-      { name: "Voeten", text: "Bal 3 laag naar de voeten om de netdruk over te nemen." }
+      { name: "Glas Cross", text: "Bal 1 hoog en diep cross. Niet voor show, maar om 3-4 seconden recovery-tijd te kopen en de tegenstander te laten schuiven." },
+      { name: "T-zone", text: "Bal 2 gecontroleerd naar T als stabiele landing. Dit is je controlemoment, geen winnaar." },
+      { name: "Voeten", text: "Bal 3 laag naar de voeten om de tegenstander te laten bukken en het net weer van jou te maken." }
     ],
     steps: [
-      { title: "Bal 1 - Glasbackhand en cross-lob", text: "Draai zijwaarts in, gebruik het glas en speel de bal hoog cross. Kijk de bal niet na; start direct je recovery." },
-      { title: "Bal 2 - Transitievolley", text: "Kom via split-step in mid-court, volley gecontroleerd naar T en gebruik je voorwaartse momentum." },
-      { title: "Bal 3 - Punch aan het net", text: "Stap in op de netbal en speel een lage punch-volley naar de voeten voor directe druk." }
+      { title: "Bal 1 - Glas-defense naar cross-lob", text: "Draai zijwaarts in plaats van achterwaarts te blijven lopen. Gebruik het glas, raak de bal ver achter je lichaam en speel hem met open racketface hoog cross. Focus eerst op hoogte, daarna op richting. Zodra de bal weg is: niet kijken, maar meteen 2-3 herstelpassen vooruit." },
+      { title: "Bal 2 - Transitievolley naar T", text: "Kom richting servicelijn of net daarvoor, maak een split-step vlak voor het contact en speel de volley stabiel naar T. Dit is je landing: je gebruikt de gewonnen tijd om van defense naar controle te gaan." },
+      { title: "Bal 3 - Netvolley voor druk", text: "Land aan het net, contact vóór het lichaam, laag tussen knie en middel. Speel een punch-volley naar de voeten. Niet hoog, niet mooi, maar bruikbaar en vervelend." }
     ],
     score: [
-      "1 punt: lob in glas-cross met voldoende hoogte en diepte.",
-      "1 punt: directe recovery zonder blijven kijken.",
-      "1 punt: bal 2 en 3 uitgevoerd volgens patroon."
+      "1 punt: lob in GLASS-CROSS met voldoende hoogte en diepte.",
+      "1 punt: directe recovery zonder bal nakijken.",
+      "1 punt: bal 2 en 3 uitgevoerd volgens patroon.",
+      "Doelwaarden: bal 1 minstens 15/20, bal 2 minstens 13/20, bal 3 minstens 14/20.",
+      "Extra KPI: minimaal 16 van de 20 herhalingen echt doorgestapt richting net."
     ],
     coaching: [
-      "Draaien is sneller dan achterwaarts lopen.",
-      "Hoogte is tijd: eerst hoog, dan pas perfect gericht.",
-      "Na de lob moet je mentaal al vooruit zijn."
+      "Draaien is sneller en stabieler dan achterwaarts blijven lopen.",
+      "Hoogte is tijd: elke extra meter geeft ruimte voor herstel.",
+      "Na de lob moet je mentaal en fysiek al vooruit zijn."
     ],
     machine: [
-      "Bal 1: diep op backhand, medium-hard, hoge feed.",
-      "Bal 2: mid-court, medium tempo, volleyhoogte.",
-      "Bal 3: voor bij net, medium-slow, laag contactpunt."
+      "Bal 1: hoog en diep naar backhand, medium-hard, lob-achtige hoogte.",
+      "Bal 2: mid-court iets rechts van midden, medium tempo, volleyhoogte.",
+      "Bal 3: voor bij net op backhandzijde, medium-slow, laag contactpunt."
     ],
     coachView: [
       {
         title: "Observatie",
         bullets: [
-          "Spelers blijven na de glasbal vaak achter plakken.",
-          "De eerste verdedigende bal is te kort of te centraal.",
-          "De recovery naar T start te laat of helemaal niet."
+          "Spelers blijven na de glasbal vaak achter plakken in plaats van te herstellen.",
+          "De eerste verdedigende bal is te kort of te centraal en koopt dus geen echte tijd.",
+          "De recovery naar T start te laat, waardoor de tegenstander dominant blijft."
         ]
       },
       {
-        title: "Beslisregel",
+        title: "Waarom dit fout gaat",
         bullets: [
-          "Bal 1 altijd hoog en diep cross.",
-          "Bal 2 naar T zolang je nog aan het opbouwen bent.",
-          "Bal 3 naar voeten als je comfortabel in balans bent."
+          "Er is geen automatisme: de speler denkt nog na in plaats van te reageren.",
+          "Het herstelpatroon ontbreekt: de glasbal wordt gezien als eindpunt van defense.",
+          "De tegenstander voelt daardoor geen omslag in het punt en houdt het net."
+        ]
+      },
+      {
+        title: "Wat je wilt zien",
+        bullets: [
+          "Glasbal herkennen, draaien en hoog cross spelen zonder twijfel.",
+          "Direct herstel vooruit als vaste reflex na de lob.",
+          "Een duidelijke transitie van glas naar T en van T naar net."
+        ]
+      },
+      {
+        title: "Beslisregel per bal",
+        bullets: [
+          "Bal 1: altijd hoog en diep cross; hoogte gaat vóór perfectie.",
+          "Bal 2: standaard naar T zolang je nog aan het landen bent.",
+          "Bal 3: naar voeten als je in balans bent; anders eerst controle."
         ]
       },
       {
@@ -81,6 +115,7 @@ window.EXERCISE_BLUEPRINTS = [
         bullets: [
           "Cue: tijd kopen = tijd gebruiken.",
           "Cue: eerst overleven, dan pas domineren.",
+          "Cue: draai, lob, ga.",
           "Laat de speler na bal 1 al 2-3 herstelpassen maken."
         ]
       }
@@ -91,9 +126,9 @@ window.EXERCISE_BLUEPRINTS = [
     category: "TRANSITIE & DOORSTAPPEN",
     title: "Lage Forehand - Lob - Transitie naar Net",
     shortTitle: "Lage Forehand naar Net",
-    summary: "Van een lage forehand in mid-court via een tactische lob direct de netovername inzetten.",
-    context: "Je krijgt een lage bal op je forehand in mid-court. Veel spelers kiezen dan voor een veilige drive en blijven hangen in niemandsland.",
-    matchContext: "Deze oefening traint de keuze om van een lastige lage bal toch initiatief te pakken door via een lob naar voren te gaan.",
+    summary: "Van een lage forehand in mid-court via een bewuste lob direct de netovername inzetten.",
+    context: "Je krijgt een lage forehand in mid-court. Dat is precies het soort bal waarop veel spelers iets halfs doen: geen echte aanval, maar ook geen duidelijke oplossing. Het gevolg is niemandsland.",
+    matchContext: "Deze oefening leert dat een lastige lage bal niet het einde van initiatief hoeft te zijn. Door de juiste lob te kiezen en meteen te bewegen, verander je een twijfelbal in een aanvalsmoment.",
     level: "beginner",
     levelLabel: "Beginner",
     knltb: "8-9",
@@ -115,28 +150,44 @@ window.EXERCISE_BLUEPRINTS = [
         "Verwissel links/rechts referenties in opstelling en coachcues."
       ]
     },
-    goal: "Voorkom blijven hangen in mid-court en train de lage forehand als startpunt van een actieve nettransitie.",
+    goal: [
+      {
+        title: "Hoofddoel",
+        text: "Je traint de lage forehand als startpunt van een actieve nettransitie. Niet blijven hangen in mid-court, maar een duidelijke keuze maken: lob, gaan en het net opeisen."
+      },
+      {
+        type: "list",
+        title: "Tactische doelen",
+        items: [
+          "De lage forehand niet passief oplossen, maar gebruiken om tijd en ruimte te creëren.",
+          "De lob koppelen aan direct doorstappen, in plaats van wachten op wat er gebeurt.",
+          "De eerste volley na de lob zien als bevestiging van positie, niet als finishbal.",
+          "Op het net druk opbouwen zonder je timing te verliezen."
+        ]
+      }
+    ],
     setup: [
-      "Positie: mid-court op de forehandzijde.",
-      "Houding: laag basispunt, racket onder de bal, gewicht licht naar voren.",
-      "Cycli: 4 ballen per herhaling, 20 herhalingen."
+      { title: "Positie", text: "Mid-court op de forehandzijde, net ver genoeg naar voren om te twijfelen tussen blijven en gaan." },
+      { title: "Houding", text: "Laag basispunt, racket onder de bal, gewicht licht naar voren zodat je de lob omhoog kunt dragen." },
+      { title: "Cyclus", text: "4-ball sequence, 20 herhalingen, 80 ballen totaal." }
     ],
     targets: [
-      { name: "Lob Deep", text: "Bal 1 hoog genoeg en diep achter de tegenstander om tijd te winnen." },
-      { name: "T of Body", text: "Bal 2 als veilige bevestiging van je netpositie." },
-      { name: "Voeten of Body", text: "Bal 3 en 4 gebruiken om de druk vast te houden of af te maken." }
+      { name: "Lob Deep", text: "Bal 1 hoog genoeg en diep genoeg achter de tegenstander om echt tijd te winnen." },
+      { name: "T of Body", text: "Bal 2 als gecontroleerde bevestiging van je netpositie; eerst landen, dan verder." },
+      { name: "Voeten of Body", text: "Bal 3 en 4 gebruiken om de druk te houden of het punt af te maken wanneer de situatie groen is." }
     ],
     steps: [
-      { title: "Bal 1 - Lage forehand en lob", text: "Neem de lage forehand vóór je lichaam en speel een gecontroleerde topspin-lob naar LOB-DEEP." },
-      { title: "Bal 2 - Controle tijdens transitie", text: "Pak de eerste overgangsbal stabiel naar T of body zodat je het net veilig verovert." },
-      { title: "Bal 3 - Drukbal aan het net", text: "Gebruik een punch-volley laag naar voeten of body om de tegenstander verdedigend te houden." },
-      { title: "Bal 4 - Finish of consolideren", text: "Maak af als je comfortabel bent; zo niet, speel nog een controlebal naar T of body." }
+      { title: "Bal 1 - Lage forehand naar lob", text: "Neem de bal vóór je lichaam, houd je basis laag en speel een gecontroleerde lob met genoeg hoogte. De bal moet niet alleen over de tegenstander heen, maar hem ook echt van het net wegduwen." },
+      { title: "Bal 2 - Eerste controlevolley", text: "Gebruik de tijd van de lob om door te stappen. De eerste overgangsbal speel je niet op risico, maar stabiel naar T of body om je positie te bevestigen." },
+      { title: "Bal 3 - Druk aan het net", text: "Nu mag de volley vervelender worden: laag naar voeten of body, met de intentie om de tegenstander onder de bal te houden." },
+      { title: "Bal 4 - Finish of consolideren", text: "Als je voor de bal bent en in ritme bent: afmaken. Zo niet: nog één controlebal en het net houden." }
     ],
     score: [
-      "1 punt: bruikbare lob met hoogte en diepte.",
+      "1 punt: bruikbare lob met voldoende hoogte en diepte.",
       "1 punt: direct doorgestapt na bal 1.",
       "1 punt: stabiele controlebal bij bal 2.",
-      "1 punt: juiste drukkeuze bij bal 3 en 4."
+      "1 punt: juiste drukkeuze bij bal 3 en 4.",
+      "Extra focus: meet of de speler na de lob nog steeds in mid-court blijft hangen of echt het net claimt."
     ],
     coaching: [
       "Mid-court is niemands land; gebruik het niet als eindstation.",
@@ -154,16 +205,24 @@ window.EXERCISE_BLUEPRINTS = [
         title: "Observatie",
         bullets: [
           "Veel spelers slaan een veilige drive en blijven hangen in mid-court.",
-          "De lob wordt te laat gekozen of krijgt te weinig hoogte.",
-          "Na de lob volgt geen automatische netbeweging."
+          "De lob wordt te laat gekozen of krijgt te weinig hoogte om echt tijd te kopen.",
+          "Na de lob volgt geen automatische netbeweging, waardoor het initiatief weer vervliegt."
         ]
       },
       {
-        title: "Beslisregel",
+        title: "Waarom deze oefening telt",
         bullets: [
-          "Lage forehand in mid-court = lob overwegen vóór drive.",
+          "Mid-court is zelden een plek om te blijven; je moet erdoorheen werken.",
+          "De waarde van de lob zit niet alleen in de bal zelf, maar in wat hij mogelijk maakt.",
+          "De eerste volley na de lob bepaalt of de rolwisseling echt lukt."
+        ]
+      },
+      {
+        title: "Beslisregel per fase",
+        bullets: [
+          "Lage forehand in mid-court = eerst lob overwegen vóór drive.",
           "Bal 2 bevestigt de positie, niet de winnaar.",
-          "Bal 4 alleen afmaken als je lichaam vóór de bal is."
+          "Bal 4 alleen afmaken als je lichaam duidelijk vóór de bal is."
         ]
       },
       {
@@ -171,7 +230,8 @@ window.EXERCISE_BLUEPRINTS = [
         bullets: [
           "Cue: lob = naar voren.",
           "Cue: eerst net pakken, daarna pas afmaken.",
-          "Gebruik het buitenbeen om de rem en versnelling te koppelen."
+          "Cue: geen niemandsland.",
+          "Gebruik het buitenbeen om rem en versnelling aan elkaar te koppelen."
         ]
       }
     ]
@@ -181,9 +241,9 @@ window.EXERCISE_BLUEPRINTS = [
     category: "TRANSITIE & DOORSTAPPEN",
     title: "Return Deep - Doorstappen - Net Volley",
     shortTitle: "Return Deep naar Net",
-    summary: "Na een diepe return direct herkennen of je het net kunt overnemen.",
-    context: "Je speelt een goede return. De vraag is of je blijft staan of de kans gebruikt om het net te pakken.",
-    matchContext: "In wedstrijden wordt dit moment vaak gemist: de return is goed, maar de speler wacht af en laat het initiatief weer wegvallen.",
+    summary: "Na een diepe return direct herkennen of het moment daar is om het net over te nemen.",
+    context: "Je speelt een goede return. Het echte vraagstuk begint daarna: blijf je veilig achter de baseline, of herken je dat de tegenstander achteruit moet en jij dus kunt instappen?",
+    matchContext: "In wedstrijden wordt dit moment vaak gemist. De return is diep genoeg, maar de speler wacht, kijkt en laat de kans op initiatief alsnog voorbijgaan.",
     level: "average",
     levelLabel: "Gemiddeld",
     knltb: "6-7",
@@ -205,26 +265,41 @@ window.EXERCISE_BLUEPRINTS = [
         "Bewaar dezelfde timing tussen return, split-step en eerste drie passen."
       ]
     },
-    goal: "Koppel een goede return direct aan een automatische netovername in plaats van afwachten vanaf de baseline.",
+    goal: [
+      {
+        title: "Hoofddoel",
+        text: "Je koppelt een goede return aan een automatische netovername. Niet hopen dat de return genoeg doet, maar zelf voelen wanneer je de volgende stap moet zetten."
+      },
+      {
+        type: "list",
+        title: "Tactische doelen",
+        items: [
+          "Herkennen wanneer een return echt diep genoeg is om door te stappen.",
+          "Niet blind sprinten, maar werken met split-step en timing in de transitie.",
+          "De eerste netbal laag en bruikbaar spelen in plaats van te gretig te forceren."
+        ]
+      }
+    ],
     setup: [
-      "Positie: return-homebase iets achter de baseline.",
-      "Houding: racket voor het lichaam, voeten actief, gewicht reactief naar voren.",
-      "Cycli: 3 ballen per herhaling, 27 herhalingen."
+      { title: "Positie", text: "Return-homebase iets achter de baseline, klaar om zowel de return als de eerste stap naar voren te maken." },
+      { title: "Houding", text: "Racket vóór het lichaam, voeten actief en gewicht reactief naar voren." },
+      { title: "Cyclus", text: "3-ball sequence, 27 herhalingen, 80 ballen totaal." }
     ],
     targets: [
-      { name: "Return Deep", text: "Bal 1 diep achter de servicelijn als trigger voor doorstappen." },
-      { name: "Transition Zone", text: "Split-step en eerste passen landen bij servicelijn of T." },
-      { name: "Voeten of T", text: "Eerste netbal laag naar voeten, met T als veilige backup." }
+      { name: "Return Deep", text: "Bal 1 diep achter de servicelijn. Diepte is hier de echte trigger, niet alleen snelheid." },
+      { name: "Transition Zone", text: "Split-step en eerste passen landen rond servicelijn of T, niet half in niemandsland." },
+      { name: "Voeten of T", text: "De eerste netbal laag naar voeten als je groen bent, met T als veilige backup." }
     ],
     steps: [
-      { title: "Bal 1 - Diepe return", text: "Neem de service vroeg vóór je lichaam en speel diep naar RETURN-DEEP." },
-      { title: "Bal 2 - Eerste netbal", text: "Doorstappen, split-step en de eerste volley laag naar voeten of gecontroleerd naar T." },
-      { title: "Bal 3 - Finish of vasthouden", text: "Maak af als de bal comfortabel is, anders consolideer richting T of body." }
+      { title: "Bal 1 - Diepe return", text: "Neem de service vroeg vóór je lichaam en speel diep genoeg om de tegenstander achter de servicelijn te duwen. Dat is je signaal om te denken in doorstappen." },
+      { title: "Bal 2 - Eerste netbal", text: "Zet door, maar met timing: eerst lopen, dan split-step, dan pas contact. Speel de eerste volley laag naar voeten of gecontroleerd naar T." },
+      { title: "Bal 3 - Finish of vasthouden", text: "Als je goed bent aangekomen en de bal vóór je hebt, mag je drukken. Zo niet, hou het net met nog één logische controlebal." }
     ],
     score: [
       "1 punt: return diep achter de servicelijn.",
       "1 punt: correct doorgestapt na de diepe return.",
-      "1 punt: eerste netbal laag en bruikbaar gespeeld."
+      "1 punt: eerste netbal laag en bruikbaar gespeeld.",
+      "Extra KPI: meet hoeveel returns echt diep genoeg waren om de doorstap te rechtvaardigen."
     ],
     coaching: [
       "Diep is de trigger, niet alleen hard.",
@@ -241,12 +316,20 @@ window.EXERCISE_BLUEPRINTS = [
         title: "Observatie",
         bullets: [
           "De return is goed genoeg, maar de speler blijft toch achter.",
-          "De split-step komt te laat of ontbreekt.",
-          "De eerste netbal wordt te veilig of te hoog gespeeld."
+          "De split-step komt te laat of ontbreekt, waardoor de eerste volley gehaast voelt.",
+          "De eerste netbal wordt te veilig hoog gespeeld of juist te snel geforceerd."
         ]
       },
       {
-        title: "Beslisregel",
+        title: "Wat deze drill echt traint",
+        bullets: [
+          "Niet alleen een goede return, maar vooral de koppeling tussen return en initiatief.",
+          "Het lezen van diepte als tactische trigger.",
+          "Rust in de eerste volley terwijl je lichaam nog in transitie is."
+        ]
+      },
+      {
+        title: "Beslisregel per moment",
         bullets: [
           "Achter servicelijn en tegenstander achteruit = gaan.",
           "Voor servicelijn of uit balans = blijven.",
@@ -258,6 +341,7 @@ window.EXERCISE_BLUEPRINTS = [
         bullets: [
           "Cue: diep = doorstappen.",
           "Cue: eerst split, dan sprint.",
+          "Cue: return en stap horen bij elkaar.",
           "Train de triggerherkenning visueel, niet alleen technisch."
         ]
       }
@@ -328,6 +412,7 @@ window.EXERCISE_BLUEPRINTS = [
     ],
     coachView: [
       { title: "Observatie", bullets: ["De trigger werkt al goed, maar de tactische reden moet nog bewuster worden.", "Speler kan nog consistenter doorstappen na een echt lage chiquita.", "De landing aan het net mag rustiger en slimmer."] },
+      { title: "Wat je leert", bullets: ["Een lage chiquita zien als moment om ruimte in te nemen.", "De eerste volley na doorstappen gebruiken als landing, niet als haastige winnaar.", "De hele cyclus spelen als één patroon: laag maken, gaan, landen, afmaken."] },
       { title: "Beslisregel", bullets: ["Lage chiquita = direct vooruit.", "Bal 2 eerst stabiliseren op T.", "Pas finishen als de speler echt comfortabel vóór de bal komt."] },
       { title: "Coach Tips", bullets: ["Cue: chiquita laag, lichaam naar voren.", "Cue: eerst landen, dan afmaken.", "Deze drill is de blauwdruk voor doorstapgedrag."] }
     ]
@@ -371,6 +456,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: netvolley, medium, nethoogte.", "Bal 2: tweede volley, medium, nethoogte.", "Bal 3: hoge lob, medium.", "Bal 4: mid-court of netbal na bandeja, medium."],
     coachView: [
       { title: "Observatie", bullets: ["Na de bandeja blijft de speler te vaak hangen.", "De lob wordt mentaal gezien als verloren punt.", "De recovery naar voren start te laat."] },
+      { title: "Wat je leert", bullets: ["Een lob niet zien als netverlies, maar als herpositioneringsmoment.", "De bandeja gebruiken om tijd en controle te houden.", "Direct opnieuw netdominantie claimen terwijl de bal nog in het spel is."] },
       { title: "Beslisregel", bullets: ["Volleys bouwen op, bandeja houdt controle.", "Na bandeja altijd hit -> go.", "Bandeja liever midden-diep dan te scherp."] },
       { title: "Coach Tips", bullets: ["Cue: bandeja is transitie, geen finish.", "Cue: rempunt vóór glas.", "Meet vooral of het net opnieuw wordt bereikt."] }
     ]
@@ -414,6 +500,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: controlevolley, medium.", "Bal 2: punch-volley, medium.", "Bal 3: hoge lob, medium-slow.", "Bal 4: netvolley na recovery, medium."],
     coachView: [
       { title: "Observatie", bullets: ["De speler reageert wel goed op de lob, maar blijft achter na de bandeja.", "Er is nog te veel kijken naar de bal in plaats van bewegen.", "Forward recovery is het echte leerpunt."] },
+      { title: "Wat je leert", bullets: ["Het moment na contact sneller maken dan je twijfel.", "Bandeja spelen met genoeg rust om daarna meteen te gaan.", "Het net opnieuw innemen als vaste reflex."] },
       { title: "Beslisregel", bullets: ["Rust op bal 1 en 2.", "Bandeja gecontroleerd, nooit gehaast hard.", "Zodra de bandeja geraakt is, begint de recovery."] },
       { title: "Coach Tips", bullets: ["Cue: hit -> go.", "Cue: net terug, nu meteen.", "Meet of de speler weer op net-homebase landt."] }
     ]
@@ -457,6 +544,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: forehandvolley, medium.", "Bal 2: forehandvolley opnieuw, medium.", "Bal 3: backhandvolley, medium.", "Bal 4: variërende volley, medium."],
     coachView: [
       { title: "Observatie", bullets: ["De forehand wordt nog te weinig uitgespeeld als dominant wapen.", "Backhand wordt soms vermeden in plaats van gecontroleerd gebruikt.", "Zonder variatie wordt de speler te voorspelbaar."] },
+      { title: "Wat je leert", bullets: ["De forehandvolley bewust als hoofdwapen gebruiken.", "De backhand niet vermijden, maar inzetten als stabiele bouwsteen.", "Variatie pas toevoegen wanneer de basisrichting betrouwbaar is."] },
       { title: "Beslisregel", bullets: ["Default is cross.", "Body gebruik je als verstoring.", "DTL alleen wanneer de ruimte echt open ligt."] },
       { title: "Coach Tips", bullets: ["Cue: forehand eerst domineren.", "Cue: backhand hoeft niet mooi, wel solide.", "Werk met 70/30-verhouding in de feed."] }
     ]
@@ -498,6 +586,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: controlevolley, medium.", "Bal 2: punch-volley, medium.", "Bal 3: snelle volley, medium-fast.", "Bal 4: snelle keuzevolley, medium-fast."],
     coachView: [
       { title: "Observatie", bullets: ["Speler speelt te vaak 'netjes terug' zonder plan.", "Of hij forceert terwijl de situatie nog niet groen is.", "De keuze moet simpeler en sneller."] },
+      { title: "Wat je leert", bullets: ["Onder tempo sneller kiezen tussen druk zetten en vastzetten.", "Comfort herkennen als groen signaal voor finish.", "Twijfel vertalen naar controle in plaats van naar een halve keuze."] },
       { title: "Beslisregel", bullets: ["Groen = voeten.", "Oranje = body/T.", "Twijfel betekent automatisch freeze."] },
       { title: "Coach Tips", bullets: ["Cue: noem het woord hardop in je hoofd.", "Cue: finish of freeze, nooit ertussen.", "Gebruik de score om besluitvorming zichtbaar te maken."] }
     ]
@@ -541,6 +630,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: drive/mid-court voor cross, medium.", "Bal 2: volley-return voor body, medium.", "Bal 3: volley-return voor DTL, medium.", "Bal 4: variërende doorspeelbal, medium."],
     coachView: [
       { title: "Observatie", bullets: ["Spelers blijven te veilig cross spelen en worden voorspelbaar.", "Body wordt te weinig als tussenstap gebruikt.", "DTL komt soms te vroeg en dan zonder ruimte."] },
+      { title: "Wat je leert", bullets: ["Ruimte niet forceren, maar eerst creëren.", "De tegenstander lezen terwijl hij nog in beweging is.", "DTL alleen spelen wanneer de lijn echt vrijgemaakt is."] },
       { title: "Beslisregel", bullets: ["Eerst trekken.", "Dan twijfel creëren.", "Pas dan de lijn gebruiken."] },
       { title: "Coach Tips", bullets: ["Cue: trek, blok, prik.", "Cue: zie de tegenstander bewegen.", "Laat de speler de lege ruimte benoemen vóór de DTL."] }
     ]
@@ -582,6 +672,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: mid-court drive voor lob, medium.", "Bal 2: return na lob, medium-slow.", "Bal 3: tweede return wanneer speler aan net is, medium."],
     coachView: [
       { title: "Observatie", bullets: ["De lob wordt goed gespeeld, maar de speler blijft toch achter.", "Daardoor komen de tegenstanders opnieuw op het net.", "De kans op rolwisseling gaat verloren."] },
+      { title: "Wat je leert", bullets: ["De lob behandelen als begin van aanval in plaats van eindpunt van defense.", "De vrijgekomen tijd gebruiken om zelf ruimte aan het net in te nemen.", "De eerste volley na de lob koppelen aan echte druk."] },
       { title: "Beslisregel", bullets: ["Goede lob = automatisch vooruit.", "Eerste volley is druk, geen neutralisatie.", "Als de lob niet diep genoeg is, geen blind doorstappen."] },
       { title: "Coach Tips", bullets: ["Cue: lob als aanval.", "Cue: pak de lege ruimte aan het net.", "Gebruik 3-4 meter hoogte als richtlijn voor genoeg tijd."] }
     ]
@@ -625,6 +716,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: zeer diepe bal, medium-hard, hoog.", "Bal 2: mid-court na recovery, medium.", "Bal 3: net of mid-court, medium.", "Bal 4: variërend vervolg, medium."],
     coachView: [
       { title: "Observatie", bullets: ["De speler blijft na glas-defense passief achterin.", "De bal is te laag of te centraal om echt tijd te winnen.", "De T-lijn wordt niet actief teruggepakt."] },
+      { title: "Wat je leert", bullets: ["Eerst tijd kopen, dan positie terugwinnen.", "De T-lijn gebruiken als tussenstation, niet meteen als einddoel.", "Actief herstellen in plaats van overleven op autopilot."] },
       { title: "Beslisregel", bullets: ["Bal 1 altijd tijd kopen.", "Bal 2 is positioneel, geen winnaar.", "Alleen doorstappen wanneer de rebuild echt stabiel voelt."] },
       { title: "Coach Tips", bullets: ["Cue: overleven, herstellen, opbouwen.", "Cue: tijd kopen = bewegen.", "Laat de speler de T-lijn als tussenstation zien."] }
     ]
@@ -668,6 +760,7 @@ window.EXERCISE_BLUEPRINTS = [
     machine: ["Bal 1: diepe backhanddruk, medium-hard.", "Bal 2: tweede drukbal, medium.", "Bal 3: iets tragere/hogere backhandbal voor counter.", "Bal 4: vervolgbal na counter, medium."],
     coachView: [
       { title: "Observatie", bullets: ["De speler blijft te lang in een passieve verdedigingscyclus.", "Het countermoment wordt niet herkend of te voorzichtig gespeeld.", "Na een goede counter volgt nog te weinig positie-winst."] },
+      { title: "Wat je leert", bullets: ["Verdedigen zonder passief te worden.", "Het echte countermoment herkennen op basis van contactkwaliteit.", "Na de counter ook positioneel initiatief nemen."] },
       { title: "Beslisregel", bullets: ["Eerste twee ballen overleven.", "Bal 3 alleen counteren als de druk aantoonbaar afneemt.", "Na de counter hoort de speler vooruit te denken."] },
       { title: "Coach Tips", bullets: ["Cue: wacht op je moment.", "Cue: counter is initiatief, geen neutrale bal.", "Train de herkenning van hoger/langzamer als groen signaal."] }
     ]

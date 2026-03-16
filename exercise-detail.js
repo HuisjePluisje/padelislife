@@ -34,10 +34,37 @@ function infoItems(items) {
     .map(
       (item) => `
         <div class="info-item">
-          <div class="info-text">${item}</div>
+          <div class="info-text">${typeof item === "string" ? item : `<strong>${item.title}</strong><br>${item.text}`}</div>
         </div>
       `
     )
+    .join("");
+}
+
+function contentBlocks(items) {
+  const blocks = Array.isArray(items) ? items : [items];
+  return blocks
+    .map((item) => {
+      if (typeof item === "string") {
+        return `<div class="content-block"><p>${item}</p></div>`;
+      }
+
+      if (item.type === "list") {
+        return `
+          <div class="content-block">
+            ${item.title ? `<h4>${item.title}</h4>` : ""}
+            <ul>${(item.items || []).map((entry) => `<li>${entry}</li>`).join("")}</ul>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="content-block">
+          ${item.title ? `<h4>${item.title}</h4>` : ""}
+          <p>${item.text || ""}</p>
+        </div>
+      `;
+    })
     .join("");
 }
 
@@ -106,7 +133,8 @@ function fullBlocks(exercise) {
       (section) => `
         <div class="content-box">
           <h4>${section.title}</h4>
-          <ul>${section.bullets.map((bullet) => `<li>${bullet}</li>`).join("")}</ul>
+          ${section.text ? `<p>${section.text}</p>` : ""}
+          ${section.bullets ? `<ul>${section.bullets.map((bullet) => `<li>${bullet}</li>`).join("")}</ul>` : ""}
         </div>
       `
     )
@@ -142,7 +170,7 @@ function render() {
     </div>
   `;
   elements.variant.innerHTML = infoItems(exercise.playerVariant[handedness] || exercise.playerVariant.left);
-  elements.goal.innerHTML = `<div class="content-block"><p><strong>${exercise.goal}</strong></p></div>`;
+  elements.goal.innerHTML = contentBlocks(exercise.goal);
   elements.setup.innerHTML = infoItems(exercise.setup);
   elements.targets.innerHTML = targetItems(exercise.targets);
   elements.execution.innerHTML = executionItems(exercise.steps);
