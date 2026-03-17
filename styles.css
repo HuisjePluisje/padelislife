@@ -109,6 +109,7 @@ a { color: inherit; }
 .site-brand-lockup {
   display: grid;
   gap: 2px;
+  align-items: start;
 }
 
 .site-brand-wordmark {
@@ -120,6 +121,10 @@ a { color: inherit; }
 
 .site-brand small {
   display: none;
+}
+
+.site-header {
+  border-radius: 30px;
 }
 
 .site-brand strong,
@@ -784,6 +789,55 @@ a { color: inherit; }
 
 .module-card-compact {
   gap: 14px;
+}
+
+.exercise-strategy-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.strategy-mini-card {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  background: linear-gradient(180deg, rgba(255, 250, 244, 0.94) 0%, rgba(240, 235, 226, 0.9) 100%);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.strategy-mini-card:hover,
+.strategy-mini-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 32px rgba(75, 54, 26, 0.12);
+  border-color: rgba(25, 95, 45, 0.2);
+}
+
+.strategy-mini-card:focus-visible {
+  outline: 3px solid rgba(25, 95, 45, 0.16);
+  outline-offset: 3px;
+}
+
+.strategy-mini-card h4 {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: 1.28rem;
+  line-height: 1.05;
+  color: var(--navy);
+}
+
+.strategy-mini-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.strategy-mini-card-sub {
+  background: linear-gradient(180deg, rgba(246, 242, 235, 0.96) 0%, rgba(235, 242, 236, 0.9) 100%);
 }
 
 .strategy-overview-grid {

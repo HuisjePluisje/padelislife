@@ -4,7 +4,7 @@ window.STRATEGY_TOPICS = [
     title: "Aanvallen",
     eyebrow: "Hoofdstrategie 01",
     image:
-      "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/31519027/pexels-photo-31519027.jpeg?auto=compress&cs=tinysrgb&w=1600",
     summary:
       "Aanvallen in padel is niet harder slaan, maar versnellen vanuit balans, naar een doel dat iets oplevert en met de volgende positie al in gedachten.",
     lead:
@@ -35,7 +35,9 @@ window.STRATEGY_TOPICS = [
       "Lage volley voorin zonder duidelijke open hoek.",
       "Bandeja na een diepe lob van een verdedigend team.",
       "Korte hoge lob die wel of niet echt smashbaar is.",
-      "Body-aanval tegen een snelle blokker aan het net."
+      "Body-aanval tegen een snelle blokker aan het net.",
+      "Tweede volley na een half geslaagde netovername.",
+      "Aanvallen tegen een team dat veel door het midden verdedigt."
     ],
     subtopics: [
       {
@@ -109,6 +111,24 @@ window.STRATEGY_TOPICS = [
           "Makkelijke hoge bal dicht op het net.",
           "Open hoek na zwakke blokvolley."
         ]
+      },
+      {
+        slug: "door-het-midden-aanvallen",
+        title: "Aanvallen door het midden",
+        summary: "Door het midden spelen is vaak de meest volwassen aanvalslijn.",
+        explanation:
+          "Middenaanval lijkt minder spectaculair, maar levert in padel vaak de hoogste kwaliteit op omdat hij communicatie breekt en je marge bewaart.",
+        ballStates: {
+          green: "Sterk moment om midden te kiezen wanneer beide tegenstanders compact moeten reageren.",
+          orange: "Nog steeds een veilige druklijn met weinig weggeefrisico.",
+          red: "Geen aanvalslijn; eerst speelbaar blijven."
+        },
+        strokes: ["Volley", "Drive", "Bandeja"],
+        situations: [
+          "Twee tegenstanders dicht bij elkaar aan het net.",
+          "Eerste drukbal na service of return.",
+          "Middenbal die niet rijp genoeg is voor de kleine hoek."
+        ]
       }
     ]
   },
@@ -117,7 +137,7 @@ window.STRATEGY_TOPICS = [
     title: "Verdedigen",
     eyebrow: "Hoofdstrategie 02",
     image:
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/31519027/pexels-photo-31519027.jpeg?auto=compress&cs=tinysrgb&w=1600",
     summary:
       "Verdedigen is in padel actief organiseren: tijd kopen, ruimte terugwinnen en jezelf opnieuw in de rally zetten.",
     lead:
@@ -145,7 +165,9 @@ window.STRATEGY_TOPICS = [
       "Diepe hoekbal op backglass of zijwand.",
       "Bodydruk zonder armruimte.",
       "Te korte lob waarna de tegenstander boven de bal komt.",
-      "Twee netspelers die laag en compact blijven drukken."
+      "Twee netspelers die laag en compact blijven drukken.",
+      "Verdedigen nadat je partner te laat terugzakt.",
+      "Snelle drive naar je voeten terwijl je nog achterin hangt."
     ],
     subtopics: [
       {
@@ -219,6 +241,24 @@ window.STRATEGY_TOPICS = [
           "Tegenstander laat een volley te veel hangen.",
           "Lobduel waarbij jij eerder voor de bal komt."
         ]
+      },
+      {
+        slug: "verdedigen-via-midden",
+        title: "Verdedigen via midden",
+        summary: "Midden is in defense vaak slimmer dan een kleine ontsnappingshoek.",
+        explanation:
+          "Onder druk zoeken spelers soms te vroeg de lijn of cross-hoek. Via midden houd je de rally vaak veel beter speelbaar en dwing je nog een goede bal af.",
+        ballStates: {
+          green: "Alleen groen als je na de verdedigende bal zelf weer initiatief kunt pakken.",
+          orange: "Typische kleur voor midden-defense: veilig en bruikbaar.",
+          red: "Nog steeds liever hoog of neutraal dan risico naar lijn."
+        },
+        strokes: ["Lob", "Drive", "Blokverdediging"],
+        situations: [
+          "Bodybal zonder ruimte voor volle swing.",
+          "Hoekbal waarbij cross te klein voelt.",
+          "Rally waarin je vooral tijd wilt kopen."
+        ]
       }
     ]
   },
@@ -227,7 +267,7 @@ window.STRATEGY_TOPICS = [
     title: "Transitie",
     eyebrow: "Hoofdstrategie 03",
     image:
-      "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/31519027/pexels-photo-31519027.jpeg?auto=compress&cs=tinysrgb&w=1600",
     summary:
       "Transitie is het gebied tussen verdedigen en aanvallen. Juist daar worden rally’s logisch of rommelig.",
     lead:
@@ -255,7 +295,9 @@ window.STRATEGY_TOPICS = [
       "Van achteruit terug naar servicelijn.",
       "Na een goede lob wel of niet doorstappen.",
       "Chiquita spelen tegen twee dichte netspelers.",
-      "Eerste volley na herstel in mid-court."
+      "Eerste volley na herstel in mid-court.",
+      "Na een hoge reset bepalen of je nog één bal nodig hebt.",
+      "Overgang van oranje naar groen zonder ongeduld."
     ],
     subtopics: [
       {
@@ -329,6 +371,24 @@ window.STRATEGY_TOPICS = [
           "Na een diepe versnelling door midden.",
           "Na een hoge reset met veel tijd."
         ]
+      },
+      {
+        slug: "servicelijn-als-overgangszone",
+        title: "De servicelijn als overgangszone",
+        summary: "Veel spelers blijven hier hangen terwijl het juist een doorgeefpunt is.",
+        explanation:
+          "De servicelijn is zelden een plek om lang te wonen. Je gebruikt hem als landing, meetpunt en besliszone: blijf je nog even controleren of mag je door?",
+        ballStates: {
+          green: "Je komt gecontroleerd aan en kunt meteen verder naar voren denken.",
+          orange: "Je landt hier kort, ordent en speelt nog één bruikbare bal.",
+          red: "Je bent hier beland zonder plan en wordt direct opnieuw vastgezet."
+        },
+        strokes: ["Controlevolley", "Drive", "Lob"],
+        situations: [
+          "Na een hoge lob net terug richting net.",
+          "Na chiquita eerst landen, dan beslissen.",
+          "Na verdedigende bal in niemandsland terechtkomen."
+        ]
       }
     ]
   },
@@ -337,7 +397,7 @@ window.STRATEGY_TOPICS = [
     title: "Slagen",
     eyebrow: "Hoofdstrategie 04",
     image:
-      "https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/31519027/pexels-photo-31519027.jpeg?auto=compress&cs=tinysrgb&w=1600",
     summary:
       "Een slag krijgt pas waarde als je weet wanneer je hem gebruikt, wat het doel is en welke keuze erachter zit.",
     lead:
@@ -355,7 +415,9 @@ window.STRATEGY_TOPICS = [
     situations: [
       "Servicegame starten met plan.",
       "Return onder scoredruk.",
-      "Lob als reset versus lob als aanval."
+      "Lob als reset versus lob als aanval.",
+      "Bandeja kiezen in plaats van smash.",
+      "Eerste volley gebruiken om te ordenen."
     ],
     subtopics: [
       {
@@ -429,6 +491,24 @@ window.STRATEGY_TOPICS = [
           "Bajada vanuit achterzone als omslagbal.",
           "Overhaaste smash na matige lob."
         ]
+      },
+      {
+        slug: "glasverdediging-als-beslissing",
+        title: "Glasverdediging als beslissing",
+        summary: "Glasverdediging is niet alleen techniek, maar ook keuze en timing.",
+        explanation:
+          "Goed glasspel begint met afstand, ritme en weten of je hoog, neutraal of omschakelend speelt. Zonder die beslislaag blijft het alleen een technische reactie.",
+        ballStates: {
+          green: "Je leest het glas vroeg en gebruikt de bal om te herorganiseren of zelfs te counteren.",
+          orange: "Je speelt de bal bruikbaar en kiest voor herstel.",
+          red: "Je reageert te laat en probeert te veel te corrigeren met handigheid."
+        },
+        strokes: ["Glasverdediging", "Lob", "Drive"],
+        situations: [
+          "Diepe bal op achterglas.",
+          "Dubbelglas in de hoek.",
+          "Bal na glas die je wel of niet mag versnellen."
+        ]
       }
     ]
   },
@@ -437,7 +517,7 @@ window.STRATEGY_TOPICS = [
     title: "Duo-spel",
     eyebrow: "Hoofdstrategie 05",
     image:
-      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/31519027/pexels-photo-31519027.jpeg?auto=compress&cs=tinysrgb&w=1600",
     summary:
       "In padel win je niet alleen met slagen maar met hoe goed je samen beweegt, midden verdeelt en communiceert.",
     lead:
@@ -456,7 +536,9 @@ window.STRATEGY_TOPICS = [
       "Partner wordt naar achteren gedwongen.",
       "Middenbal tussen twee forehands.",
       "Linkshandige speler rechts verandert middenlogica.",
-      "Te veel praten versus te laat praten."
+      "Te veel praten versus te laat praten.",
+      "Samen terugzakken na een slechte lob.",
+      "Net houden terwijl één speler breed wordt getrokken."
     ],
     subtopics: [
       {
@@ -530,6 +612,24 @@ window.STRATEGY_TOPICS = [
           "Switch na lob.",
           "Wie neemt de overhead?"
         ]
+      },
+      {
+        slug: "partner-onder-druk",
+        title: "Als je partner onder druk staat",
+        summary: "Je eigen positie moet dan steun geven, niet alleen jouw eigen zone bewaken.",
+        explanation:
+          "Veel spelers blijven te lang in hun eigen lane denken. Goede duo’s begrijpen dat partnerdruk ook jouw positie, diepte en middenverantwoordelijkheid verandert.",
+        ballStates: {
+          green: "Je ondersteunt direct zonder de teamvorm open te trekken.",
+          orange: "Je houdt nog wel midden, maar moet sneller lezen.",
+          red: "Je laat je partner alleen of zakt juist te ver mee terug."
+        },
+        strokes: ["Lob", "Volley", "Middenbal"],
+        situations: [
+          "Partner wordt naar de achterwand gedwongen.",
+          "Jij staat nog aan het net en moet kiezen: houden of mee terug.",
+          "Tegenstander zoekt het gat tussen jullie."
+        ]
       }
     ]
   },
@@ -538,7 +638,7 @@ window.STRATEGY_TOPICS = [
     title: "Wedstrijdsituaties",
     eyebrow: "Hoofdstrategie 06",
     image:
-      "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1600&q=80",
+      "https://images.pexels.com/photos/31519027/pexels-photo-31519027.jpeg?auto=compress&cs=tinysrgb&w=1600",
     summary:
       "Strategie wordt pas echt nuttig wanneer je hem herkent in concrete wedstrijdproblemen, scorestanden en tegenstandersprofielen.",
     lead:
@@ -557,7 +657,9 @@ window.STRATEGY_TOPICS = [
       "30-30, breakpunt of golden point.",
       "Tegen twee agressieve netspelers.",
       "Tegen een lob-team.",
-      "Achterstaan of juist een voorsprong vasthouden."
+      "Achterstaan of juist een voorsprong vasthouden.",
+      "Eerste game van een set met veel spanning.",
+      "Wedstrijd tegen een links/rechts-combinatie."
     ],
     subtopics: [
       {
@@ -630,6 +732,24 @@ window.STRATEGY_TOPICS = [
           "0-30 achter in eigen game.",
           "40-15 voor maar opeens passief.",
           "Set uitserveren."
+        ]
+      },
+      {
+        slug: "tegen-een-lob-team",
+        title: "Tegen een lob-team",
+        summary: "Tegen veel lob is discipline belangrijker dan frustratie.",
+        explanation:
+          "Lobteams willen je geduld en overheaddiscipline breken. Je wint daar niet met geforceerde smashes, maar met netbehoud, opnieuw laag maken en rustig herordenen.",
+        ballStates: {
+          green: "Je overheadkeuze houdt het net én de rally onder controle.",
+          orange: "Je blijft geduldig en kiest behoud boven spektakel.",
+          red: "Je gaat jagen op smashes die nog niet rijp zijn."
+        },
+        strokes: ["Bandeja", "Volley", "Smash"],
+        situations: [
+          "Herhaalde lob op één speler.",
+          "Bandeja boven smash als de bal niet kort genoeg is.",
+          "Na overhead direct weer voorwaarts herstellen."
         ]
       }
     ]
