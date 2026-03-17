@@ -2,6 +2,7 @@ const EXERCISES = [
   ...(Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : []),
   ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : [])
 ];
+const STRATEGY_TOPICS = Array.isArray(window.STRATEGY_TOPICS) ? window.STRATEGY_TOPICS : [];
 
 const params = new URLSearchParams(window.location.search);
 const exerciseId = params.get("id") || EXERCISES[0]?.id;
@@ -21,7 +22,8 @@ const elements = {
   targets: document.querySelector("#exercise-targets"),
   execution: document.querySelector("#exercise-execution"),
   score: document.querySelector("#exercise-score"),
-  full: document.querySelector("#exercise-full")
+  full: document.querySelector("#exercise-full"),
+  strategy: document.querySelector("#exercise-strategy-links")
 };
 
 function handednessLabel(value) {
@@ -119,6 +121,64 @@ function scoreItems(items) {
   `;
 }
 
+function relatedStrategy(exercise) {
+  const map = {
+    transitie: {
+      topic: "transitie",
+      subs: ["net-terugpakken", "eerste-bal-na-herstel", "de-chiquita"]
+    },
+    defense: {
+      topic: "verdedigen",
+      subs: ["verdedigen-vanuit-de-hoek", "verdedigen-op-body", "counter-moment"]
+    },
+    net: {
+      topic: "aanvallen",
+      subs: ["drukbal-vs-winnerbal", "aanvallen-op-body", "afmaken-aan-het-net"]
+    },
+    return: {
+      topic: "slagen",
+      subs: ["service-en-return", "lob-en-reset"]
+    },
+    ruimte: {
+      topic: "aanvallen",
+      subs: ["aanvallen-op-body", "drukbal-vs-winnerbal"]
+    },
+    decision: {
+      topic: "wedstrijdsituaties",
+      subs: ["eerste-drie-ballen", "grote-punten", "tegen-agressieve-netspelers"]
+    }
+  };
+
+  const config = map[exercise.type] || map.transitie;
+  const topic = STRATEGY_TOPICS.find((item) => item.slug === config.topic);
+  if (!topic) {
+    return "";
+  }
+
+  const subLinks = config.subs
+    .map((slug) => topic.subtopics.find((item) => item.slug === slug))
+    .filter(Boolean);
+
+  return `
+    <a class="strategy-mini-card" href="./strategy-topic.html?topic=${topic.slug}">
+      <span class="topic-meta">Hoofdthema</span>
+      <h4>${topic.title}</h4>
+      <p>${topic.summary}</p>
+    </a>
+    ${subLinks
+      .map(
+        (item) => `
+          <a class="strategy-mini-card strategy-mini-card-sub" href="./strategy-subtopic.html?topic=${topic.slug}&sub=${item.slug}">
+            <span class="topic-meta">Substrategie</span>
+            <h4>${item.title}</h4>
+            <p>${item.summary}</p>
+          </a>
+        `
+      )
+      .join("")}
+  `;
+}
+
 function fullBlocks(exercise) {
   const sections = [
     ...exercise.coachView,
@@ -179,6 +239,7 @@ function render() {
   elements.execution.innerHTML = executionItems(exercise.steps);
   elements.score.innerHTML = scoreItems(exercise.score);
   elements.full.innerHTML = fullBlocks(exercise);
+  elements.strategy.innerHTML = relatedStrategy(exercise);
 }
 
 render();

@@ -77,7 +77,7 @@ function renderTopicPage() {
   }
 
   const topic = getTopic();
-  document.title = `${topic.title} | padelislife`;
+  document.title = `${topic.title} | Padel Studio`;
   hero.style.backgroundImage = `linear-gradient(180deg, rgba(9, 17, 22, 0.18), rgba(9, 17, 22, 0.74)), url('${topic.image}')`;
   setText("#strategy-topic-eyebrow", topic.eyebrow);
   setText("#strategy-topic-title", topic.title);
@@ -145,7 +145,7 @@ function renderSubtopicPage() {
 
   const topic = getTopic();
   const subtopic = getSubtopic(topic);
-  document.title = `${subtopic.title} | ${topic.title} | padelislife`;
+  document.title = `${subtopic.title} | ${topic.title} | Padel Studio`;
   hero.style.backgroundImage = `linear-gradient(180deg, rgba(9, 17, 22, 0.18), rgba(9, 17, 22, 0.74)), url('${topic.image}')`;
   setText("#strategy-subtopic-eyebrow", `${topic.title} · Substrategie`);
   setText("#strategy-subtopic-title", subtopic.title);

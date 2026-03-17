@@ -3,11 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oefening | padelislife</title>
+    <title>Oefening | Padel Studio</title>
     <meta
       name="description"
-      content="Oefeningpagina voor padelislife, opgebouwd als scanbare trainingspagina met volledige coachuitwerking."
+      content="Oefeningpagina voor Padel Studio, opgebouwd als scanbare trainingspagina met volledige coachuitwerking."
     />
+    <meta property="og:title" content="Oefening | Padel Studio" />
+    <meta
+      property="og:description"
+      content="Scanbare oefeningdetailpagina met context, coachuitwerking en machine-instellingen."
+    />
+    <meta property="og:image" content="https://huisjepluisje.github.io/padelislife/assets/padel-studio-wordmark.svg" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#182D3C" />
+    <link rel="icon" type="image/svg+xml" href="./assets/padel-studio-mark.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,9 +30,9 @@
     <div class="site-shell">
       <header class="site-header">
         <a class="site-brand" href="./index.html">
-          <span class="site-brand-mark">PL</span>
-          <span>
-            <strong>padelislife</strong>
+          <img class="site-brand-mark" src="./assets/padel-studio-mark.svg" alt="Padel Studio monogram" />
+          <span class="site-brand-lockup">
+            <img class="site-brand-wordmark" src="./assets/padel-studio-wordmark.svg" alt="Padel Studio" />
             <small>Train slim. Bouw logisch.</small>
           </span>
         </a>
@@ -35,7 +45,7 @@
       <main>
         <section class="exercise-hero" id="exercise-hero">
           <div class="exercise-hero-content">
-            <div class="category-badge" id="exercise-category">padelislife</div>
+            <div class="category-badge" id="exercise-category">Padel Studio</div>
             <h1 id="exercise-title">Oefening laden...</h1>
             <p class="exercise-subtitle" id="exercise-subtitle"></p>
             <div class="quick-stats" id="exercise-stats"></div>
@@ -131,12 +141,25 @@
               <div class="full-content-stack" id="exercise-full"></div>
             </div>
           </div>
+
+          <div class="section-block">
+            <div class="section-header-block">
+              <div class="section-title-group">
+                <span class="section-icon">↗</span>
+                <span class="section-title">Gerelateerde Strategie</span>
+              </div>
+            </div>
+            <div class="section-body">
+              <div class="exercise-strategy-links" id="exercise-strategy-links"></div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
 
     <script src="data/exercise-blueprints.js"></script>
     <script src="data/exercise-blueprints-extra.js"></script>
+    <script src="data/strategy-topics.js"></script>
     <script src="exercise-detail.js"></script>
   </body>
 </html>
