@@ -85,18 +85,70 @@ def infer_level(title: str, category: str, sequence: str) -> tuple[str, str, str
     return "beginner", "Beginner", "8-9"
 
 
-def player_variants(title: str, category: str) -> dict[str, list[str]]:
+def player_variants(title: str, category: str, type_value: str) -> dict[str, list[str]]:
     short = title.split("→")[0].strip()
+    if type_value == "net":
+        return {
+            "left": [
+                f"Voor linkshandig rechts ligt de nadruk op forehand-overheads, bodydruk en het afsluiten van middenballen vanuit {short.lower()}.",
+                "Het herstel na overhead of eerste volley blijft iets meer gericht op het bewaken van het midden en de forehandzijde.",
+                "Laat de speler na drukballen sneller herkennen wanneer de volgende bal naar voeten/body gaat in plaats van naar de kleine hoek."
+            ],
+            "right": [
+                f"Voor rechtshandig links verschuift {short.lower()} meer naar backhand-ordening, lijnbewaking en compacter voetenwerk in de volleyzone.",
+                "De nadruk ligt iets vaker op het sluiten van de lijn en daarna pas op het meenemen van middenruimte.",
+                "Werk met dezelfde sequentie, maar laat de speler andere contactpunten en herstelhoeken voelen."
+            ]
+        }
+    if type_value == "return":
+        return {
+            "left": [
+                f"Voor linkshandig rechts draait {short.lower()} vaker om een forehand-georiënteerde vervolgkeuze na return of service-plus-één.",
+                "De speler bewaakt het midden actiever en kiest eerder voor body of midden dan voor de smalle lijn.",
+                "Doorstappen gebeurt alleen wanneer de return of eerste bal ook echt ruimte wint."
+            ],
+            "right": [
+                f"Voor rechtshandig links verschuift {short.lower()} meer naar backhandcontrole, cross-openingen en later instappen op de volgende bal.",
+                "Laat de speler de return iets meer koppelen aan lijnsluiting en partnerlogica.",
+                "Werk met dezelfde oefenopbouw, maar andere besluitmomenten rond midden en lijn."
+            ]
+        }
+    if type_value == "defense":
+        return {
+            "left": [
+                f"Voor linkshandig rechts krijgt {short.lower()} meer nadruk op forehand-reddingen, uit de hoek draaien en via cross of midden tijd kopen.",
+                "De herstelpas richt zich vaker op het opnieuw vrijmaken van de forehandhelft en het terugclaimen van middenruimte.",
+                "Laat de speler herkennen wanneer een hoge reset slimmer is dan een vlakke uitweg."
+            ],
+            "right": [
+                f"Voor rechtshandig links ligt {short.lower()} meer op backhand-organisatie, compacter glasgebruik en rust houden richting lijnzijde.",
+                "De speler moet sneller kiezen tussen blokkeren, hoog resetten of via midden neutraliseren.",
+                "Herstel blijft leidend: eerst uit de druk, daarna pas denken aan omschakelen."
+            ]
+        }
+    if type_value == "ruimte":
+        return {
+            "left": [
+                f"Voor linkshandig rechts mag {short.lower()} vaker gekoppeld worden aan het openen van ruimte via body of het vrijmaken van de forehandhoek.",
+                "De speler leest eerder of de volgende bal door midden of richting lijn gespeeld moet worden.",
+                "Middenlogica blijft belangrijker dan een vroege winnerpoging."
+            ],
+            "right": [
+                f"Voor rechtshandig links verschuift {short.lower()} meer naar het openmaken van de backhandhoek en het benutten van cross-ruimte.",
+                "De speler werkt iets vaker met lijnbewaking vóór hij de open ruimte aanvalt.",
+                "Laat het verschil vooral zitten in richtingkeuze en niet alleen in spiegeling."
+            ]
+        }
     return {
         "left": [
-            f"Gebruik {short.lower()} als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-            "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-            f"Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen {category.lower()}."
+            f"Voor linkshandig rechts gebruik je {short.lower()} met meer nadruk op forehand-dominantie, middenbewaking en instappen vanuit de rechterkant.",
+            "De speler leest iets eerder wanneer de volgende bal naar body, midden of voeten moet om het punt tactisch te kantelen.",
+            f"Behoud binnen {category.lower()} dezelfde structuur, maar niet dezelfde automatische richtingen als bij rechtshandig links."
         ],
         "right": [
-            f"Spiegel {short.lower()} voor een rechtshandige speler aan de linkerkant van de baan.",
-            "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-            "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+            f"Voor rechtshandig links verschuift {short.lower()} naar meer backhand-ordening, lijnbewaking en andere middenkeuzes dan bij een linkshandige rechterkantspeler.",
+            "De speler houdt dezelfde rallylogica, maar de beste richting en het beste herstelvenster zijn niet identiek.",
+            "Gebruik de oefening dus niet alleen gespiegeld, maar ook met andere tactische cues rond ruimte en partnerlogica."
         ]
     }
 
@@ -216,7 +268,7 @@ def parse_machine_exercise(number: str, title: str, block: str) -> dict:
         "repeats": repeats,
         "totalBalls": total_balls or "60 ballen",
         "categoryColor": category_color,
-        "playerVariant": player_variants(title, category),
+        "playerVariant": player_variants(title, category, type_value),
         "goal": goal,
         "setup": setup,
         "targets": parse_targets(sections.get("🥅 Targets", "")),

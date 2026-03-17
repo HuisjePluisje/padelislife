@@ -18,14 +18,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D5517",
     "playerVariant": {
       "left": [
-        "Gebruik backglass forehand reset als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen transitie & initiatief."
+        "Voor linkshandig rechts krijgt backglass forehand reset meer nadruk op forehand-reddingen, uit de hoek draaien en via cross of midden tijd kopen.",
+        "De herstelpas richt zich vaker op het opnieuw vrijmaken van de forehandhelft en het terugclaimen van middenruimte.",
+        "Laat de speler herkennen wanneer een hoge reset slimmer is dan een vlakke uitweg."
       ],
       "right": [
-        "Spiegel backglass forehand reset voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links ligt backglass forehand reset meer op backhand-organisatie, compacter glasgebruik en rust houden richting lijnzijde.",
+        "De speler moet sneller kiezen tussen blokkeren, hoog resetten of via midden neutraliseren.",
+        "Herstel blijft leidend: eerst uit de druk, daarna pas denken aan omschakelen."
       ]
     },
     "goal": [
@@ -164,14 +164,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D3B66",
     "playerVariant": {
       "left": [
-        "Gebruik lob read als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen net behouden."
+        "Voor linkshandig rechts ligt de nadruk op forehand-overheads, bodydruk en het afsluiten van middenballen vanuit lob read.",
+        "Het herstel na overhead of eerste volley blijft iets meer gericht op het bewaken van het midden en de forehandzijde.",
+        "Laat de speler na drukballen sneller herkennen wanneer de volgende bal naar voeten/body gaat in plaats van naar de kleine hoek."
       ],
       "right": [
-        "Spiegel lob read voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift lob read meer naar backhand-ordening, lijnbewaking en compacter voetenwerk in de volleyzone.",
+        "De nadruk ligt iets vaker op het sluiten van de lijn en daarna pas op het meenemen van middenruimte.",
+        "Werk met dezelfde sequentie, maar laat de speler andere contactpunten en herstelhoeken voelen."
       ]
     },
     "goal": [
@@ -316,14 +316,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#4A1C6A",
     "playerVariant": {
       "left": [
-        "Gebruik return body block als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen return & sluiten."
+        "Voor linkshandig rechts draait return body block vaker om een forehand-georiënteerde vervolgkeuze na return of service-plus-één.",
+        "De speler bewaakt het midden actiever en kiest eerder voor body of midden dan voor de smalle lijn.",
+        "Doorstappen gebeurt alleen wanneer de return of eerste bal ook echt ruimte wint."
       ],
       "right": [
-        "Spiegel return body block voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift return body block meer naar backhandcontrole, cross-openingen en later instappen op de volgende bal.",
+        "Laat de speler de return iets meer koppelen aan lijnsluiting en partnerlogica.",
+        "Werk met dezelfde oefenopbouw, maar andere besluitmomenten rond midden en lijn."
       ]
     },
     "goal": [
@@ -462,14 +462,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#6B4226",
     "playerVariant": {
       "left": [
-        "Gebruik corner defense left als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen defense & herstel."
+        "Voor linkshandig rechts krijgt corner defense left meer nadruk op forehand-reddingen, uit de hoek draaien en via cross of midden tijd kopen.",
+        "De herstelpas richt zich vaker op het opnieuw vrijmaken van de forehandhelft en het terugclaimen van middenruimte.",
+        "Laat de speler herkennen wanneer een hoge reset slimmer is dan een vlakke uitweg."
       ],
       "right": [
-        "Spiegel corner defense left voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links ligt corner defense left meer op backhand-organisatie, compacter glasgebruik en rust houden richting lijnzijde.",
+        "De speler moet sneller kiezen tussen blokkeren, hoog resetten of via midden neutraliseren.",
+        "Herstel blijft leidend: eerst uit de druk, daarna pas denken aan omschakelen."
       ]
     },
     "goal": [
@@ -608,14 +608,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D5517",
     "playerVariant": {
       "left": [
-        "Gebruik smash retrieval als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen chaos naar controle."
+        "Voor linkshandig rechts ligt de nadruk op forehand-overheads, bodydruk en het afsluiten van middenballen vanuit smash retrieval.",
+        "Het herstel na overhead of eerste volley blijft iets meer gericht op het bewaken van het midden en de forehandzijde.",
+        "Laat de speler na drukballen sneller herkennen wanneer de volgende bal naar voeten/body gaat in plaats van naar de kleine hoek."
       ],
       "right": [
-        "Spiegel smash retrieval voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift smash retrieval meer naar backhand-ordening, lijnbewaking en compacter voetenwerk in de volleyzone.",
+        "De nadruk ligt iets vaker op het sluiten van de lijn en daarna pas op het meenemen van middenruimte.",
+        "Werk met dezelfde sequentie, maar laat de speler andere contactpunten en herstelhoeken voelen."
       ]
     },
     "goal": [
@@ -754,14 +754,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#4A1C6A",
     "playerVariant": {
       "left": [
-        "Gebruik serve + ball 3 plan right side als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen servicepatroon."
+        "Voor linkshandig rechts draait serve + ball 3 plan right side vaker om een forehand-georiënteerde vervolgkeuze na return of service-plus-één.",
+        "De speler bewaakt het midden actiever en kiest eerder voor body of midden dan voor de smalle lijn.",
+        "Doorstappen gebeurt alleen wanneer de return of eerste bal ook echt ruimte wint."
       ],
       "right": [
-        "Spiegel serve + ball 3 plan right side voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift serve + ball 3 plan right side meer naar backhandcontrole, cross-openingen en later instappen op de volgende bal.",
+        "Laat de speler de return iets meer koppelen aan lijnsluiting en partnerlogica.",
+        "Werk met dezelfde oefenopbouw, maar andere besluitmomenten rond midden en lijn."
       ]
     },
     "goal": [
@@ -900,14 +900,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D3B66",
     "playerVariant": {
       "left": [
-        "Gebruik backhand volley lock als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen netdominantie."
+        "Voor linkshandig rechts ligt de nadruk op forehand-overheads, bodydruk en het afsluiten van middenballen vanuit backhand volley lock.",
+        "Het herstel na overhead of eerste volley blijft iets meer gericht op het bewaken van het midden en de forehandzijde.",
+        "Laat de speler na drukballen sneller herkennen wanneer de volgende bal naar voeten/body gaat in plaats van naar de kleine hoek."
       ],
       "right": [
-        "Spiegel backhand volley lock voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift backhand volley lock meer naar backhand-ordening, lijnbewaking en compacter voetenwerk in de volleyzone.",
+        "De nadruk ligt iets vaker op het sluiten van de lijn en daarna pas op het meenemen van middenruimte.",
+        "Werk met dezelfde sequentie, maar laat de speler andere contactpunten en herstelhoeken voelen."
       ]
     },
     "goal": [
@@ -1046,14 +1046,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D5517",
     "playerVariant": {
       "left": [
-        "Gebruik transition lob als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen beslissen in transitie."
+        "Voor linkshandig rechts ligt de nadruk op forehand-overheads, bodydruk en het afsluiten van middenballen vanuit transition lob.",
+        "Het herstel na overhead of eerste volley blijft iets meer gericht op het bewaken van het midden en de forehandzijde.",
+        "Laat de speler na drukballen sneller herkennen wanneer de volgende bal naar voeten/body gaat in plaats van naar de kleine hoek."
       ],
       "right": [
-        "Spiegel transition lob voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift transition lob meer naar backhand-ordening, lijnbewaking en compacter voetenwerk in de volleyzone.",
+        "De nadruk ligt iets vaker op het sluiten van de lijn en daarna pas op het meenemen van middenruimte.",
+        "Werk met dezelfde sequentie, maar laat de speler andere contactpunten en herstelhoeken voelen."
       ]
     },
     "goal": [
@@ -1192,14 +1192,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#6B4226",
     "playerVariant": {
       "left": [
-        "Gebruik double glass escape als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen extreme defense."
+        "Voor linkshandig rechts krijgt double glass escape meer nadruk op forehand-reddingen, uit de hoek draaien en via cross of midden tijd kopen.",
+        "De herstelpas richt zich vaker op het opnieuw vrijmaken van de forehandhelft en het terugclaimen van middenruimte.",
+        "Laat de speler herkennen wanneer een hoge reset slimmer is dan een vlakke uitweg."
       ],
       "right": [
-        "Spiegel double glass escape voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links ligt double glass escape meer op backhand-organisatie, compacter glasgebruik en rust houden richting lijnzijde.",
+        "De speler moet sneller kiezen tussen blokkeren, hoog resetten of via midden neutraliseren.",
+        "Herstel blijft leidend: eerst uit de druk, daarna pas denken aan omschakelen."
       ]
     },
     "goal": [
@@ -1338,14 +1338,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D3B66",
     "playerVariant": {
       "left": [
-        "Gebruik counterbandeja als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen overhead druk."
+        "Voor linkshandig rechts ligt de nadruk op forehand-overheads, bodydruk en het afsluiten van middenballen vanuit counterbandeja.",
+        "Het herstel na overhead of eerste volley blijft iets meer gericht op het bewaken van het midden en de forehandzijde.",
+        "Laat de speler na drukballen sneller herkennen wanneer de volgende bal naar voeten/body gaat in plaats van naar de kleine hoek."
       ],
       "right": [
-        "Spiegel counterbandeja voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift counterbandeja meer naar backhand-ordening, lijnbewaking en compacter voetenwerk in de volleyzone.",
+        "De nadruk ligt iets vaker op het sluiten van de lijn en daarna pas op het meenemen van middenruimte.",
+        "Werk met dezelfde sequentie, maar laat de speler andere contactpunten en herstelhoeken voelen."
       ]
     },
     "goal": [
@@ -1484,14 +1484,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#4A1C6A",
     "playerVariant": {
       "left": [
-        "Gebruik body defense als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen ruimte creëren."
+        "Voor linkshandig rechts krijgt body defense meer nadruk op forehand-reddingen, uit de hoek draaien en via cross of midden tijd kopen.",
+        "De herstelpas richt zich vaker op het opnieuw vrijmaken van de forehandhelft en het terugclaimen van middenruimte.",
+        "Laat de speler herkennen wanneer een hoge reset slimmer is dan een vlakke uitweg."
       ],
       "right": [
-        "Spiegel body defense voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links ligt body defense meer op backhand-organisatie, compacter glasgebruik en rust houden richting lijnzijde.",
+        "De speler moet sneller kiezen tussen blokkeren, hoog resetten of via midden neutraliseren.",
+        "Herstel blijft leidend: eerst uit de druk, daarna pas denken aan omschakelen."
       ]
     },
     "goal": [
@@ -1630,14 +1630,14 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D3B66",
     "playerVariant": {
       "left": [
-        "Gebruik freeze volley als patroon voor een linkshandige speler aan de rechterkant van de baan.",
-        "Behoud dezelfde intentie: eerst de juiste oplossing kiezen, daarna direct de logische herstelpositie innemen.",
-        "Spiegel alleen de ruimterichting wanneer de oefening aan de andere kant van de baan wordt uitgevoerd binnen sequencing aan het net."
+        "Voor linkshandig rechts ligt de nadruk op forehand-overheads, bodydruk en het afsluiten van middenballen vanuit freeze volley.",
+        "Het herstel na overhead of eerste volley blijft iets meer gericht op het bewaken van het midden en de forehandzijde.",
+        "Laat de speler na drukballen sneller herkennen wanneer de volgende bal naar voeten/body gaat in plaats van naar de kleine hoek."
       ],
       "right": [
-        "Spiegel freeze volley voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Houd dezelfde beslisregels aan, maar wissel links/rechts-referenties in voetenwerk en targetkeuze om.",
-        "Laat de herstelpas nog steeds leidend zijn: de positie na contact is net zo belangrijk als de slag zelf."
+        "Voor rechtshandig links verschuift freeze volley meer naar backhand-ordening, lijnbewaking en compacter voetenwerk in de volleyzone.",
+        "De nadruk ligt iets vaker op het sluiten van de lijn en daarna pas op het meenemen van middenruimte.",
+        "Werk met dezelfde sequentie, maar laat de speler andere contactpunten en herstelhoeken voelen."
       ]
     },
     "goal": [

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strategie Thema | padelislife</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="site-body">
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="site-brand" href="./index.html">
+          <span class="site-brand-mark">PL</span>
+          <span><strong>padelislife</strong><small>Train slim. Bouw logisch.</small></span>
+        </a>
+        <nav class="site-nav">
+          <a href="./index.html">Home</a>
+          <a href="./ball-machine.html">Ballenmachine</a>
+          <a href="./strategy.html" aria-current="page">Strategie</a>
+          <a href="./one-on-one.html">1-op-1</a>
+          <a href="./one-vs-two.html">1-vs-2</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="strategy-detail-hero" id="strategy-topic-hero">
+          <div class="strategy-detail-overlay">
+            <p class="eyebrow" id="strategy-topic-eyebrow">Hoofdstrategie</p>
+            <h1 id="strategy-topic-title">Strategiethema</h1>
+            <p class="lead strategy-detail-lead" id="strategy-topic-summary"></p>
+          </div>
+        </section>
+
+        <section class="home-section">
+          <div class="section-intro section-intro-wide">
+            <p class="eyebrow">Kleurcode</p>
+            <h2>Wat betekent groen, oranje en rood binnen dit thema?</h2>
+          </div>
+          <div class="strategy-state-grid" id="strategy-topic-states"></div>
+        </section>
+
+        <section class="home-section">
+          <div class="section-intro section-intro-wide">
+            <p class="eyebrow">Substrategieën</p>
+            <h2>Open een subthema voor meer uitleg, slagen en situaties.</h2>
+          </div>
+          <div class="strategy-overview-grid" id="strategy-topic-subtopics"></div>
+        </section>
+
+        <section class="home-section">
+          <div class="section-intro section-intro-wide">
+            <p class="eyebrow">Slagen Binnen Dit Thema</p>
+            <h2>Welke slagen hier tactisch het belangrijkst zijn.</h2>
+          </div>
+          <div class="library-grid library-grid-tight" id="strategy-topic-strokes"></div>
+        </section>
+
+        <section class="home-section">
+          <div class="section-intro section-intro-wide">
+            <p class="eyebrow">Spelsituaties</p>
+            <h2>Typische situaties die onder dit thema vallen.</h2>
+          </div>
+          <div class="topic-grid" id="strategy-topic-situations"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="data/strategy-topics.js"></script>
+    <script src="strategy-browser.js"></script>
+  </body>
+</html>
