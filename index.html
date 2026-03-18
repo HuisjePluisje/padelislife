@@ -3,16 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Padel Studio</title>
-    <meta
-      name="description"
-      content="Padel Studio is een verfijnd padelplatform voor oefeningen, strategie, 1-op-1 training en 1-vs-2 werkvormen."
-    />
-    <meta property="og:title" content="Padel Studio" />
-    <meta
-      property="og:description"
-      content="Een verfijnd padelplatform voor training, strategie en spelinzicht."
-    />
     <meta property="og:image" content="https://huisjepluisje.github.io/padelislife/assets/padel-studio-wordmark.svg" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -25,6 +15,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <title>Padel Studio | Training, spelanalyse, team play en wedstrijd</title>
+    <meta
+      name="description"
+      content="Padel Studio helpt spelers en coaches gerichter trainen, slimmer kiezen en rustiger wedstrijden spelen met vier heldere ingangen: Training, Spelanalyse, Team Play en Wedstrijd."
+    />
+    <meta property="og:title" content="Padel Studio | Training, spelanalyse, team play en wedstrijd" />
+    <meta
+      property="og:description"
+      content="Geen losse drillverzameling, maar een padelplatform waarin training, keuzes, teamafspraken en wedstrijdsituaties logisch samenkomen."
+    />
   </head>
   <body class="site-body">
     <div class="site-shell">
@@ -32,11 +32,44 @@
         <a class="site-brand" href="./index.html">
           <img class="site-brand-wordmark" src="./assets/padel-studio-wordmark.svg" alt="Padel Studio" />
         </a>
-        <nav class="site-nav">
-          <a href="./ball-machine.html">Ballenmachine</a>
-          <a href="./strategy.html">Strategie</a>
-          <a href="./one-on-one.html">1-op-1</a>
-          <a href="./one-vs-two.html">1-vs-2</a>
+        <nav class="site-nav" aria-label="Hoofdnavigatie">
+          <!-- Formats blijven bestaan, maar zakken bewust een niveau onder thematische hoofdroutes. -->
+          <div class="nav-group">
+            <a class="nav-link" href="./training.html">Training</a>
+            <div class="nav-menu">
+              <a href="./ball-machine.html"><strong>Ballenmachine</strong><span>Gerichte vormen met instellingen en coach cues.</span></a>
+              <a href="./training.html#partnertraining"><strong>Partnertraining</strong><span>Met z'n tweeën trainen zonder ruis of tijdverlies.</span></a>
+              <a href="./one-vs-two.html"><strong>1-vs-2</strong><span>Slimme vormen voor drie spelers en ondertal.</span></a>
+              <a href="./training.html#sessie-opbouw"><strong>Sessie-opbouw</strong><span>Van warming-up naar drukpunten in één training.</span></a>
+            </div>
+          </div>
+          <div class="nav-group">
+            <a class="nav-link" href="./spelanalyse.html">Spelanalyse</a>
+            <div class="nav-menu">
+              <a href="./spelanalyse.html#rallyfasen"><strong>Rallyfasen</strong><span>Lees waar je zit in het punt en wat dat vraagt.</span></a>
+              <a href="./spelanalyse.html#beslisregels"><strong>Beslisregels</strong><span>Groen, oranje of rood: wat mag je hier echt?</span></a>
+              <a href="./strategy.html"><strong>Slagkeuze</strong><span>Niet alleen hoe, maar vooral wanneer en waarom.</span></a>
+              <a href="./spelanalyse.html#videoanalyse"><strong>Videoanalyse</strong><span>Beelden vertalen naar duidelijke keuzes en patronen.</span></a>
+            </div>
+          </div>
+          <div class="nav-group">
+            <a class="nav-link" href="./team-play.html">Team Play</a>
+            <div class="nav-menu">
+              <a href="./team-play.html#communicatie"><strong>Communicatie</strong><span>Zeg minder, maar wel het juiste op het juiste moment.</span></a>
+              <a href="./team-play.html#positiespel"><strong>Positiespel</strong><span>Beweeg als duo in plaats van als twee losse spelers.</span></a>
+              <a href="./team-play.html#middenballen"><strong>Middenballen</strong><span>Voorkom twijfel op de ballen die sets breken.</span></a>
+              <a href="./team-play.html#rollen"><strong>Rollen & afspraken</strong><span>Heldere taken voor links, rechts en drukmomenten.</span></a>
+            </div>
+          </div>
+          <div class="nav-group">
+            <a class="nav-link" href="./wedstrijd.html">Wedstrijd</a>
+            <div class="nav-menu">
+              <a href="./wedstrijd.html#voorbereiding"><strong>Voorbereiding</strong><span>Ga de baan op met een plan en rust in je hoofd.</span></a>
+              <a href="./wedstrijd.html#eerste-drie-ballen"><strong>Eerste drie ballen</strong><span>De rally begint eerder dan de meeste spelers denken.</span></a>
+              <a href="./wedstrijd.html#scorebord"><strong>Scorebordmomenten</strong><span>Golden points, 30-30 en breakpoints voorbereiden.</span></a>
+              <a href="./wedstrijd.html#nabespreking"><strong>Nabespreking</strong><span>Vertaal wedstrijdpijn terug naar training.</span></a>
+            </div>
+          </div>
         </nav>
       </header>
 
@@ -46,187 +79,157 @@
             <div class="intro-visual-overlay">
               <p class="eyebrow">Padel Studio</p>
               <h1>Train met richting. Speel met rust.</h1>
-              <p class="intro-line">Oefeningen, strategie en wedstrijdinzicht in een heldere clubwaardige omgeving.</p>
+              <p class="intro-line">Voor spelers en coaches die gerichter willen trainen, slimmer willen kiezen en helderder willen spelen als duo.</p>
             </div>
           </article>
-
           <aside class="intro-side-panel">
-            <p class="eyebrow">Positionering</p>
-            <h2>Padel Studio bundelt training, keuzes en spelinzicht in één rustige structuur.</h2>
+            <p class="eyebrow">Waarom dit werkt</p>
+            <h2>Niet nog een lijst met drills, maar een systeem dat je spel echt vooruit helpt.</h2>
             <p>
-              Geen losse verzameling drills en tips, maar een platform waarin oefening, strategie,
-              coachtaal en wedstrijdsituaties logisch op elkaar aansluiten. Voor spelers die hun
-              spel bewuster willen opbouwen en voor coaches die daar duidelijke taal bij zoeken.
+              Padel Studio brengt training, spelanalyse, teamafspraken en wedstrijdvoorbereiding samen in één rustige structuur.
+              Zo train je niet alleen harder, maar vooral slimmer: met duidelijke keuzes, betere afstemming en minder ruis op de baan.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="./ball-machine.html">Open trainingsbibliotheek</a>
-              <a class="button button-secondary" href="./strategy.html">Open strategie</a>
+              <a class="button button-primary" href="./training.html">Bekijk Training</a>
+              <a class="button button-secondary" href="./wedstrijd.html">Bekijk Wedstrijd</a>
             </div>
           </aside>
         </section>
 
         <section class="home-ribbon" aria-label="Snelle routes">
-          <a href="./ball-machine.html">Trainingsbibliotheek</a>
-          <a href="./strategy.html">Spelsituaties</a>
-          <a href="./strategy.html">Strategievragen</a>
-          <a href="./one-on-one.html">Partneroefeningen</a>
-          <a href="./one-vs-two.html">1-vs-2 formats</a>
-          <a href="#inhoudslagen">Coachinzichten</a>
+          <a href="./training.html">Training</a>
+          <a href="./spelanalyse.html">Spelanalyse</a>
+          <a href="./team-play.html">Team Play</a>
+          <a href="./wedstrijd.html">Wedstrijd</a>
+          <a href="./ball-machine.html">Ballenmachine</a>
+          <a href="./strategy.html">Slagkeuze</a>
         </section>
 
-        <section class="home-section" id="inhoudslagen">
+        <section class="home-section" id="themas">
           <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Hoofdthema's</p>
-            <h2>Vier ingangen. Eén heldere structuur.</h2>
+            <p class="eyebrow">De juiste ingang</p>
+            <h2 class="section-title-wide">Vier thema's die elk een andere vraag oplossen.</h2>
+            <p class="section-note">
+              De fout van veel padelsites: alles op één hoop gooien. Hier niet. Elk hoofdthema heeft een eigen taak:
+              <strong>Training</strong> om te doen, <strong>Spelanalyse</strong> om te lezen, <strong>Team Play</strong> om af te stemmen en
+              <strong>Wedstrijd</strong> om te presteren.
+            </p>
           </div>
 
           <div class="topic-grid">
             <article class="topic-card topic-card-primary">
               <div class="topic-meta">Training</div>
-              <h3>Padeloefeningen met de ballenmachine</h3>
-              <p>Een groeiende bibliotheek met oefeningen die je snel kunt filteren op speler, niveau en oefentype.</p>
+              <h3>Van losse vorm naar doelgerichte sessie</h3>
+              <p>Voor spelers en coaches die niet willen zoeken tussen willekeurige drills, maar meteen een werkbare oefenvorm of trainingsblok nodig hebben.</p>
               <ul class="topic-points">
-                <li>Links- en rechtshandige varianten</li>
-                <li>Beginner, gemiddeld en advanced</li>
-                <li>PadelShooter-instellingen per oefening</li>
+                <li>Ballenmachine, partnertraining en 1-vs-2</li>
+                <li>Sessie-opbouw per leerdoel</li>
+                <li>Coach cues, progressies en veelgemaakte fouten</li>
               </ul>
-              <a class="text-link" href="./ball-machine.html">Naar module</a>
+              <a class="text-link" href="./training.html">Naar Training</a>
             </article>
             <article class="topic-card">
-              <div class="topic-meta">Tactiek</div>
-              <h3>Padelstrategie</h3>
-              <p>Voor spelers die niet alleen beter willen slaan, maar ook beter willen lezen wat het punt vraagt.</p>
+              <div class="topic-meta">Spelanalyse</div>
+              <h3>Leer de rally lezen voordat je de slag kiest</h3>
+              <p>Niet alleen weten wat je kunt slaan, maar begrijpen wat het punt op dat moment van je vraagt.</p>
               <ul class="topic-points">
-                <li>Eerste drie ballen van de rally</li>
-                <li>Duo-positionering en schuiven</li>
-                <li>Beslisregels onder druk</li>
+                <li>Rallyfasen en beslisregels</li>
+                <li>Slagkeuze in context</li>
+                <li>Videoanalyse en herkenbare patronen</li>
               </ul>
-              <a class="text-link" href="./strategy.html">Naar module</a>
+              <a class="text-link" href="./spelanalyse.html">Naar Spelanalyse</a>
             </article>
             <article class="topic-card">
-              <div class="topic-meta">Samen trainen</div>
-              <h3>Padel 1 vs 1</h3>
-              <p>Gerichte partnertraining voor techniek, timing en patronen, met genoeg houvast om echt iets te verbeteren.</p>
+              <div class="topic-meta">Team Play</div>
+              <h3>Speel als duo in plaats van als twee losse spelers</h3>
+              <p>Voor middenballen, communicatie en positiespel onder druk. Minder twijfel, meer gedeelde keuzes.</p>
               <ul class="topic-points">
-                <li>Coach-speler formats</li>
-                <li>Techniek + patroon in één sessie</li>
-                <li>Compacte trainingsblokken</li>
+                <li>Communicatie op de juiste momenten</li>
+                <li>Rolverdeling links en rechts</li>
+                <li>Positiespel, schuiven en knijpen</li>
               </ul>
-              <a class="text-link" href="./one-on-one.html">Naar module</a>
+              <a class="text-link" href="./team-play.html">Naar Team Play</a>
             </article>
             <article class="topic-card">
-              <div class="topic-meta">Ondertal</div>
-              <h3>Padel 1 vs 2</h3>
-              <p>Werkvormen voor trainingen met drie spelers, waarin ondertal juist een inhoudelijk sterke oefenvorm wordt.</p>
+              <div class="topic-meta">Wedstrijd</div>
+              <h3>Bereid de momenten voor waarop sets echt kantelen</h3>
+              <p>Wedstrijden gaan zelden mis op je beste ballen. Ze kantelen op onduidelijke eerste keuzes, haast en slechte afstemming.</p>
               <ul class="topic-points">
-                <li>Solo verdedigen tegen druk</li>
-                <li>Conditioned points en constraints</li>
-                <li>Netovername en reset-momenten</li>
+                <li>Wedstrijdvoorbereiding en gameplans</li>
+                <li>Eerste drie ballen en scorebordmomenten</li>
+                <li>Nabespreking terug naar training</li>
               </ul>
-              <a class="text-link" href="./one-vs-two.html">Naar module</a>
+              <a class="text-link" href="./wedstrijd.html">Naar Wedstrijd</a>
             </article>
           </div>
         </section>
 
         <section class="home-section">
           <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Waarom deze site</p>
-            <h2>Geen oefenbank, maar een speel- en denkstructuur.</h2>
+            <p class="eyebrow">Waarom deze site anders moet voelen</p>
+            <h2 class="section-title-wide">Geen hobbyverhaal. Geen mooie verzamelplaats. Gewoon bruikbare padelinhoud.</h2>
           </div>
-
           <div class="manifest-grid">
             <article class="manifest-card">
-              <h3>Train</h3>
-              <p>Training moet direct bruikbaar zijn op de baan: duidelijk, uitvoerbaar en zonder ruis.</p>
+              <h3>Direct bruikbaar</h3>
+              <p>Elke pagina moet helpen om iets beter te doen: een sessie bouwen, een keuze snappen, een afspraak maken of een wedstrijdmoment voorbereiden.</p>
             </article>
             <article class="manifest-card">
-              <h3>Begrijp</h3>
-              <p>Een goede oefening legt niet alleen uit wat je doet, maar ook waarom dat in een rally werkt.</p>
+              <h3>Rust in de structuur</h3>
+              <p>De toon mag warm en menselijk zijn, maar de informatiearchitectuur moet hard en helder blijven. Anders wordt het alsnog ruis.</p>
             </article>
             <article class="manifest-card">
-              <h3>Herhaal</h3>
-              <p>Structuur helpt om te blijven trainen. Daarom spreekt elke module dezelfde rustige, volwassen taal.</p>
+              <h3>Van baan naar wedstrijd</h3>
+              <p>Training, analyse, teamafspraken en wedstrijdsituaties moeten op elkaar aansluiten. Daar zit juist de waarde van deze site.</p>
             </article>
           </div>
         </section>
 
         <section class="home-section">
           <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Inhoudslagen</p>
-            <h2>Wat dit platform verder moet dragen.</h2>
+            <p class="eyebrow">Wat iemand hier concreet mee doet</p>
+            <h2 class="section-title-wide">De bezoeker moet binnen één minuut weten waar hij moet beginnen.</h2>
           </div>
-
-          <div class="content-layers">
-            <article class="layer-card">
-              <span class="layer-kicker">Laag 01</span>
-              <h3>Wedstrijdscenario's</h3>
-              <p>Van golden point tot returngame: de context van het punt bepaalt vaak wat de juiste keuze is.</p>
-            </article>
-            <article class="layer-card">
-              <span class="layer-kicker">Laag 02</span>
-              <h3>Coachview</h3>
-              <p>Observaties, coach cues, veelgemaakte fouten en eenvoudige progressies per oefening of situatie.</p>
-            </article>
-            <article class="layer-card">
-              <span class="layer-kicker">Laag 03</span>
-              <h3>Sessie-opbouw</h3>
-              <p>Niet alleen losse vormen, maar ook samenhang: warming-up, techniek, patronen en punten onder druk.</p>
-            </article>
-            <article class="layer-card">
-              <span class="layer-kicker">Laag 04</span>
-              <h3>Spelersprofielen</h3>
-              <p>Handvoorkeur, kant van de baan, niveau en leerdoel geven richting aan wat passend is.</p>
-            </article>
-          </div>
-        </section>
-
-        <section class="home-section">
-          <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Hoe iemand deze site gebruikt</p>
-            <h2>Zo hoort de site te werken.</h2>
-          </div>
-
           <div class="journey-grid">
             <article class="journey-step">
               <span class="journey-index">01</span>
-              <h3>Kies een thema</h3>
-              <p>Je begint niet bij een losse oefening, maar bij een thema: machine, strategie, 1-op-1 of 1-vs-2.</p>
+              <h3>Kies het echte probleem</h3>
+              <p>Wil je trainen, het spel beter lezen, helderder samenwerken of een wedstrijd slimmer voorbereiden? Dat is je ingang.</p>
             </article>
             <article class="journey-step">
               <span class="journey-index">02</span>
-              <h3>Filter op relevantie</h3>
-              <p>Daarna bepaal je wat relevant is: spelerhand, niveau, oefentype of spelsituatie.</p>
+              <h3>Ga van thema naar situatie</h3>
+              <p>Daarna zoom je in: netovername, eerste drie ballen, middenballen, golden point of verdediging uit het glas.</p>
             </article>
             <article class="journey-step">
               <span class="journey-index">03</span>
-              <h3>Lees als coach, voer uit als speler</h3>
-              <p>De inhoud moet snel te scannen zijn, maar wel genoeg diepte geven om op de baan verschil te maken.</p>
+              <h3>Lees, train, pas toe</h3>
+              <p>Elke pagina moet eindigen in gedrag op de baan. Niet in een mooi idee, maar in een betere keuze of werkbare oefenvorm.</p>
             </article>
           </div>
         </section>
 
         <section class="home-section">
           <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Volgende onderwerpen</p>
-            <h2>Logische uitbreidingen voor een platform dat kan meegroeien.</h2>
+            <p class="eyebrow">Sterke uitbreidingen</p>
+            <h2 class="section-title-wide">De volgende logische lagen, zonder dat de site zijn focus verliest.</h2>
           </div>
-
           <div class="expansion-grid">
             <article class="expansion-card">
-              <h3>Wedstrijd voorbereiding</h3>
-              <p>Checklists, gameplans en focuspunten voor de training van vandaag en de wedstrijd van morgen.</p>
+              <h3>Match Prep packs</h3>
+              <p>Printbare wedstrijdfiches, duo-afspraken en scorebordscenario's. Dit is de eerste echte premiumlaag.</p>
+            </article>
+            <article class="expansion-card">
+              <h3>Coach View</h3>
+              <p>Coach cues, veelgemaakte fouten en progressies per oefening of spelsituatie. Waardevol voor trainers én fanatieke spelers.</p>
             </article>
             <article class="expansion-card">
               <h3>Videoanalyse</h3>
-              <p>Beelden koppelen aan patronen, fouten en praktische oplossingen.</p>
+              <p>Rally's terugbrengen tot patroon, fout en betere keuze. Alleen doen als het direct bruikbaar blijft en niet te analytisch wordt.</p>
             </article>
             <article class="expansion-card">
-              <h3>Junior en starters</h3>
-              <p>Aparte routes voor spelers die nog bouwen aan basis, ritme en begrip van het spel.</p>
-            </article>
-            <article class="expansion-card">
-              <h3>Team communicatie</h3>
-              <p>Wie schuift door, wie knijpt in, wie bewaakt de lijn en wie neemt het midden over?</p>
+              <h3>Junior & starters</h3>
+              <p>Niet als hoofdthema, maar als aparte route. Zo houd je de navigatie volwassen en de site toch toegankelijk.</p>
             </article>
           </div>
         </section>
