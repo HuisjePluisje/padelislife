@@ -861,6 +861,24 @@ window.STRATEGY_TOPICS = [
         ]
       },
       {
+        slug: "returngames-per-kant",
+        title: "Returngames per kant",
+        summary: "De returnlogica verandert per baanzijde, handigheid en gewenste eerste vervolgpositie.",
+        explanation:
+          "Veel spelers returnen met één standaardidee, terwijl de context per kant verschilt. Juist in returngames moet je weten welke diepte, richting en vervolgpas het best bij jouw kant past.",
+        ballStates: {
+          green: "Je leest service en vervolgpositie vroeg en opent de rally met een duidelijk plan.",
+          orange: "Je kiest betrouwbare diepte en houdt de server uit zijn comfortzone.",
+          red: "Je reageert alleen op de service en geeft de tweede bal gratis weg."
+        },
+        strokes: ["Return", "Lob", "Middenvolley"],
+        situations: [
+          "Return vanaf rechts tegen een server die direct het net pakt.",
+          "Return vanaf links met ruimte voor een diepe middenbal.",
+          "Tweede returnpunt in een game waarin druk al voelbaar is."
+        ]
+      },
+      {
         slug: "tegen-links-rechts-combi",
         title: "Tegen een links-rechts combinatie",
         summary: "Een lefty-righty of atypische rolverdeling verandert midden, overhead en returnlogica.",
