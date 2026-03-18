@@ -14,6 +14,20 @@ function setText(selector, value) {
   }
 }
 
+function setMeta(name, value) {
+  const selectors = [
+    `meta[name="${name}"]`,
+    `meta[property="${name}"]`
+  ];
+
+  selectors.forEach((selector) => {
+    const element = document.querySelector(selector);
+    if (element) {
+      element.setAttribute("content", value);
+    }
+  });
+}
+
 function getTopic() {
   const params = new URLSearchParams(window.location.search);
   const slug = params.get("topic");
@@ -78,6 +92,9 @@ function renderTopicPage() {
 
   const topic = getTopic();
   document.title = `${topic.title} | Padel Studio`;
+  setMeta("description", `${topic.title} binnen Slagkeuze van Padel Studio: subthema's, slagen en wedstrijdcontext.`);
+  setMeta("og:title", `${topic.title} | Padel Studio`);
+  setMeta("og:description", topic.summary);
   hero.style.backgroundImage = `linear-gradient(180deg, rgba(9, 17, 22, 0.18), rgba(9, 17, 22, 0.74)), url('${topic.image}')`;
   setText("#strategy-topic-eyebrow", topic.eyebrow);
   setText("#strategy-topic-title", topic.title);
@@ -146,6 +163,9 @@ function renderSubtopicPage() {
   const topic = getTopic();
   const subtopic = getSubtopic(topic);
   document.title = `${subtopic.title} | ${topic.title} | Padel Studio`;
+  setMeta("description", `${subtopic.title} binnen ${topic.title}: wanneer deze keuze klopt, welke slagen erbij horen en in welke rallymomenten hij terugkomt.`);
+  setMeta("og:title", `${subtopic.title} | ${topic.title} | Padel Studio`);
+  setMeta("og:description", subtopic.summary);
   hero.style.backgroundImage = `linear-gradient(180deg, rgba(9, 17, 22, 0.18), rgba(9, 17, 22, 0.74)), url('${topic.image}')`;
   setText("#strategy-subtopic-eyebrow", `${topic.title} · Substrategie`);
   setText("#strategy-subtopic-title", subtopic.title);
