@@ -100,14 +100,25 @@ a { color: inherit; }
 .site-brand {
   display: inline-flex;
   align-items: center;
-  gap: 0;
+  gap: 22px;
+  min-width: 0;
+}
+
+.site-brand::after {
+  content: "";
+  width: clamp(120px, 18vw, 280px);
+  height: 2px;
+  border-radius: 999px;
+  background: #cfc0ab;
+  flex: 0 1 auto;
 }
 
 .site-brand-wordmark {
-  width: 312px;
-  max-width: min(52vw, 312px);
+  width: 246px;
+  max-width: min(42vw, 246px);
   height: auto;
   display: block;
+  flex: 0 0 auto;
 }
 
 .site-header {
@@ -2283,6 +2294,14 @@ a { color: inherit; }
 @media (max-width: 720px) {
   .site-header {
     align-items: start;
+  }
+
+  .site-brand {
+    gap: 14px;
+  }
+
+  .site-brand::after {
+    width: clamp(72px, 22vw, 120px);
   }
 
   .site-nav {
