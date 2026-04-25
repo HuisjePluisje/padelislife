@@ -1248,6 +1248,12 @@ a { color: inherit; }
   align-items: end;
 }
 
+.results-subnote {
+  max-width: 760px;
+  margin: 12px 0 0;
+  color: var(--muted);
+}
+
 .results-toolbar h2,
 .recipe-header h2 {
   margin: 10px 0 0;
@@ -1302,6 +1308,57 @@ a { color: inherit; }
   border-radius: 999px;
   font-size: 0.82rem;
   font-weight: 700;
+}
+
+.meta-pill-soft {
+  background: rgba(220, 236, 224, 0.7);
+}
+
+.route-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.result-quality-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.quality-card {
+  display: grid;
+  gap: 8px;
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: var(--paper-2);
+}
+
+.quality-card strong {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.quality-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.quality-card-green strong {
+  color: #1f7a33;
+}
+
+.quality-card-red strong {
+  color: #9f2d2d;
+}
+
+.exercise-result-empty {
+  grid-column: 1 / -1;
 }
 
 .result-button {
@@ -1388,6 +1445,17 @@ a { color: inherit; }
 .content-box ul {
   margin: 0;
   padding-left: 18px;
+}
+
+.training-route-card {
+  display: grid;
+  gap: 16px;
+}
+
+.training-route-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
 }
 
 .simple-hero {
@@ -1818,6 +1886,57 @@ a { color: inherit; }
   font-weight: 800;
 }
 
+.traffic-score-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.traffic-score-card {
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+}
+
+.traffic-score-card p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.traffic-score-label {
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.traffic-score-card-green {
+  background: rgba(226, 244, 228, 0.82);
+}
+
+.traffic-score-card-green .traffic-score-label {
+  color: #1f7a33;
+}
+
+.traffic-score-card-orange {
+  background: rgba(249, 236, 212, 0.86);
+}
+
+.traffic-score-card-orange .traffic-score-label {
+  color: #9f640c;
+}
+
+.traffic-score-card-red {
+  background: rgba(247, 224, 222, 0.82);
+}
+
+.traffic-score-card-red .traffic-score-label {
+  color: #9f2d2d;
+}
+
 .court-diagram {
   position: relative;
   min-height: 520px;
@@ -1998,6 +2117,12 @@ a { color: inherit; }
 
   .filters-panel {
     position: static;
+  }
+
+  .result-quality-grid,
+  .traffic-score-grid,
+  .training-route-grid {
+    grid-template-columns: 1fr;
   }
 
   .strategy-court {

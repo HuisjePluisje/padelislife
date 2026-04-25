@@ -56,9 +56,9 @@ window.EXERCISE_BLUEPRINTS = [
       { name: "FEET ENTRY", text: "Groen: korte chiquita naar voeten waarna jij direct de eerste stap vooruit maakt." }
     ],
     steps: [
-      { title: "Bal 1 - Lees rood, oranje of groen", text: "Gebruik het glas en beslis vóór contact. Rood: bal achter je of uit balans = hoge reset/lob. Oranje: bal naast je en redelijk stabiel = lage T- of bodybal. Groen: bal vóór je en controle = chiquita naar voeten." },
-      { title: "Bal 2 - Positie koppelen aan je keuze", text: "Na rood herstel je eerst naar een bruikbare verdedigingspositie. Na oranje schuif je compact naar midden om de lage reactie op te vangen. Na groen stap je door richting servicelijn en speel je de eerste volley als controlebal." },
-      { title: "Bal 3 - Bevestig de juiste vervolglogica", text: "Rood blijft neutraal. Oranje houdt de tegenstander laag met nog een body/T-keuze. Groen bevestigt de netovername met een rustige eerste volley of lage drukbal naar voeten." }
+      { title: "Block 1 - No-lob constraint", text: "Speel 10 herhalingen waarin elke lob automatisch fout is. Gebruik het glas, kom onder de bal en kies alleen low T, body of een lage chiquita. Zo breek je de reflex dat glasbackhand altijd hoog moet worden." },
+      { title: "Block 2 - Low T / body block", text: "Speel 5 herhalingen waarin oranje de standaard is: lage bal door T of op het lichaam. Herstel compact naar midden en verwacht een lage volleyreactie in plaats van alvast aan het net te denken." },
+      { title: "Block 3 - Random decision block", text: "Speel 5 random herhalingen. Rood = hoge reset, oranje = low T/body, groen = korte chiquita naar voeten en stap vooruit. De speler benoemt vóór contact de kleur en mag pas daarna handelen." }
     ],
     score: [
       "Juiste classificatie vóór contact: rood, oranje of groen.",
@@ -117,7 +117,8 @@ window.EXERCISE_BLUEPRINTS = [
           "Cue: niet de reflex, maar de kleur kiezen.",
           "Cue: laag door midden is vaak slimmer dan halfhoog over hem heen.",
           "Cue: groen betekent niet haasten, maar gecontroleerd vooruit.",
-          "Laat de speler vóór contact rood, oranje of groen benoemen."
+          "Laat de speler vóór contact rood, oranje of groen benoemen.",
+          "Gebruik 30 ballen no-lob als vast startblok voordat de random variant open mag."
         ]
       }
     ]
@@ -180,10 +181,10 @@ window.EXERCISE_BLUEPRINTS = [
       { name: "RECOVERY LANE", text: "Na elke keuze direct herstel naar homebase of eerste stap vooruit richting servicelijn." }
     ],
     steps: [
-      { title: "Bal 1 - Kies chiquita, body/T, lob of reset", text: "Goed vóór de bal = lage chiquita naar voeten. Tegenstander comfortabel aan net = lage body/T. Tegenstander te ver naar voren = lob. Uit balans = hoge reset zonder haast." },
-      { title: "Bal 2 - Positie terugpakken", text: "Na een lage keuze herstel je compact en lees je de lage reactie. Na een goede lob mag je richting servicelijn bewegen, maar alleen als de hoogte en diepte echt tijd kochten." },
-      { title: "Bal 3 - Eerste vervolgkeuze", text: "Wordt de tegenstander laag gehouden, dan speel je opnieuw onder volleyhoogte of controleer je naar T. Komt er na een lob een korte reactie, dan neem je rustig het net over." },
-      { title: "Bal 4 - Controle boven haast", text: "De laatste bal is alleen een finish als de situatie groen blijft. Anders consolideer je met een lage controlebal en blijf je in goede positie." }
+      { title: "Block 1 - No-lob forehand", text: "Speel 10 herhalingen waarin lobben verboden is. De speler moet kiezen tussen low T, body en chiquita. De focus ligt op laag houden, onder volleyhoogte dwingen en direct herstel naar homebase." },
+      { title: "Block 2 - Lob alleen als hij verdiend is", text: "Speel 5 herhalingen waarin lob alleen telt als de tegenstander echt te ver naar voren hangt of de speler rood staat. Elke twijfellob is fout, ook als hij erin valt." },
+      { title: "Block 3 - Vervolg onder controle", text: "Na een lage keuze volgt altijd een compacte herstel- of instapactie. Na een lob mag de speler pas naar voren als hoogte en diepte echt tijd kochten." },
+      { title: "Block 4 - Random decision", text: "Laat de machine nu wisselen in diepte en druk. De speler benoemt low T, body, chiquita of reset vóór contact en koppelt daar direct de juiste positie aan." }
     ],
     score: [
       "Juiste keuze op bal 1: chiquita, body/T, lob of hoge reset.",
@@ -244,7 +245,8 @@ window.EXERCISE_BLUEPRINTS = [
           "Cue: laag is vaak de eerste aanval op een goede bandeja.",
           "Cue: kies vóór contact, niet erna.",
           "Cue: eerst kwaliteit van keuze, dan snelheid.",
-          "Laat de speler benoemen waarom hij voor lob, reset of laag koos."
+          "Laat de speler benoemen waarom hij voor lob, reset of laag koos.",
+          "Gebruik eerst een no-lob blok tot de speler niet meer automatisch hoogte zoekt."
         ]
       }
     ]
@@ -423,7 +425,8 @@ window.EXERCISE_BLUEPRINTS = [
       { title: "Bal 4 - Finish alleen op groen", text: "Alleen afmaken als je duidelijk vóór de bal bent en de rally groen is. Zo niet, nog één controlebal en het net houden." }
     ],
     score: [
-      "Bal 1 blijft laag en dwingt de tegenstander onder volleyhoogte.",
+      "Bal 1 blijft onder netband en dwingt de tegenstander onder volleyhoogte.",
+      "De chiquita heeft geen float en vertrekt met zachte voeten en zonder harde polsactie.",
       "De eerste stap vooruit komt binnen één seconde na contact.",
       "De eerste volley daarna is controle, geen gehaaste winner.",
       "Finish gebeurt alleen wanneer de situatie echt groen is."
@@ -479,7 +482,8 @@ window.EXERCISE_BLUEPRINTS = [
           "Cue: laag maken, dan gaan.",
           "Cue: eerste volley is landing.",
           "Cue: finish is verdiend, niet geforceerd.",
-          "Gebruik deze drill als blauwdruk voor alle lage instapballen."
+          "Gebruik deze drill als blauwdruk voor alle lage instapballen.",
+          "Meet expliciet op onder netband, geen float, zachte voeten en geen harde polsactie."
         ]
       }
     ]

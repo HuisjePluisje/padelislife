@@ -1,0 +1,47 @@
+# Exercise Route Audit
+
+| ID | Titel | Primaire route | Secundaire routes | Auditstatus | Probleem | Aanpassing nodig | Opmerking |
+|---|---|---|---|---|---|---|---|
+| 01 | Glasbackhand Decision: Lob of Low T | Anti-Bandeja Defense | Glass Defense, Low Ball Control | rewrite | Glasbackhand blijft te vaak één patroon, terwijl juist no-lob en laag midden/body getraind moeten worden | Splits in no-lob block, low T/body block en random decision block | Belangrijke route-oefening, maar nu pas goed als expliciete anti-lob drill |
+| 02 | Lage Forehand: Chiquita of Lob Decision | Anti-Bandeja Defense | Low Ball Control | rewrite | Lage forehand wordt nog te snel als lobmoment gezien | Voeg no-lob variant toe met alleen low T, body en chiquita | Moet de forehandversie worden van oefening 01 |
+| 03 | Return Deep - Doorstappen - Net Volley | Return + First Volley | Net Dominance | move | Oefening werd te los gezien van opening en vervolgvolley | Definitief onder Return + First Volley zetten | Goede basisdrill voor return plus netovername |
+| 04 | Chiquita Entry: Low Feet → Step In → Control | Low Ball Control | Anti-Bandeja Defense, Net Dominance | rewrite | KPI's voor lage kwaliteit en herstel waren nog niet scherp genoeg | Onder netband, geen float, zachte voeten en directe stap vooruit expliciet maken | Referentiedrill voor lage entry |
+| 05 | Volley - Volley - Bandeja - Forward Recovery | Bandeja Control | Overhead Under Pressure, Net Dominance | keep | De basis klopt, zolang de bandeja echt als netbehoud wordt uitgelegd | Alleen routeframing en auditmetadata toevoegen | Sterke basisdrill voor bandeja als netbehoud |
+| 06 | Volley - Volley - Bandeja - Hit and Go | Bandeja Control | Overhead Under Pressure | rewrite | Overlap met 05 is groot en het drukscenario is nog te dun | Duidelijker verschil maken via tempo, lobkwaliteit of overheadkeuze | Alleen behouden als snellere variant van 05 |
+| 07 | Forehand and Backhand Volley Combos | Net Dominance | Match Warm-Up / Random | keep | Basisvolleylogica is goed, maar moet in netdominantie landen | Alleen routekoppeling en auditvelden toevoegen | Goede basis voor richting en verdeling aan het net |
+| 08 | Finish or Freeze - Netduel Decisions | Net Dominance | Low Ball Control | keep | Keuze tussen freeze en finish is al wedstrijdecht | Alleen als netdominantie-capstone positioneren | Sterke drill voor groen versus oranje aan het net |
+| 09 | Cross - Body - DTL | Net Dominance | Match Warm-Up / Random | keep | Patroon is logisch en wedstrijdecht | Geen inhoudelijke rewrite nodig | Past goed als opbouwdrill voor ruimte maken aan het net |
+| 10 | Lob - Positioneren - Druk Zetten | Match Warm-Up / Random | Return + First Volley, Net Dominance | keep | Oefening is breder dan één techniekroute en draait om rolwissel | Positioneren als wedstrijdbrede pattern drill | Goede warm-up en rolwissel-oefening |
+| 11 | Glas Defense - T Heroveren - Rebuild | Glass Defense | Anti-Bandeja Defense | keep | Glas -> rebuild is inhoudelijk al scherp | Alleen metadata toevoegen | Goede basis voor actief herstel vanuit glas |
+| 12 | Backhand Under Pressure - Counter Cycle | Glass Defense | Net Dominance | keep | Countermoment op backhand wordt goed geraakt | Alleen metadata toevoegen | Mooie overgang van overleven naar counteren |
+| 13 | Backglass Forehand: High Reset or Low Exit | Glass Defense | Anti-Bandeja Defense, Low Ball Control | keep | Drill is al sterk en logisch opgebouwd | Alleen routekoppeling toevoegen | Goede vervolgstap na basisglasdrills |
+| 14 | Lob Read → Bandeja Body → Net Hold | Bandeja Control | Overhead Under Pressure, Net Dominance | rewrite | Oude copy was template-matig en te vrijblijvend | Herschrijven rond slechte, diepe en halfhoge lob met body/T-keuze | Belangrijke drill voor tactische bandeja |
+| 15 | Return Body Block → Deep Middle → Close Middle | Return + First Volley | Net Dominance | rewrite | Tekst en score zijn te generiek voor zo'n sterke openingsdrill | Herschrijven rond compacte return, deep middle en middensluiting | Hoort in de kern van de opening-route |
+| 16 | Corner Defense: Reset, T-Ball or Chiquita | Glass Defense | Anti-Bandeja Defense, Low Ball Control | keep | Hoeklogica is al scherp | Alleen routevelden toevoegen | Sterke drill voor volwassen hoekverdediging |
+| 17 | Smash Retrieval → Reset Cross → Reclaim T | Overhead Under Pressure | Glass Defense | rewrite | Retrieval naar reset blijft te algemeen beschreven | Herschrijven rond lobkwaliteit, resetkeuze en T herpakken | Goede drukdrill als de copy wordt aangescherpt |
+| 18 | Serve + Ball 3 Plan Right Side | Return + First Volley | Match Warm-Up / Random | move | Werd te los gezien van opening en bal-drie-patroon | Definitief als derde stap in de opening-route plaatsen | Bruikbare service-plus-één drill |
+| 19 | Backhand Volley Lock → Middle Squeeze | Net Dominance | Low Ball Control | rewrite | Lock en squeeze zijn nog te vaag en te generiek | Herschrijven rond eerste lock-volley, tweede squeeze en pas dan finish | Moet een duidelijke midden-sluit drill worden |
+| 20 | Transition Lob → Airborne Volley Decision | Overhead Under Pressure | Net Dominance, Match Warm-Up / Random | rewrite | Transitiebeslissing is sterk, maar de druklogica nog niet | Herschrijven rond kleurkeuze tijdens beweging en landing na contact | Waardevolle drill voor halfhoge tweede bal |
+| 21 | Double Glass Escape → Slow Rebuild | Glass Defense | Anti-Bandeja Defense | rewrite | Dubbel glas is complex, maar de oefening praat nog te algemeen | Herschrijven rond escape-ball, slow rebuild en stabiele basis | Goede kandidaat voor hoge glasdruk |
+| 22 | Counterbandeja → Step In → Finish Window | Overhead Under Pressure | Net Dominance, Bandeja Control | rewrite | Counterbandeja wordt nog te abstract gepresenteerd | Herschrijven rond slechte/deepe/halfhoge lob en de keuze daarna | Capstone voor overheaddruk als het concreter wordt |
+| 23 | Body Defense → Open Space Cross | Low Ball Control | Glass Defense, Anti-Bandeja Defense | split | Neutraliseren en openen zitten te veel in één drill | Eerst opsplitsen in body-block control en open-space vervolg | In huidige vorm twee oefeningen tegelijk |
+| 24 | Freeze Volley → Angle Open → Finish | Net Dominance | Low Ball Control | rewrite | Volgorde freeze-open-finish is nog te generiek uitgewerkt | Herschrijven als echte volgordedrill met duidelijke groen/oranje-grenzen | Moet een capstone voor sequencing worden |
+| 25 | Backglass → Low Feet Chiquita | Anti-Bandeja Defense | Glass Defense, Low Ball Control | keep | Drill dekt exact de lage voeten-entry uit glas | Alleen routekoppeling toevoegen | Sterke stap in anti-bandeja progressie |
+| 26 | Corner Defense → Low T Reset | Anti-Bandeja Defense | Glass Defense | keep | Drill is de perfecte eerste stap voor lage T onder druk | Alleen als stap 1 in de route markeren | Sterk begin van de anti-bandeja route |
+| 27 | Body Jam from Defense | Anti-Bandeja Defense | Low Ball Control | keep | Body-target is duidelijk en wedstrijdecht | Alleen routekoppeling toevoegen | Belangrijke body-oplossing tegen goede netspelers |
+| 28 | Low-Low-Lob Pattern | Anti-Bandeja Defense | Match Warm-Up / Random, Net Dominance | keep | Sequencing is helder en tactisch sterk | Alleen als late route-stap positioneren | Laat goed zien wanneer de lob wél verdiend is |
+| 29 | Random Defense Decision: Lob, Body, T or Chiquita | Anti-Bandeja Defense | Match Warm-Up / Random, Glass Defense | keep | Sterke capstone die de hele route samenbrengt | Alleen route- en auditvelden toevoegen | Beste route-eindtest voor keuze vóór contact |
+
+## Missing Route Coverage
+
+- `Dropshot Decision`: er staat nog geen bestaande oefening in de bibliotheek die echt conditioneel op stopbal-keuze draait.
+- `Vibora / Pressure Shot`: er is nog geen drill waarin de vibora zelf de primaire drukslag is met duidelijke risicoherkenning.
+- `Match Warm-Up / Random`: de route bestaat nu, maar heeft nog weinig echte random warm-up dekking buiten oefening 10 en de secundaire koppelingen.
+
+## Auditstatus Telling
+
+- `keep`: 14
+- `rewrite`: 12
+- `split`: 1
+- `move`: 2
+- `archive`: 0

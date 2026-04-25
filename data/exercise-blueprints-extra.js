@@ -153,9 +153,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "category": "NET BEHOUDEN",
     "title": "Lob Read → Bandeja Body → Net Hold",
     "shortTitle": "Lob Read",
-    "summary": "Lob vroeg lezen, body-target kiezen en meteen weer naar voren bewegen.",
-    "context": "Je staat aan het net, leest de lob en moet de bandeja zo spelen dat je het net niet weggeeft.",
-    "matchContext": "De overhead is vaak technisch oké, maar tactisch te hard, te mooi of te vrijblijvend.",
+    "summary": "Lees de lobkwaliteit vroeg, kies een controle-bandeja naar body of T en houd daarna het net echt vast.",
+    "context": "Je staat aan het net en krijgt afwisselend een slechte, diepe of halfhoge lob. De vraag is niet of je de bandeja kán slaan, maar welke bandeja het net het beste dicht houdt.",
+    "matchContext": "In wedstrijden gaat het vaak mis ná de overhead. Een te harde of te mooie bandeja opent juist weer ruimte. Deze drill leert je body, T en herstel naar voren als één patroon te spelen.",
     "level": "average",
     "levelLabel": "Gemiddeld",
     "knltb": "6-7",
@@ -186,9 +186,10 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "Slechte lob = vooral controle houden en snel terug naar voren komen.",
+          "Diepe bruikbare lob = bandeja naar body of T om het net klein te houden.",
+          "Halvhoge lob = druk mag omhoog, maar alleen als herstel en net lock mee kunnen.",
+          "De eerste volley na de bandeja bepaalt of je het net echt houdt."
         ]
       }
     ],
@@ -223,28 +224,26 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "steps": [
       {
         "title": "Bal 1",
-        "text": "Open rustig naar T. Waarom: Ritme en basis neerzetten. Doelzone: T"
+        "text": "Open met een rustige eerste volley naar T of body. Waarom: het net klein maken vóór de lob komt."
       },
       {
         "title": "Bal 2",
-        "text": "Iets meer druk, nog steeds compact. Waarom: Voorbereiden op overheadfase. Doelzone: BODY/T"
+        "text": "Lees de lobkwaliteit vroeg: slechte lob = reset-achtige controle, diepe lob = controle-bandeja naar body/T, halfhoge lob = meer druk zolang herstel mogelijk blijft."
       },
       {
         "title": "Bal 3",
-        "text": "Speel gecontroleerde bandeja naar body. Waarom: Netvoordeel vasthouden. Doelzone: BANDEJA BODY"
+        "text": "Kom direct weer voorwaarts uit je overhead. Waarom: de bandeja telt pas als ze je opnieuw in net-homebase brengt."
       },
       {
         "title": "Bal 4",
-        "text": "Pak de eerste volley opnieuw laag. Waarom: Net vastzetten. Doelzone: NET LOCK"
+        "text": "Speel de eerste volley opnieuw laag naar body, T of voeten. Waarom: zo maak je van de bandeja een echte net-hold slag."
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Bal 4 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Juiste overheadkeuze bij slechte, diepe en halfhoge lob.",
+      "Bandeja blijft diep genoeg en geeft body of T als echt target.",
+      "Forward recovery start direct na contact.",
+      "De eerste volley na recovery houdt het net klein in plaats van het weer open te zetten."
     ],
     "coaching": [
       "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
@@ -259,43 +258,35 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "De overhead is vaak technisch oké, maar tactisch te hard, te mooi of te vrijblijvend.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Lob vroeg lezen, body-target kiezen en meteen weer naar voren bewegen.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "De bandeja is technisch vaak prima, maar de speler kiest te vaak voor mooi in plaats van functioneel.",
+          "Na de overhead blijft hij hangen, waardoor het net toch weer openvalt.",
+          "Body en T worden te weinig gebruikt als echte net-hold targets."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "Slechte lob = veiligere controle en snel terug naar voren.",
+          "Diepe bruikbare lob = bandeja naar body of T.",
+          "Halvhoge lob = druk mag omhoog, maar alleen als herstel meteen meekomt."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen mooie bandeja naar open hoek als je daardoor het midden weer openlaat.",
+          "Geen overhead afkijken zonder recovery naar voren.",
+          "Geen eerste volley na bandeja op winner-tempo als het net nog niet vaststaat."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: body of T houdt het net dicht.",
+          "Cue: overhead en herstel zijn één actie.",
+          "Cue: de eerste volley na de bandeja laat pas zien of de keuze echt goed was."
         ]
       }
     ]
@@ -305,9 +296,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "category": "RETURN & SLUITEN",
     "title": "Return Body Block → Deep Middle → Close Middle",
     "shortTitle": "Return Body Block",
-    "summary": "Compact returneren, diep midden vinden en daarna bewust het midden sluiten.",
-    "context": "Na service-return wil je niet alleen de bal terugbrengen, maar meteen het midden klein maken.",
-    "matchContext": "Veel returns komen wel terug, maar geven de server te veel ruimte voor bal drie.",
+    "summary": "Blok de return compact op lichaam of midden, speel daarna deep middle en maak het midden direct klein.",
+    "context": "Na service-return wil je niet alleen de bal terugbrengen, maar ook meteen de meest logische vervolgzone sluiten. Deze drill koppelt return, diepe middenbal en middencontrole als één patroon.",
+    "matchContext": "Veel returns komen wel terug, maar geven de server alsnog bal drie. Je wint hier juist door de return compact te houden en het midden daarna direct te verkleinen.",
     "level": "average",
     "levelLabel": "Gemiddeld",
     "knltb": "6-7",
@@ -338,9 +329,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "De return compact houden zodat je geen gratis lengte of hoek weggeeft.",
+          "Deep middle gebruiken om de server geen makkelijke bal drie te geven.",
+          "Na de tweede bal direct het midden sluiten in plaats van naar de buitenlijn te kijken."
         ]
       }
     ],
@@ -387,11 +378,10 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Return blijft compact en gaat op lichaam of midden zonder open hoek weg te geven.",
+      "Tweede bal komt diep genoeg door het midden om bal drie te vertragen.",
+      "Speler sluit na contact zichtbaar het midden in plaats van te blijven hangen.",
+      "De server krijgt geen vrije eerste aanval door het midden."
     ],
     "coaching": [
       "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
@@ -405,43 +395,35 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Veel returns komen wel terug, maar geven de server te veel ruimte voor bal drie.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Compact returneren, diep midden vinden en daarna bewust het midden sluiten.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "De return komt terug, maar te los of te breed, waardoor bal drie meteen openligt.",
+          "Na de return denkt de speler te laat aan het midden.",
+          "De tweede bal komt wel diep, maar zonder duidelijke positie erna."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "Return compact op lichaam of midden.",
+          "Tweede bal diep door midden zolang je het serverende team klein wilt houden.",
+          "Pas openen als het midden al dicht is en de volgende bal dat echt toelaat."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen return die meteen een open hoek weggeeft.",
+          "Geen diepe tweede bal zonder direct het midden te sluiten.",
+          "Geen snelle doorstap naar voren als de return daar geen tijd voor heeft gekocht."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: return klein, midden dicht.",
+          "Cue: deep middle is een vervolgkeuze, geen losse slag.",
+          "Cue: bal drie van de tegenstander vertragen is hier al winst."
         ]
       }
     ]
@@ -600,9 +582,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "category": "CHAOS NAAR CONTROLE",
     "title": "Smash Retrieval → Reset Cross → Reclaim T",
     "shortTitle": "Smash Retrieval",
-    "summary": "Eerst hoog cross resetten, daarna de T opnieuw innemen en pas dan weer denken aan initiatief.",
-    "context": "Na het terughalen van een smash moet je niet blind wegslaan, maar de rally weer ordenen.",
-    "matchContext": "Na een spectaculaire retrieval volgt vaak een gehaaste tweede bal.",
+    "summary": "Na smash-retrieval eerst ordenen: reset hoog als het moet, reclaim T zodra de rally weer bruikbaar is.",
+    "context": "Je haalt een smash terug en krijgt daarna nog één of twee moeilijke seconden. De winst zit hier niet in een heldenbal, maar in de juiste reset en het moment waarop je de T weer terugpakt.",
+    "matchContext": "Na een spectaculaire retrieval volgt vaak meteen een fout op bal twee. Deze oefening traint juist dat je eerst stabiliseert en pas daarna weer initiatief zoekt.",
     "level": "advanced",
     "levelLabel": "Advanced",
     "knltb": "1-5",
@@ -633,9 +615,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "Na retrieval eerst bepalen of de volgende bal nog rood is of al teruggaat naar oranje.",
+          "Rood = opnieuw hoog of veilig resetten; geen hero shot op bal twee.",
+          "Pas reclaim T zodra de tweede bal echt tijd terugkoopt."
         ]
       }
     ],
@@ -682,11 +664,10 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Retrieval houdt het punt levend zonder paniekswing.",
+      "Tweede bal is de juiste reset: hoog wanneer nodig, neutraler wanneer mogelijk.",
+      "Speler pakt de T pas terug zodra de rally daar weer ruimte voor geeft.",
+      "Geen gehaaste versnelling direct na de retrieval."
     ],
     "coaching": [
       "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
@@ -700,43 +681,35 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Na een spectaculaire retrieval volgt vaak een gehaaste tweede bal.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Eerst hoog cross resetten, daarna de T opnieuw innemen en pas dan weer denken aan initiatief.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "De retrieval zelf lukt, maar de tweede bal verraadt haast of opluchting.",
+          "Spelers willen te snel weer neutraal of aanvallend worden.",
+          "De T wordt te vroeg teruggepakt zonder dat de reset daar tijd voor heeft gekocht."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "Rood na retrieval = opnieuw hoogte of veilige reset.",
+          "Oranje = compact neutraliseren en pas dan richting T denken.",
+          "Groen bestaat hier pas laat in de rally, niet direct na de redding."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen hero shot op bal twee.",
+          "Geen sprint terug naar de T terwijl de tegenstander nog boven op de rally zit.",
+          "Geen vlakke uitweg die meteen opnieuw druk teruggeeft."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: red de bal, reset de rally, reclaim dan pas T.",
+          "Cue: retrieval is nog geen momentumwissel.",
+          "Cue: de tweede bal bepaalt of je echt weer in het punt bent."
         ]
       }
     ]
@@ -892,9 +865,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "category": "NETDOMINANTIE",
     "title": "Backhand Volley Lock → Middle Squeeze",
     "shortTitle": "Backhand Volley Lock",
-    "summary": "Body en midden eerst dichtzetten, dan pas verder openen.",
-    "context": "Je staat rechts aan het net en wilt via je backhandvolley het midden kleiner maken.",
-    "matchContext": "Spelers zoeken vanaf backhandvolley te snel de lijn en openen juist ruimte.",
+    "summary": "Gebruik je backhandvolley eerst om body en midden dicht te zetten en open pas daarna de rally.",
+    "context": "Je staat rechts aan het net en krijgt de eerste kans op je backhandvolley. De opdracht is niet meteen de lijn zoeken, maar eerst locken: lichaam, midden, nog eens lichaam of voeten, en pas daarna openen.",
+    "matchContext": "Veel spelers zien de backhandvolley te snel als ontsnappingsslag. In wedstrijden win je juist veel door met de backhand eerst het midden klein te maken.",
     "level": "average",
     "levelLabel": "Gemiddeld",
     "knltb": "6-7",
@@ -925,9 +898,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "De eerste backhandvolley gebruiken als middle lock in plaats van als ontsnappingsslag.",
+          "De tweede volley nog compacter houden zodat de tegenstander geen makkelijke middenbal terugkrijgt.",
+          "Pas op bal drie openen of afmaken als het midden al echt klein is."
         ]
       }
     ],
@@ -974,11 +947,10 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Eerste backhandvolley sluit body of midden echt af.",
+      "Tweede volley houdt dezelfde druklijn vast zonder de hoek vroeg te openen.",
+      "Bal drie opent pas wanneer de tegenstander al klein staat.",
+      "Speler blijft compact en middenbewust na elke backhandvolley."
     ],
     "coaching": [
       "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
@@ -992,43 +964,35 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Spelers zoeken vanaf backhandvolley te snel de lijn en openen juist ruimte.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Body en midden eerst dichtzetten, dan pas verder openen.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "Spelers willen vanaf backhand te snel de lijn of de open hoek pakken.",
+          "Daardoor wordt het midden weer groot voordat de tegenstander echt vaststaat.",
+          "De backhandvolley verliest dan juist zijn tactische waarde."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "Bal 1 = lock naar body of midden.",
+          "Bal 2 = squeeze: nog compacter en lager.",
+          "Bal 3 = pas openen als de tegenstander al klein staat."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen backhandvolley direct langs de lijn uit gewoonte.",
+          "Geen tweede volley die hetzelfde midden weer openzet.",
+          "Geen afmaakpoging als de lock op bal één of twee niet echt gelukt is."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: lock first, open later.",
+          "Cue: je backhand hoeft niet mooi, maar wel compact en kleinmakend te zijn.",
+          "Cue: als het midden nog groot is, ben je te vroeg aan het openen."
         ]
       }
     ]
@@ -1038,9 +1002,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "category": "BESLISSEN IN TRANSITIE",
     "title": "Transition Lob → Airborne Volley Decision",
     "shortTitle": "Transition Lob",
-    "summary": "Beslissen op kleur: voeten als het groen is, T/body als het oranje is.",
-    "context": "Je wint tijd met een transitie-lob en krijgt daarna een halfhoge bal tijdens je voorwaartse beweging.",
-    "matchContext": "Spelers willen die tweede bal te vaak forceren terwijl ze nog niet geland zijn.",
+    "summary": "Na een transitie-lob de halfhoge tweede bal lezen: eerst landen, dan kiezen tussen voeten, T/body of nog één controlebal.",
+    "context": "Je wint tijd met een transitie-lob en krijgt daarna een halfhoge bal terwijl je nog voorwaarts beweegt. Het leerpunt zit in de landing: niet de sprong winnen, maar de keuze.",
+    "matchContext": "In wedstrijden gaat deze bal vaak mis omdat de speler de tweede bal wil afmaken terwijl hij nog niet geordend is. Deze drill leert eerst kleur kiezen en pas daarna versnellen.",
     "level": "advanced",
     "levelLabel": "Advanced",
     "knltb": "1-5",
@@ -1071,9 +1035,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "De transitie-lob gebruiken om tijd te kopen, niet om blind te gaan jagen.",
+          "De halfhoge tweede bal koppelen aan balans: groen = voeten, oranje = T/body, rood = nog één controlebal.",
+          "Na contact compact landen zodat de vervolgpositie klopt."
         ]
       }
     ],
@@ -1120,11 +1084,10 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Transitie-lob koopt echt tijd en geeft ruimte voor instappen.",
+      "Tweede bal wordt gekozen op kleur en niet op haast.",
+      "Speler landt compact en houdt het midden of net logisch bezet.",
+      "Geen airborne winner op een bal die eigenlijk nog oranje of rood is."
     ],
     "coaching": [
       "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
@@ -1138,43 +1101,35 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Spelers willen die tweede bal te vaak forceren terwijl ze nog niet geland zijn.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Beslissen op kleur: voeten als het groen is, T/body als het oranje is.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "De speler wil de tweede bal te snel afmaken terwijl hij nog niet geland is.",
+          "Daardoor wordt een bruikbare transitie-lob niet verzilverd maar juist verspild.",
+          "T/body als oranje keuze wordt overgeslagen ten gunste van een te vroege winner."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "Groen = voeten of duidelijke open ruimte.",
+          "Oranje = T of body en compact landen.",
+          "Rood = nog één controlebal en positie terugpakken."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen airborne winner uit onbalans.",
+          "Geen tweede bal naar open hoek als je landing nog achterloopt.",
+          "Geen bewonderen van de lob zonder direct vervolgplan."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: eerst landen, dan slaan.",
+          "Cue: halfhoog betekent niet automatisch groen.",
+          "Cue: de keuze op bal twee bepaalt of de lob echt iets waard was."
         ]
       }
     ]
@@ -1330,9 +1285,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "category": "OVERHEAD DRUK",
     "title": "Counterbandeja → Step In → Finish Window",
     "shortTitle": "Counterbandeja",
-    "summary": "Eerst druk terugleggen, daarna direct naar voren en de volgende bal laag afmaken of vastzetten.",
-    "context": "Na een gecontroleerde tegenbandeja herken je het moment waarop je zelf weer mag instappen.",
-    "matchContext": "Spelers zien de counterbandeja als eindslag, terwijl het vaak de openingsslag is.",
+    "summary": "Leg met de counterbandeja eerst druk terug, stap dan in en kies pas daarna of de volgende bal finish of lock wordt.",
+    "context": "Je krijgt een bruikbare overheadbal terug en speelt een counterbandeja. Het leerpunt zit in wat daarna gebeurt: instappen, lezen en pas finishen als het venster echt openstaat.",
+    "matchContext": "Spelers zien de counterbandeja vaak als eindslag. In wedstrijden is het meestal de openingsslag die pas op de volgende bal echt druk of finish oplevert.",
     "level": "advanced",
     "levelLabel": "Advanced",
     "knltb": "1-5",
@@ -1363,9 +1318,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "De counterbandeja kiezen als drukslag, niet als losse winner.",
+          "Na contact meteen instappen om het venster echt te lezen.",
+          "De volgende bal laag finishen of locken afhankelijk van kleur, niet uit gewoonte."
         ]
       }
     ],
@@ -1412,11 +1367,10 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Counterbandeja legt druk terug zonder te los of te vlak te worden.",
+      "Instap na de overhead is direct en compact.",
+      "Bal drie wordt pas afgewerkt als het venster groen is; anders volgt een stevige lock-volley.",
+      "De speler houdt na de counterbandeja het net klein en centraal."
     ],
     "coaching": [
       "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
@@ -1430,43 +1384,35 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Spelers zien de counterbandeja als eindslag, terwijl het vaak de openingsslag is.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Eerst druk terugleggen, daarna direct naar voren en de volgende bal laag afmaken of vastzetten.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "De speler behandelt de counterbandeja als puntbal in plaats van openingsslag.",
+          "Daardoor volgt er of geen instap, of juist een te vroege finish.",
+          "Het echte finish-window wordt te weinig gelezen."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "Counterbandeja = druk terugleggen.",
+          "Instap = venster lezen.",
+          "Groen = lage finish; oranje = stevige lock-volley."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen counterbandeja op winner-power.",
+          "Geen stap naar voren zonder split-step en nieuw leesmoment.",
+          "Geen finish op bal drie als de tegenstander nog niet klein staat."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: pressure first, finish second.",
+          "Cue: de counterbandeja opent het venster, hij is het venster niet.",
+          "Cue: als het nog oranje is, lock je eerst opnieuw."
         ]
       }
     ]
@@ -1622,9 +1568,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "category": "SEQUENCING AAN HET NET",
     "title": "Freeze Volley → Angle Open → Finish",
     "shortTitle": "Freeze Volley",
-    "summary": "Volgorde trainen: freeze, openen, afmaken of vasthouden.",
-    "context": "Je hebt druk aan het net, maar nog geen echte winnaar. Eerst vastzetten, dan pas openen.",
-    "matchContext": "Veel spelers slaan te vroeg de hoek en geven de rally weer weg.",
+    "summary": "Train de volgorde aan het net: eerst freeze, dan openen en pas daarna afmaken of opnieuw vastzetten.",
+    "context": "Je hebt druk aan het net, maar nog geen echte winnaar. Deze drill dwingt je om eerst via body of midden te vriezen, pas daarna de hoek of voeten te openen en pas op de derde bal te beslissen of het punt al groen is.",
+    "matchContext": "Veel spelers slaan te vroeg de hoek en geven de rally daarmee juist weer lucht. Deze drill maakt de volgorde zelf tot het leerpunt.",
     "level": "advanced",
     "levelLabel": "Advanced",
     "knltb": "1-5",
@@ -1655,9 +1601,9 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "De eerste volley gebruiken om te vriezen: body of midden, geen directe hoek.",
+          "De tweede bal pas openen zodra de tegenstander echt klein staat.",
+          "De derde bal afmaken of nog één keer locken op basis van kleur."
         ]
       }
     ],
@@ -1704,11 +1650,10 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Eerste volley bevriest body of midden echt.",
+      "Tweede bal opent pas nadat de tegenstander klein staat.",
+      "Bal drie is of een echte groene finish of een logische extra lock-volley.",
+      "Geen te vroege hoekbal die de rally weer opent."
     ],
     "coaching": [
       "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
@@ -1722,43 +1667,35 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Veel spelers slaan te vroeg de hoek en geven de rally weer weg.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Volgorde trainen: freeze, openen, afmaken of vasthouden.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "Spelers voelen druk aan het net en willen meteen de mooie hoek spelen.",
+          "Daardoor wordt de tegenstander niet eerst vastgezet en blijft het punt groter dan nodig.",
+          "De volgorde verdwijnt en daarmee ook de marge."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "Bal 1 = freeze.",
+          "Bal 2 = openen als het punt daar klaar voor is.",
+          "Bal 3 = finish of hold, afhankelijk van kleur."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen hoekbal op bal één uit hebzucht.",
+          "Geen tweede bal naar voeten als de eerste freeze niet echt klein maakte.",
+          "Geen finish op bal drie als de rally nog oranje blijft."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: freeze first.",
+          "Cue: open only when earned.",
+          "Cue: volgorde is hier belangrijker dan flair."
         ]
       }
     ]

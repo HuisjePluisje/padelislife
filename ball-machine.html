@@ -78,9 +78,9 @@
             <p class="eyebrow">Oefeningen met de ballenmachine</p>
             <h1>Vind snel de juiste oefening voor de juiste speler.</h1>
             <p class="lead">
-              Dit is de trainingsbibliotheek van Padel Studio: eerst filteren op speler, niveau en
-              type, daarna door naar een oefeningpagina die context geeft, coachlogica toont en de
-              machine-instellingen helder houdt.
+              Dit is de trainingsbibliotheek van Padel Studio: eerst filteren op speler,
+              trainingsroute, niveau en probleemgebied, daarna door naar een oefeningpagina die
+              context geeft, coachlogica toont en de machine-instellingen helder houdt.
             </p>
             <div class="stats-row">
               <article class="stat-card">
@@ -124,6 +124,14 @@
 
             <div class="filter-block">
               <p class="eyebrow">Filter 02</p>
+              <label for="route">Trainingsroute</label>
+              <select id="route">
+                <option value="all">Alle routes</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <p class="eyebrow">Filter 03</p>
               <label for="level">Speelniveau</label>
               <select id="level">
                 <option value="all">Alle niveaus</option>
@@ -134,16 +142,40 @@
             </div>
 
             <div class="filter-block">
-              <p class="eyebrow">Filter 03</p>
-              <label for="type">Type oefening</label>
-              <select id="type">
-                <option value="all">Alle types</option>
-                <option value="transitie">Transitie naar net</option>
-                <option value="defense">Defense & recovery</option>
-                <option value="net">Netdominantie</option>
-                <option value="return">Return & opening</option>
-                <option value="ruimte">Ruimte creëren</option>
-                <option value="decision">Beslissen onder druk</option>
+              <p class="eyebrow">Filter 04</p>
+              <label for="stroke">Slagfamilie</label>
+              <select id="stroke">
+                <option value="all">Alle slagfamilies</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <p class="eyebrow">Filter 05</p>
+              <label for="problem">Probleemgebied</label>
+              <select id="problem">
+                <option value="all">Alle probleemgebieden</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <p class="eyebrow">Filter 06</p>
+              <label for="machine-realism">Machine-realism</label>
+              <select id="machine-realism">
+                <option value="all">Alle realistiek</option>
+                <option value="high">Hoog</option>
+                <option value="medium">Gemiddeld</option>
+                <option value="low">Laag</option>
+              </select>
+            </div>
+
+            <div class="filter-block">
+              <p class="eyebrow">Filter 07</p>
+              <label for="match-realism">Match-realism</label>
+              <select id="match-realism">
+                <option value="all">Alle realistiek</option>
+                <option value="high">Hoog</option>
+                <option value="medium">Gemiddeld</option>
+                <option value="low">Laag</option>
               </select>
             </div>
 
@@ -174,6 +206,9 @@
               <div>
                 <p class="eyebrow">Overzicht</p>
                 <h2 id="results-title">Linkshandige machine-oefeningen</h2>
+                <p class="results-subnote" id="results-subnote">
+                  Filter op trainingsroute, slagfamilie en probleemgebied om sneller in een logische route te trainen.
+                </p>
               </div>
               <span class="results-count" id="results-count">0 oefeningen</span>
             </div>
@@ -186,6 +221,9 @@
 
     <script src="data/exercise-blueprints.js"></script>
     <script src="data/exercise-blueprints-extra.js"></script>
+    <script src="data/training-routes.js"></script>
+    <script src="data/exercise-route-metadata.js"></script>
+    <script src="data/exercise-route-enrichment.js"></script>
     <script src="ball-machine.js"></script>
       <script src="navigation.js"></script>
   </body>

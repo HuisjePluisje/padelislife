@@ -3,6 +3,11 @@ const EXERCISES = [
   ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : [])
 ];
 const STRATEGY_TOPICS = Array.isArray(window.STRATEGY_TOPICS) ? window.STRATEGY_TOPICS : [];
+const TRAINING_ROUTES = Array.isArray(window.TRAINING_ROUTES) ? window.TRAINING_ROUTES : [];
+const ROUTE_MAP = TRAINING_ROUTES.reduce((map, route) => {
+  map[route.slug] = route;
+  return map;
+}, {});
 
 const params = new URLSearchParams(window.location.search);
 const exerciseId = params.get("id") || EXERCISES[0]?.id;
@@ -22,12 +27,26 @@ const elements = {
   targets: document.querySelector("#exercise-targets"),
   execution: document.querySelector("#exercise-execution"),
   score: document.querySelector("#exercise-score"),
+  route: document.querySelector("#exercise-route"),
   full: document.querySelector("#exercise-full"),
   strategy: document.querySelector("#exercise-strategy-links")
 };
 
 function handednessLabel(value) {
   return value === "right" ? "Rechtshandig" : "Linkshandig";
+}
+
+function realismLabel(value) {
+  if (value === "high") {
+    return "Hoog";
+  }
+  if (value === "medium") {
+    return "Gemiddeld";
+  }
+  if (value === "low") {
+    return "Laag";
+  }
+  return value || "-";
 }
 
 function findExercise() {
@@ -117,6 +136,79 @@ function scoreItems(items) {
           `
         )
         .join("")}
+    </div>
+  `;
+}
+
+function scoreGuideItems(scoreGuide) {
+  if (!scoreGuide) {
+    return "";
+  }
+
+  return `
+    <div class="traffic-score-grid">
+      <div class="traffic-score-card traffic-score-card-green">
+        <span class="traffic-score-label">Groen</span>
+        <p>${scoreGuide.green}</p>
+      </div>
+      <div class="traffic-score-card traffic-score-card-orange">
+        <span class="traffic-score-label">Oranje</span>
+        <p>${scoreGuide.orange}</p>
+      </div>
+      <div class="traffic-score-card traffic-score-card-red">
+        <span class="traffic-score-label">Rood</span>
+        <p>${scoreGuide.red}</p>
+      </div>
+    </div>
+  `;
+}
+
+function routeBlock(exercise) {
+  const route = ROUTE_MAP[exercise.primaryRoute] || exercise.routeDetails;
+  const secondaryRoutes = (exercise.secondaryRoutes || [])
+    .map((slug) => ROUTE_MAP[slug]?.name)
+    .filter(Boolean);
+
+  if (!route) {
+    return "";
+  }
+
+  return `
+    <div class="training-route-card">
+      <div class="content-box">
+        <h4>Primaire route</h4>
+        <p><strong>${route.name}</strong></p>
+        <p>${route.summary}</p>
+        <div class="meta-row">
+          <span class="meta-pill">Stap ${exercise.audit?.routeOrder || "-"}</span>
+          <span class="meta-pill">Machine ${realismLabel(exercise.audit?.machineRealism)}</span>
+          <span class="meta-pill">Wedstrijd ${realismLabel(exercise.audit?.matchRealism)}</span>
+        </div>
+      </div>
+      <div class="training-route-grid">
+        <div class="content-box">
+          <h4>Gewoonte die je traint</h4>
+          <p>${exercise.habitFocus || route.defaultHabit}</p>
+        </div>
+        <div class="content-box">
+          <h4>Fout die je afleert</h4>
+          <p>${exercise.unlearnPattern || route.defaultUnlearn}</p>
+        </div>
+        <div class="content-box">
+          <h4>Wanneer naar de volgende oefening?</h4>
+          <p>${exercise.nextProgressionWhen || route.defaultNextGate}</p>
+        </div>
+      </div>
+      ${
+        secondaryRoutes.length
+          ? `
+            <div class="content-box">
+              <h4>Secundaire routes</h4>
+              <p>${secondaryRoutes.join(" · ")}</p>
+            </div>
+          `
+          : ""
+      }
     </div>
   `;
 }
@@ -237,7 +329,8 @@ function render() {
   elements.setup.innerHTML = infoItems(exercise.setup);
   elements.targets.innerHTML = targetItems(exercise.targets);
   elements.execution.innerHTML = executionItems(exercise.steps);
-  elements.score.innerHTML = scoreItems(exercise.score);
+  elements.score.innerHTML = `${scoreItems(exercise.score)}${scoreGuideItems(exercise.scoreGuide)}`;
+  elements.route.innerHTML = routeBlock(exercise);
   elements.full.innerHTML = fullBlocks(exercise);
   elements.strategy.innerHTML = relatedStrategy(exercise);
 }
