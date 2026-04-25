@@ -82,8 +82,138 @@
       });
   }
 
+  function clamp(value, min, max) {
+    return Math.max(min, Math.min(max, value));
+  }
+
+  function targetWidth(text, handedness) {
+    const isRightSidePlayer = handedness === "left";
+    const sideDefault = isRightSidePlayer ? 78 : 22;
+    const sideWide = isRightSidePlayer ? 88 : 12;
+    const sideInside = isRightSidePlayer ? 68 : 32;
+    const bodyLane = isRightSidePlayer ? 60 : 40;
+    const crossLane = isRightSidePlayer ? 35 : 65;
+
+    if (/midden|mid-court|mid court|middle|service-simulatie.*midden/i.test(text)) {
+      return 50;
+    }
+    if (/body|rackethand|heup/i.test(text)) {
+      return bodyLane;
+    }
+    if (/cross/i.test(text)) {
+      return crossLane;
+    }
+    if (/dtl|lijn/i.test(text)) {
+      return sideWide;
+    }
+    if (/voeten|chiquita|service line|servicelijn/i.test(text)) {
+      return sideInside;
+    }
+    if (/hoek|corner|backglass|achterglas|backhandhoek|forehandhoek/i.test(text)) {
+      return sideWide;
+    }
+    if (/t\b|low t|t-ball/i.test(text)) {
+      return 50;
+    }
+    return sideDefault;
+  }
+
+  function valuesFromInstruction(instruction, handedness) {
+    const text = instruction.toLowerCase();
+    const shot = {
+      Speed: 22,
+      Spin: 0,
+      Freq: 40,
+      Width: targetWidth(text, handedness),
+      Height: 32
+    };
+
+    if (/service-simulatie|service/i.test(text)) {
+      shot.Speed = 23;
+      shot.Freq = 60;
+      shot.Height = 36;
+    }
+
+    if (/backglass|achterglas|hoekbal|corner|diepe bal|diep/i.test(text)) {
+      shot.Speed = 25;
+      shot.Freq = 30;
+      shot.Height = 20;
+    }
+
+    if (/netbal|volley|drukreturn/i.test(text)) {
+      shot.Speed = 22;
+      shot.Freq = 60;
+      shot.Height = 32;
+    }
+
+    if (/lage|low|voeten|chiquita|t-ball|body|low t/i.test(text)) {
+      shot.Height = 26;
+    }
+
+    if (/halfhoge/i.test(text)) {
+      shot.Height = 40;
+    }
+
+    if (/\bhoge\b|\blob\b|\breset\b/i.test(text)) {
+      shot.Speed = 16;
+      shot.Freq = 30;
+      shot.Height = 82;
+    }
+
+    if (/bandeja/i.test(text)) {
+      shot.Speed = 15;
+      shot.Freq = 30;
+      shot.Height = 70;
+    }
+
+    if (/vibora/i.test(text)) {
+      shot.Speed = 17;
+      shot.Spin = -20;
+      shot.Freq = 35;
+      shot.Height = 68;
+    }
+
+    if (/smash/i.test(text)) {
+      shot.Speed = 14;
+      shot.Freq = 30;
+      shot.Height = 88;
+    }
+
+    if (/bajada/i.test(text)) {
+      shot.Speed = 16;
+      shot.Spin = 50;
+      shot.Freq = 30;
+      shot.Height = 90;
+    }
+
+    if (/medium-hard/i.test(text)) {
+      shot.Speed += 3;
+    } else if (/medium-slow/i.test(text)) {
+      shot.Speed -= 2;
+    } else if (/medium/i.test(text)) {
+      shot.Speed += 0;
+    }
+
+    if (/medium-laag/i.test(text)) {
+      shot.Height = Math.min(shot.Height, 28);
+    }
+
+    shot.Speed = clamp(shot.Speed, 10, 35);
+    shot.Spin = clamp(shot.Spin, -50, 50);
+    shot.Freq = clamp(shot.Freq, 20, 90);
+    shot.Width = clamp(Math.round(shot.Width), 0, 100);
+    shot.Height = clamp(shot.Height, 10, 95);
+
+    return shot;
+  }
+
   function buildPreset(exercise, handedness) {
     const variant = machineLinesFor(exercise, handedness);
+    const balls = ballObjectsFrom(variant.lines).map((ball) => ({
+      ...ball,
+      ...valuesFromInstruction(ball.instruction, handedness)
+    }));
+
     return {
       machine: "PadelShooter 3A",
       exerciseId: exercise.id,
@@ -91,12 +221,13 @@
       shortTitle: exercise.shortTitle,
       handedness,
       playerProfile: variant.label,
+      programName: `${exercise.id} ${exercise.shortTitle} ${handedness === "left" ? "L" : "R"}`,
       route: exercise.routeName || exercise.primaryRoute || "",
       totalBalls: exercise.totalBalls,
       sequence: exercise.sequence,
       focus: exercise.habitFocus || "",
       machineSetup: variant.lines,
-      balls: ballObjectsFrom(variant.lines),
+      balls,
       disclaimer
     };
   }

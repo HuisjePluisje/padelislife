@@ -225,14 +225,50 @@ function downloadJson(data, filename) {
 }
 
 function machineVariantCard(variant, isActive, exercise, variantKey) {
+  const ballRows = (exercise.padelShooterPreset?.[variantKey]?.balls || [])
+    .map(
+      (ball) => `
+        <tr>
+          <th>Schot ${ball.ball}</th>
+          <td>${ball.Speed}</td>
+          <td>${ball.Spin}</td>
+          <td>${ball.Freq}</td>
+          <td>${ball.Width}</td>
+          <td>${ball.Height}</td>
+        </tr>
+      `
+    )
+    .join("");
+
   return `
     <article class="machine-variant-card ${isActive ? "machine-variant-card-active" : ""}">
       <div class="machine-variant-header">
         <div>
-          <span class="topic-meta">Preset</span>
+          <span class="topic-meta">Programma</span>
           <h4>${variant.label}</h4>
         </div>
         ${isActive ? '<span class="meta-pill">Actieve speler</span>' : ""}
+      </div>
+      <div class="content-box machine-program-card">
+        <h4>Programmanaam</h4>
+        <p>${exercise.padelShooterPreset?.[variantKey]?.programName || `${exercise.shortTitle} ${variant.label}`}</p>
+      </div>
+      <div class="machine-values-table-wrap">
+        <table class="machine-values-table">
+          <thead>
+            <tr>
+              <th>Schot</th>
+              <th>Speed</th>
+              <th>Spin</th>
+              <th>Freq</th>
+              <th>Width</th>
+              <th>Height</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${ballRows}
+          </tbody>
+        </table>
       </div>
       <ul class="machine-lines">
         ${variant.lines.map((line) => `<li>${line}</li>`).join("")}
@@ -246,24 +282,21 @@ function machineVariantCard(variant, isActive, exercise, variantKey) {
 }
 
 function machineBlock(exercise) {
-  const left = exercise.machineVariants?.left;
-  const right = exercise.machineVariants?.right;
+  const variantKey = handedness === "right" ? "right" : "left";
+  const activeVariant = exercise.machineVariants?.[variantKey];
   const disclaimer = window.PADELSHOOTER_DISCLAIMER || "";
 
-  if (!left || !right) {
+  if (!activeVariant) {
     return "";
   }
 
   return `
     <div class="machine-module">
       <div class="content-box">
-        <h4>Snel voor links en rechts</h4>
-        <p>Hier staan de PadelShooter 3A-instellingen direct gespiegeld voor linkshandig rechts en rechtshandig links. Zo hoef je niet zelf per oefening te bedenken hoe je de feed moet omzetten.</p>
+        <h4>Instellingen voor deze speler</h4>
+        <p>De spelerkeuze bovenaan bepaalt welke variant je nu ziet. Dus bij een linkshandige oefening tonen we alleen de linkse preset; bij rechtshandig alleen de rechtse.</p>
       </div>
-      <div class="machine-variant-grid">
-        ${machineVariantCard(left, handedness === "left", exercise, "left")}
-        ${machineVariantCard(right, handedness === "right", exercise, "right")}
-      </div>
+      ${machineVariantCard(activeVariant, true, exercise, variantKey)}
       <div class="content-box machine-disclaimer">
         <h4>Disclaimer</h4>
         <p>${disclaimer}</p>

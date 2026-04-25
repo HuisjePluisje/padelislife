@@ -1562,6 +1562,54 @@ a { color: inherit; }
   gap: 10px;
 }
 
+.machine-program-card h4 {
+  margin-bottom: 6px;
+}
+
+.machine-program-card p {
+  margin: 0;
+  font-weight: 700;
+}
+
+.machine-values-table-wrap {
+  overflow-x: auto;
+}
+
+.machine-values-table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255, 252, 248, 0.92);
+}
+
+.machine-values-table th,
+.machine-values-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  font-size: 0.96rem;
+}
+
+.machine-values-table thead th {
+  background: rgba(220, 236, 224, 0.48);
+  color: var(--muted);
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.machine-values-table tbody tr:last-child th,
+.machine-values-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.machine-values-table tbody th {
+  white-space: nowrap;
+}
+
 .machine-disclaimer h4 {
   margin-bottom: 6px;
 }
