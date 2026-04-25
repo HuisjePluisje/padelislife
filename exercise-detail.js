@@ -11,7 +11,7 @@ const ROUTE_MAP = TRAINING_ROUTES.reduce((map, route) => {
 
 const params = new URLSearchParams(window.location.search);
 const exerciseId = params.get("id") || EXERCISES[0]?.id;
-const handedness = params.get("handedness") || "left";
+const handedness = params.get("handedness") === "right" ? "right" : "left";
 
 const elements = {
   hero: document.querySelector("#exercise-hero"),
@@ -27,6 +27,7 @@ const elements = {
   targets: document.querySelector("#exercise-targets"),
   execution: document.querySelector("#exercise-execution"),
   score: document.querySelector("#exercise-score"),
+  machine: document.querySelector("#exercise-machine"),
   route: document.querySelector("#exercise-route"),
   full: document.querySelector("#exercise-full"),
   strategy: document.querySelector("#exercise-strategy-links")
@@ -213,6 +214,64 @@ function routeBlock(exercise) {
   `;
 }
 
+function downloadJson(data, filename) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = filename;
+  anchor.click();
+  URL.revokeObjectURL(url);
+}
+
+function machineVariantCard(variant, isActive, exercise, variantKey) {
+  return `
+    <article class="machine-variant-card ${isActive ? "machine-variant-card-active" : ""}">
+      <div class="machine-variant-header">
+        <div>
+          <span class="topic-meta">Preset</span>
+          <h4>${variant.label}</h4>
+        </div>
+        ${isActive ? '<span class="meta-pill">Actieve speler</span>' : ""}
+      </div>
+      <ul class="machine-lines">
+        ${variant.lines.map((line) => `<li>${line}</li>`).join("")}
+      </ul>
+      <div class="machine-actions">
+        <button class="toolbar-button toolbar-button-small" type="button" data-machine-copy="${variantKey}">Kopieer preset</button>
+        <button class="toolbar-button toolbar-button-small toolbar-button-ghost" type="button" data-machine-download="${variantKey}">Download JSON</button>
+      </div>
+    </article>
+  `;
+}
+
+function machineBlock(exercise) {
+  const left = exercise.machineVariants?.left;
+  const right = exercise.machineVariants?.right;
+  const disclaimer = window.PADELSHOOTER_DISCLAIMER || "";
+
+  if (!left || !right) {
+    return "";
+  }
+
+  return `
+    <div class="machine-module">
+      <div class="content-box">
+        <h4>Snel voor links en rechts</h4>
+        <p>Hier staan de PadelShooter 3A-instellingen direct gespiegeld voor linkshandig rechts en rechtshandig links. Zo hoef je niet zelf per oefening te bedenken hoe je de feed moet omzetten.</p>
+      </div>
+      <div class="machine-variant-grid">
+        ${machineVariantCard(left, handedness === "left", exercise, "left")}
+        ${machineVariantCard(right, handedness === "right", exercise, "right")}
+      </div>
+      <div class="content-box machine-disclaimer">
+        <h4>Disclaimer</h4>
+        <p>${disclaimer}</p>
+      </div>
+    </div>
+  `;
+}
+
 function relatedStrategy(exercise) {
   const map = {
     transitie: {
@@ -272,16 +331,7 @@ function relatedStrategy(exercise) {
 }
 
 function fullBlocks(exercise) {
-  const sections = [
-    ...exercise.coachView,
-    {
-      title: "PadelShooter 3A Instellingen",
-      bullets: [
-        ...exercise.machine,
-        "Disclaimer: deze instellingen zijn praktische richtlijnen voor de PadelShooter 3A. Zie ze als startpunt en finetune op baan, ballen en spelniveau."
-      ]
-    }
-  ];
+  const sections = [...exercise.coachView];
 
   return sections
     .map(
@@ -294,6 +344,39 @@ function fullBlocks(exercise) {
       `
     )
     .join("");
+}
+
+function bindMachineActions(exercise) {
+  document.querySelectorAll("[data-machine-copy]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const variantKey = button.getAttribute("data-machine-copy");
+      const preset = exercise.padelShooterPreset?.[variantKey];
+      if (!preset) {
+        return;
+      }
+      const text = preset.machineSetup.join("\n");
+      try {
+        await navigator.clipboard.writeText(text);
+        button.textContent = "Gekopieerd";
+        window.setTimeout(() => {
+          button.textContent = "Kopieer preset";
+        }, 1200);
+      } catch (_error) {
+        button.textContent = "Kopiëren mislukt";
+      }
+    });
+  });
+
+  document.querySelectorAll("[data-machine-download]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const variantKey = button.getAttribute("data-machine-download");
+      const preset = exercise.padelShooterPreset?.[variantKey];
+      if (!preset) {
+        return;
+      }
+      downloadJson(preset, `padelshooter-${exercise.id}-${variantKey}.json`);
+    });
+  });
 }
 
 function render() {
@@ -330,9 +413,11 @@ function render() {
   elements.targets.innerHTML = targetItems(exercise.targets);
   elements.execution.innerHTML = executionItems(exercise.steps);
   elements.score.innerHTML = `${scoreItems(exercise.score)}${scoreGuideItems(exercise.scoreGuide)}`;
+  elements.machine.innerHTML = machineBlock(exercise);
   elements.route.innerHTML = routeBlock(exercise);
   elements.full.innerHTML = fullBlocks(exercise);
   elements.strategy.innerHTML = relatedStrategy(exercise);
+  bindMachineActions(exercise);
 }
 
 render();

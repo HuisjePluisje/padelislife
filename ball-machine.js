@@ -27,6 +27,7 @@ const elements = {
   problem: document.querySelector("#problem"),
   machineRealism: document.querySelector("#machine-realism"),
   matchRealism: document.querySelector("#match-realism"),
+  downloadPresets: document.querySelector("#download-presets"),
   title: document.querySelector("#results-title"),
   note: document.querySelector("#results-subnote"),
   count: document.querySelector("#results-count"),
@@ -151,6 +152,16 @@ function sortedExercises(items) {
   });
 }
 
+function downloadJson(data, filename) {
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = filename;
+  anchor.click();
+  URL.revokeObjectURL(url);
+}
+
 function updateHeading() {
   const route = ROUTE_MAP[state.route];
   const handLabel = handednessLabel(state.handedness);
@@ -171,6 +182,7 @@ function updateHeading() {
 
 function renderList() {
   const items = sortedExercises(filteredExercises());
+  const detailHandedness = state.handedness === "all" ? "left" : state.handedness;
   elements.count.textContent = `${items.length} oefeningen`;
 
   if (!items.length) {
@@ -218,7 +230,7 @@ function renderList() {
                 <p>${scoreGuide.red || "Fout patroon."}</p>
               </div>
             </div>
-            <a class="result-button result-link" href="./exercise.html?id=${exercise.id}&handedness=${state.handedness}">
+            <a class="result-button result-link" href="./exercise.html?id=${exercise.id}&handedness=${detailHandedness}">
               Bekijk oefening
             </a>
           </div>
@@ -249,6 +261,25 @@ function bindEvents() {
       renderList();
     });
   });
+
+  if (elements.downloadPresets) {
+    elements.downloadPresets.addEventListener("click", () => {
+      const items = sortedExercises(filteredExercises());
+      const data = window.buildPadelShooterCatalog
+        ? window.buildPadelShooterCatalog(items, state.handedness, {
+            route: state.route,
+            level: state.level,
+            stroke: state.stroke,
+            problem: state.problem,
+            machineRealism: state.machineRealism,
+            matchRealism: state.matchRealism
+          })
+        : {};
+      const handLabel = state.handedness === "all" ? "left-right" : state.handedness;
+      const filename = `padelshooter-presets-${handLabel}-${state.route}.json`;
+      downloadJson(data, filename);
+    });
+  }
 }
 
 function init() {
