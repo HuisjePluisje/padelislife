@@ -2,11 +2,11 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
   {
     "id": "13",
     "category": "TRANSITIE & INITIATIEF",
-    "title": "Backglass Forehand Reset → Chiquita Entry",
-    "shortTitle": "Backglass Forehand Reset",
-    "summary": "Resetten, kort maken en daarna het net terugpakken.",
-    "context": "Je wordt diep vastgezet op je forehandhoek en moet eerst tijd kopen, daarna zelf weer de bal laag naar voren brengen.",
-    "matchContext": "Spelers overleven de eerste bal, maar blijven vervolgens in verdediging hangen.",
+    "title": "Backglass Forehand: High Reset or Low Exit",
+    "shortTitle": "High Reset or Low Exit",
+    "summary": "Leer uit de forehand-backglass kiezen tussen hoge reset, lage T/body-exit of een korte chiquita-entry.",
+    "context": "Je wordt diep vastgezet op je forehandhoek en moet eerst lezen hoeveel controle je echt hebt. Vanuit backglass hoeft de uitweg niet automatisch hoog te zijn; soms is laag door midden juist de betere manier om de netspeler uit comfort te halen.",
+    "matchContext": "Tegen spelers die comfortabel overheads slaan is een middelmatige resetlob gevaarlijk. Deze oefening leert dat een lage exit naar T/body soms slimmer is dan nog een hoge bal teruggeven.",
     "level": "beginner",
     "levelLabel": "Beginner",
     "knltb": "8-9",
@@ -18,129 +18,132 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#0D5517",
     "playerVariant": {
       "left": [
-        "Voor linkshandig rechts krijgt backglass forehand reset meer nadruk op forehand-reddingen, uit de hoek draaien en via cross of midden tijd kopen.",
-        "De herstelpas richt zich vaker op het opnieuw vrijmaken van de forehandhelft en het terugclaimen van middenruimte.",
-        "Laat de speler herkennen wanneer een hoge reset slimmer is dan een vlakke uitweg."
+        "Voor linkshandig rechts is dit de forehandhoek aan de rechterkant: precies de plek waar je snel geneigd bent te hoog te spelen.",
+        "Je leert hier onderscheid maken tussen echt rood, bruikbaar oranje en groen genoeg voor een korte entry naar voeten.",
+        "Na een lage exit schuif je compact naar midden; na groen pak je ruimte vooruit zonder te forceren."
       ],
       "right": [
-        "Voor rechtshandig links ligt backglass forehand reset meer op backhand-organisatie, compacter glasgebruik en rust houden richting lijnzijde.",
-        "De speler moet sneller kiezen tussen blokkeren, hoog resetten of via midden neutraliseren.",
-        "Herstel blijft leidend: eerst uit de druk, daarna pas denken aan omschakelen."
+        "Voor rechtshandig links spiegel je dezelfde logica vanuit de andere forehandhoek.",
+        "Ook hier geldt: alleen hoog spelen als hoogte echt tijd koopt; anders laag door T of body.",
+        "De recovery blijft leidend: eerst bruikbare positie, daarna pas denken aan initiatief."
       ]
     },
     "goal": [
       {
         "title": "Hoofddoel",
-        "text": "Resetten, kort maken en daarna het net terugpakken."
+        "text": "Vanuit de forehand-backglass leren kiezen tussen hoge reset, lage exit door T/body en een korte chiquita-entry."
       },
       {
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "Rood herkennen: hoge reset of hoge lob alleen als je te laat bent of de bal achter je valt.",
+          "Oranje benutten: lage T- of bodybal spelen wanneer je redelijk stabiel bent.",
+          "Groen herkennen: korte chiquita naar voeten en pas dan ruimte naar voren nemen.",
+          "De tweede bal gebruiken om je keuze te bevestigen, niet om die te corrigeren met haast."
         ]
       }
     ],
     "setup": [
       {
         "title": "Positie",
-        "text": "Start in forehandhoek, 0,5-1 meter voor achterglas."
+        "text": "Start in de forehandhoek, 0,5 tot 1 meter voor het achterglas."
       },
       {
-        "title": "Setup",
-        "text": "Lage basis, racket vóór je romp, schouders neutraal."
+        "title": "Houding",
+        "text": "Lage basis, racket vóór je romp en schouders neutraal tot je de stuit en glaslijn hebt gelezen."
       },
       {
-        "title": "Setup",
-        "text": "Voor linkshandig rechts: eerste stap uit de hoek met buitenbeen, daarna direct terug richting T."
+        "title": "Voetenwerk",
+        "text": "Voor linkshandig rechts: eerste stap uit de hoek met buitenbeen, daarna compact terug richting midden of voorwaarts bij groen."
       }
     ],
     "targets": [
       {
-        "name": "RESET CROSS",
-        "text": "Hoge diepe lob naar cross om tijd te winnen."
+        "name": "HIGH RESET",
+        "text": "Rood: hoge diepe reset of lob die tijd koopt en niet kort in de bandeja-zone valt."
       },
       {
-        "name": "CHIQUITA-ZONE",
-        "text": "Korte lage bal onder servicelijn of naar voeten."
+        "name": "LOW EXIT",
+        "text": "Oranje: lage T- of bodybal die de netspeler onder schouderhoogte houdt."
       },
       {
-        "name": "NET-HOMEBASE",
-        "text": "Na bal 2 direct weer voorin landen."
+        "name": "FEET ENTRY",
+        "text": "Groen: korte chiquita naar voeten gevolgd door een gecontroleerde stap vooruit."
       }
     ],
     "steps": [
       {
         "title": "Bal 1",
-        "text": "Gebruik glas, speel hoge reset-lob cross. Waarom: Tijd kopen en uit de hoek komen. Doelzone: RESET CROSS"
+        "text": "Gebruik glas en classificeer vóór contact. Rood = hoge reset of lob. Oranje = lage exit naar T/body. Groen = korte chiquita naar voeten. Doelzone: HIGH RESET / LOW EXIT / FEET ENTRY"
       },
       {
         "title": "Bal 2",
-        "text": "Neem vroeg en speel chiquita laag naar korte zone. Waarom: Ruimte winnen zonder risico. Doelzone: CHIQUITA-ZONE"
+        "text": "Na rood herstel je eerst. Na oranje blijf je compact en bereid je een tweede lage reactie voor. Na groen neem je vroeg en speel je een controlebal voor je netovername. Doelzone: LOW EXIT of FEET ENTRY"
       },
       {
         "title": "Bal 3",
-        "text": "Stap door en speel controle- of punch-volley. Waarom: Aanval overnemen en vasthouden. Doelzone: NET-HOMEBASE"
+        "text": "Bevestig de logica van je keuze: rood blijft neutraal, oranje houdt laag, groen stapt door naar een controlevolley. Doelzone: positie en vervolg moeten dezelfde kleur houden."
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Juiste kleur gekozen vóór contact.",
+      "Hoge reset is echt hoog en diep, of lage exit blijft echt onder volleyhoogte.",
+      "Herstel of doorstap past bij de gekozen oplossing.",
+      "De speler geeft na oranje of groen geen gratis hoge bal terug."
     ],
     "coaching": [
-      "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-      "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-      "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+      "Vanuit backglass is laag door midden soms slimmer dan hoog cross teruggeven.",
+      "De kleur van de situatie bepaalt de bal, niet je vaste voorkeur.",
+      "Laat de speler benoemen waarom hij géén lob koos wanneer oranje of groen bruikbaar was."
     ],
     "machine": [
-      "Bal 1: Diepe backglass-forehand, medium-hard. → Gebruik glas, speel hoge reset-lob cross. (Tijd kopen en uit de hoek komen.)",
-      "Bal 2: Halflange middenbal, medium. → Neem vroeg en speel chiquita laag naar korte zone. (Ruimte winnen zonder risico.)",
-      "Bal 3: Lage netbal, medium-slow. → Stap door en speel controle- of punch-volley. (Aanval overnemen en vasthouden.)"
+      "Bal 1: Diepe backglass-forehand, medium-hard, zodat de speler echt uit de hoek moet lezen.",
+      "Bal 2: halflange reactieballen, medium, passend bij rood/oranje/groen-vervolg.",
+      "Bal 3: lage of middelhoge bevestigingsbal, medium-slow, voor herstel, lage exit of controlevolley."
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Spelers overleven de eerste bal, maar blijven vervolgens in verdediging hangen.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Resetten, kort maken en daarna het net terugpakken.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "Spelers kiezen vanuit de forehand-backglass nog te vaak blind voor een hoge reset.",
+          "De hoge bal is dan niet diep genoeg en zet de netspeler juist in zijn comfortzone.",
+          "Een bruikbare lage uitweg naar T of body wordt te weinig gezien."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "🟢 Groen: bal vóór je met controle = korte chiquita naar voeten en stap vooruit.",
+          "🟠 Oranje: redelijk stabiel = lage exit naar T of body.",
+          "🔴 Rood: te laat of uit balans = hoge reset of hoge lob."
+        ]
+      },
+      {
+        "title": "Wanneer géén lob?",
+        "bullets": [
+          "Als de netspeler al klaarstaat om boven schouderhoogte te werken.",
+          "Als jouw lob geen echte diepte gaat krijgen.",
+          "Als je redelijk stabiel bent en hem laag naar T of body kunt laten volleren.",
+          "Als de korte lage bal tactisch meer schade doet dan nog een overhead uitnodigen."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen automatische hoge reset als de bal eigenlijk oranje is.",
+          "Geen halfhoge middenbal die op comfortabele bandeja-hoogte blijft hangen.",
+          "Geen harde uitweg langs de lijn zonder balans.",
+          "Geen stap vooruit op rood alleen omdat je graag wilt aanvallen."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: soms is laag uit het glas slimmer dan hoog uit gewoonte.",
+          "Cue: oranje is geen halve aanval, maar een slimme lage exit.",
+          "Cue: groen = klein instappen, niet sprinten.",
+          "Laat de speler direct benoemen waarom lob wel of niet de juiste optie was."
         ]
       }
     ]
@@ -446,11 +449,11 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
   {
     "id": "16",
     "category": "DEFENSE & HERSTEL",
-    "title": "Corner Defense Left → High Reset → Rebuild Line",
-    "shortTitle": "Corner Defense Left",
-    "summary": "Hoge reset als eerste keuze, daarna gecontroleerd opnieuw richting lijn of T bouwen.",
-    "context": "Je wordt linksachter in de hoek geduwd en moet de rally eerst vertragen, daarna weer opbouwen.",
-    "matchContext": "Spelers willen uit de hoek te snel weer aanvallen en verliezen daardoor de rally op bal twee.",
+    "title": "Corner Defense: Reset, T-Ball or Chiquita",
+    "shortTitle": "Corner Defense Decision",
+    "summary": "Train uit de hoek drie echte oplossingen: hoge reset, lage T-bal of korte chiquita naar voeten.",
+    "context": "Je wordt linksachter in de hoek geduwd en moet niet alleen overleven, maar vooral goed kiezen. Uit de hoek hoeft niet alles hoog; soms is laag door T juist de beste manier om de netspeler uit zijn comfort te halen.",
+    "matchContext": "Veel spelers willen uit de hoek te snel iets moois doen. Tegen goede netspelers levert dat vaak een halfhoge bal op die direct terugkomt. Deze oefening traint het verschil tussen tijd kopen, laag neutraliseren en groen genoeg instappen.",
     "level": "average",
     "levelLabel": "Gemiddeld",
     "knltb": "6-7",
@@ -462,129 +465,132 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#6B4226",
     "playerVariant": {
       "left": [
-        "Voor linkshandig rechts krijgt corner defense left meer nadruk op forehand-reddingen, uit de hoek draaien en via cross of midden tijd kopen.",
-        "De herstelpas richt zich vaker op het opnieuw vrijmaken van de forehandhelft en het terugclaimen van middenruimte.",
-        "Laat de speler herkennen wanneer een hoge reset slimmer is dan een vlakke uitweg."
+        "Voor linkshandig rechts ligt de nadruk op de backhandhoek: precies de hoek waar je te snel voor een paniek-lob of gehaaste uitweg kiest.",
+        "Oranje mag hier juist laag door T, zodat de netspeler onder zijn volleyhoogte blijft.",
+        "Als de bal vóór je komt en je controle voelt, mag de korte chiquita naar voeten de hoek openen voor een stap vooruit."
       ],
       "right": [
-        "Voor rechtshandig links ligt corner defense left meer op backhand-organisatie, compacter glasgebruik en rust houden richting lijnzijde.",
-        "De speler moet sneller kiezen tussen blokkeren, hoog resetten of via midden neutraliseren.",
-        "Herstel blijft leidend: eerst uit de druk, daarna pas denken aan omschakelen."
+        "Voor rechtshandig links spiegel je dezelfde hoeklogica aan de andere kant van de baan.",
+        "Ook hier leer je dat niet elke hoekbal om een hoge reset vraagt; lage T of body kan veiliger en vervelender zijn.",
+        "Recovery blijft leidend: eerst positie, daarna initiatief."
       ]
     },
     "goal": [
       {
         "title": "Hoofddoel",
-        "text": "Hoge reset als eerste keuze, daarna gecontroleerd opnieuw richting lijn of T bouwen."
+        "text": "Uit de hoek leren kiezen tussen reset, lage T-bal of chiquita, zonder halfhoge paniekoplossingen."
       },
       {
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Situatie herkennen: trigger de eerste bal dwingt je uit comfort. Actie: lees vroeg en kies een functionele eerste oplossing. Waarom: zonder heldere eerste keuze ontstaat chaos.",
-          "Patroon afmaken: trigger je eerste bal heeft tijd of ruimte gekocht. Actie: gebruik de tweede bal om richting te geven aan de rally. Waarom: hier verschuift initiatief of controle.",
-          "Positie vastleggen: trigger na de laatste bal van de cyclus. Actie: herstel naar de plek waar de volgende bal logisch wordt. Waarom: goede training eindigt niet bij contact, maar bij bruikbare positie."
+          "Rood herkennen: hoge reset alleen als je te laat bent of achter de bal komt.",
+          "Oranje benutten: lage T-bal als je redelijk stabiel bent maar nog niet kunt instappen.",
+          "Groen herkennen: korte chiquita naar voeten wanneer de bal vóór je komt.",
+          "Geen halfhoge bal door midden spelen uit paniek."
         ]
       }
     ],
     "setup": [
       {
         "title": "Positie",
-        "text": "Start in linkerhoek achterin."
+        "text": "Start linksachter in de hoek, dicht genoeg bij het glas om een echte hoekverdediging te voelen."
       },
       {
-        "title": "Setup",
-        "text": "Lage basis, lichaam neutraal, klaar om glas te lezen."
+        "title": "Houding",
+        "text": "Lage basis, lichaam neutraal en racket klaar om compact te werken onder druk."
       },
       {
-        "title": "Setup",
-        "text": "Voor linkshandig rechts: extra aandacht voor backhandhoek en eerste herstelpas naar midden."
+        "title": "Voetenwerk",
+        "text": "Voor linkshandig rechts: extra aandacht voor de eerste herstelpas uit de backhandhoek richting midden."
       }
     ],
     "targets": [
       {
         "name": "HIGH RESET",
-        "text": "Hoge veilige lob of lift."
+        "text": "Rood: hoge veilige lob of reset die echt tijd koopt."
       },
       {
-        "name": "REBUILD ZONE",
-        "text": "Tweede bal veilig naar T of lijn."
+        "name": "LOW T-BALL",
+        "text": "Oranje: lage bal door T of body die de volleyspeler onder schouderhoogte houdt."
       },
       {
-        "name": "HOMEBASE",
-        "text": "Na elke slag terug naar werkbare verdedigingspositie."
+        "name": "FEET ENTRY",
+        "text": "Groen: korte chiquita naar voeten en daarna compact vooruit of naar midden."
       }
     ],
     "steps": [
       {
         "title": "Bal 1",
-        "text": "Speel hoog en veilig uit de hoek. Waarom: Chaos eerst neutraliseren. Doelzone: HIGH RESET"
+        "text": "Lees in de hoek of de situatie rood, oranje of groen is. Rood = hoge reset. Oranje = lage T-bal. Groen = korte chiquita naar voeten. Doelzone: HIGH RESET / LOW T-BALL / FEET ENTRY"
       },
       {
         "title": "Bal 2",
-        "text": "Bouw opnieuw op richting T of gecontroleerde lijn. Waarom: Van chaos naar controle. Doelzone: REBUILD ZONE"
+        "text": "Na rood herstel je en blijf je neutraal. Na oranje verwacht je een lage volleyreactie en blijf je compact. Na groen neem je ruimte richting servicelijn met een eerste controlebal. Doelzone: positie en vervolg moeten de eerste keuze bevestigen."
       },
       {
         "title": "Bal 3",
-        "text": "Blijf in patroon en herstel opnieuw. Waarom: Rally verlengen met kwaliteit. Doelzone: HOMEBASE"
+        "text": "Bevestig de rallylogica: neutraal houden, opnieuw laag maken of gecontroleerd instappen. Geen haastige winner vanuit de hoeksequentie. Doelzone: bruikbare homebase of controlevolley."
       }
     ],
     "score": [
-      "Bal 1 correct uitgevoerd: __/20",
-      "Bal 2 correct uitgevoerd: __/20",
-      "Bal 3 correct uitgevoerd: __/20",
-      "Fouten totaal: __",
-      "Extra KPI: juiste positie na laatste bal: __/20"
+      "Juiste keuze uit de hoek: reset, T-bal of chiquita.",
+      "Bal blijft hoog genoeg op rood of laag genoeg op oranje/groen.",
+      "Geen gratis halfhoge middenbal voor de netspeler.",
+      "Herstelpositie na de gekozen oplossing blijft bruikbaar."
     ],
     "coaching": [
-      "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-      "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-      "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+      "Uit de hoek is niet elke hoge bal slim; soms is een lage T-bal de beste reset.",
+      "De verkeerde bal uit de hoek is vaak niet fout omdat hij mist, maar omdat hij te comfortabel is voor de netspeler.",
+      "Laat de speler hardop de kleur en het target benoemen."
     ],
     "machine": [
-      "Bal 1: Diepe hoekbal, medium-hard. → Speel hoog en veilig uit de hoek. (Chaos eerst neutraliseren.)",
-      "Bal 2: Midden- of zijlijnbal, medium. → Bouw opnieuw op richting T of gecontroleerde lijn. (Van chaos naar controle.)",
-      "Bal 3: Neutrale vervolgbal, medium. → Blijf in patroon en herstel opnieuw. (Rally verlengen met kwaliteit.)"
+      "Bal 1: diepe hoekbal, medium-hard, zodat de speler echt vanuit de hoek moet reageren.",
+      "Bal 2: midden- of servicelijnreactie, medium, passend bij lage T-bal, herstel of eerste controlevolley.",
+      "Bal 3: neutrale of lage vervolgbal, medium, voor tweede keuze of herstel."
     ],
     "coachView": [
       {
-        "title": "Wat gebeurt er nu vaak?",
+        "title": "Observatie",
         "bullets": [
-          "Spelers willen uit de hoek te snel weer aanvallen en verliezen daardoor de rally op bal twee.",
-          "De speler ziet de eerste moeilijke bal wel, maar denkt nog te weinig in een volledig patroon.",
-          "Het herstel of de vervolgkeuze komt te laat."
-        ]
-      },
-      {
-        "title": "Waarom werkt dit niet?",
-        "bullets": [
-          "De slag en de positie erna worden nog los van elkaar gezien.",
-          "Er is te weinig onderscheid tussen neutraliseren, opbouwen en drukken.",
-          "Zonder duidelijk patroon blijft de speler reactief."
-        ]
-      },
-      {
-        "title": "Wat je gaat leren",
-        "bullets": [
-          "Hoge reset als eerste keuze, daarna gecontroleerd opnieuw richting lijn of T bouwen.",
-          "Niet alleen de bal raken, maar ook de volgende positie voorbereiden.",
-          "Een herhaalbaar patroon bouwen dat ook onder druk bruikbaar blijft."
+          "Spelers willen uit de hoek te vaak meteen iets forceren.",
+          "De paniek-lob valt kort of de uitweg door midden blijft halfhoog hangen.",
+          "Een bruikbare lage T-bal wordt te weinig gezien als volwassen oplossing."
         ]
       },
       {
         "title": "Beslisregel",
         "bullets": [
-          "🟢 Groen: druk mag omhoog; kies voeten of duidelijke open ruimte als je vóór de bal bent.",
-          "🟠 Oranje: kies body of T; controle blijft belangrijker dan spektakel.",
-          "🔴 Rood: koop tijd, speel hoog of neutraal en herstel eerst."
+          "🟢 Groen: bal vóór je = korte chiquita naar voeten.",
+          "🟠 Oranje: redelijk stabiel = lage T-bal of body.",
+          "🔴 Rood: te laat, achter de bal of uit balans = hoge reset."
+        ]
+      },
+      {
+        "title": "Wanneer géén lob?",
+        "bullets": [
+          "Als je redelijk stabiel bent en laag door T kunt spelen.",
+          "Als de tegenstander juist wacht op een comfortabele bandeja.",
+          "Als jouw lob niet hoog en diep genoeg weg kan uit de hoek.",
+          "Als een lage bal naar body of voeten de netspeler meer laat werken."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen halfhoge bal door het midden.",
+          "Geen paniek-lob die kort valt.",
+          "Geen harde passeerslag zonder balans.",
+          "Geen stap naar voren op een rode bal alleen uit ambitie."
         ]
       },
       {
         "title": "Coach Tips",
         "bullets": [
-          "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
-          "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
-          "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+          "Cue: uit de hoek mag ook laag.",
+          "Cue: T-bal is geen noodoplossing, maar een slimme oranje keuze.",
+          "Cue: groen is klein instappen, niet blind aanvallen.",
+          "Beloon vooral de juiste keuze, niet alleen de bal die erin blijft."
         ]
       }
     ]
@@ -1753,6 +1759,699 @@ window.EXTRA_EXERCISE_BLUEPRINTS = [
           "Denk in waarom → wat → hoe: eerst het doel van de bal, dan pas de uitvoering.",
           "De kwaliteit van de herstelpas na contact is minstens zo belangrijk als de slag zelf.",
           "Laat de speler hardop benoemen wanneer de rally van defense naar controle of van controle naar druk gaat."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "category": "ANTI-BANDEJA DEFENSE",
+    "title": "Backglass → Low Feet Chiquita",
+    "shortTitle": "Backglass Low Feet",
+    "summary": "Vervang de automatische lob uit het glas door een lage chiquita naar de voeten.",
+    "context": "Je wordt diep gezet, maar hebt genoeg controle om niet automatisch hoog te hoeven spelen. De opdracht is om de tegenstander aan het net laag te laten volleren en zelf meteen weer een bruikbare positie te kiezen.",
+    "matchContext": "Tegen een goede bandeja-speler is een matige lob gevaarlijk. Een lage bal naar de voeten haalt juist comfort uit zijn netpositie en maakt zijn volgende overhead minder vanzelfsprekend.",
+    "level": "average",
+    "levelLabel": "Gemiddeld",
+    "knltb": "6-7",
+    "type": "defense",
+    "typeLabel": "Anti-bandeja defense",
+    "sequence": "3-ball sequence",
+    "repeats": "20 herhalingen",
+    "totalBalls": "60 ballen totaal",
+    "categoryColor": "#6B2D2D",
+    "playerVariant": {
+      "left": [
+        "Voor linkshandig rechts is dit precies de backhandhoek waar je vaak automatisch hoog speelt.",
+        "De opdracht is juist om de lage chiquita naar voeten te durven kiezen zodra je controle hebt.",
+        "Na contact maak je direct een eerste herstelpas vooruit, zodat de lage bal ook echt ruimte oplevert."
+      ],
+      "right": [
+        "Voor rechtshandig links spiegel je dezelfde backglass-logica aan de andere kant van de baan.",
+        "Ook hier is de lage voetenbal de default zodra de speler niet rood staat.",
+        "De eerste herstelpas blijft direct onderdeel van de uitvoering."
+      ]
+    },
+    "goal": [
+      {
+        "title": "Hoofddoel",
+        "text": "De automatische lob uit het glas vervangen door een functionele lage chiquita naar de voeten."
+      },
+      {
+        "type": "list",
+        "title": "Tactische doelen",
+        "items": [
+          "De netspeler onder volleyhoogte laten spelen in plaats van hem tijd te geven voor een overhead.",
+          "De lage bal koppelen aan een directe herstelpas vooruit.",
+          "Na de lage exit niet blijven kijken, maar positie terugpakken of instappen."
+        ]
+      }
+    ],
+    "setup": [
+      {
+        "title": "Positie",
+        "text": "Start diep in de backglass-hoek, 0,5 tot 1 meter voor het glas."
+      },
+      {
+        "title": "Houding",
+        "text": "Lage basis, racketkop iets open en klaar om de bal compact onder de volleyhoogte te sturen."
+      },
+      {
+        "title": "Leesmoment",
+        "text": "Gebruik glas, lees de stuit en kies laag zodra je niet meer rood staat."
+      }
+    ],
+    "targets": [
+      {
+        "name": "LOW FEET",
+        "text": "Bal 2 laag naar voeten zodat de netspeler moet bukken."
+      },
+      {
+        "name": "SERVICE LINE DROP",
+        "text": "De bal mag ook kort onder servicelijn vallen zolang hij laag blijft."
+      },
+      {
+        "name": "STEP-IN ZONE",
+        "text": "Na contact direct eerste herstelpas vooruit of compact naar midden."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Bal 1",
+        "text": "Verwerk de diepe backglass-bal compact en herstel je basis. Waarom: eerst de bal bruikbaar maken. Doelzone: start uit de hoek"
+      },
+      {
+        "title": "Bal 2",
+        "text": "Speel de lage chiquita naar voeten of servicelijn-drop. Waarom: de netspeler onder volleyhoogte dwingen. Doelzone: LOW FEET / SERVICE LINE DROP"
+      },
+      {
+        "title": "Bal 3",
+        "text": "Maak direct je eerste herstelpas vooruit en kies controlevolley of herstelpositie. Waarom: de lage bal pas waarde geven door je positie erna. Doelzone: STEP-IN ZONE"
+      }
+    ],
+    "score": [
+      "Bal gaat laag over het net zonder op te hangen.",
+      "Bal landt in voetenzone of servicelijn-drop.",
+      "Speler maakt direct de eerste herstelpas vooruit.",
+      "Minstens 12 van 20 herhalingen leveren een functionele lage bal op."
+    ],
+    "coaching": [
+      "Laag is hier geen zachte noodbal, maar een tactische keuze tegen overheadcomfort.",
+      "Als je de tegenstander laat bukken, verandert zijn volgende bal meteen van kwaliteit.",
+      "De lage bal telt pas echt als je erna direct positie maakt."
+    ],
+    "machine": [
+      "Bal 1: diepe bal richting backglass aan rechterkant, medium-hard.",
+      "Bal 2: vervolgbal mid-court, medium.",
+      "Bal 3: lage netbal, medium-slow."
+    ],
+    "coachView": [
+      {
+        "title": "Observatie",
+        "bullets": [
+          "Spelers kiezen uit backglass nog te vaak automatisch voor hoogte.",
+          "De lage kans wordt gemist omdat de speler de netspeler te veel respect geeft.",
+          "Na een goede lage bal blijft de speler te vaak stilstaan."
+        ]
+      },
+      {
+        "title": "Wanneer géén lob?",
+        "bullets": [
+          "Als je genoeg controle hebt om de bal laag naar voeten te sturen.",
+          "Als de tegenstander stabiel wacht op zijn bandeja.",
+          "Als jouw lob niet hoog en diep genoeg zal vertrekken."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Niet automatisch lobben zodra je het glas gebruikt.",
+          "Geen chiquita die hoog opstuit.",
+          "Geen bal nakijken na de lage bal; herstel direct."
+        ]
+      },
+      {
+        "title": "Coach Tips",
+        "bullets": [
+          "Cue: laag maken, dan bewegen.",
+          "Cue: voeten of servicelijn, niet halfhoog midden.",
+          "Cue: een lage bal zonder herstelpas is maar half werk."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "category": "ANTI-BANDEJA DEFENSE",
+    "title": "Corner Defense → Low T Reset",
+    "shortTitle": "Low T Reset",
+    "summary": "Speel uit verdedigende hoek laag door het midden in plaats van automatisch te lobben.",
+    "context": "Je verdedigt uit de hoek en hebt net genoeg tijd om niet te hoeven gokken. De T-zone is hier veiliger dan een risicovolle lijnbal en vervelender dan een comfortabele lob.",
+    "matchContext": "Tegen goede netspelers is de lage T-bal vaak slimmer dan een losse hoge bal. Je laat hen onder volleyhoogte werken en houdt zelf meer controle over de volgende positie.",
+    "level": "average",
+    "levelLabel": "Gemiddeld",
+    "knltb": "6-7",
+    "type": "defense",
+    "typeLabel": "Anti-bandeja defense",
+    "sequence": "3-ball sequence",
+    "repeats": "20 herhalingen",
+    "totalBalls": "60 ballen totaal",
+    "categoryColor": "#6B2D2D",
+    "playerVariant": {
+      "left": [
+        "Voor linkshandig rechts is de lage T-bal vanuit de hoek een cruciale oranje keuze.",
+        "Je speelt niet om te verrassen, maar om de netspeler onder zijn schouders te houden.",
+        "Na de T-bal herstel je naar verdedigings-homebase of stap je alleen in bij een korte reactie."
+      ],
+      "right": [
+        "Voor rechtshandig links spiegel je dezelfde hoekverdediging aan de andere zijde.",
+        "De T-zone blijft de veilige en vervelende middenoplossing.",
+        "Het herstel blijft compact; geen onnodige sprint naar voren zonder echte korte reactie."
+      ]
+    },
+    "goal": [
+      {
+        "title": "Hoofddoel",
+        "text": "Leren dat laag door het midden uit de hoek vaak sterker is dan blind hoog of scherp langs de lijn."
+      },
+      {
+        "type": "list",
+        "title": "Tactische doelen",
+        "items": [
+          "De T-zone herkennen als veilige oranje oplossing.",
+          "Body/T zo laag spelen dat de netspeler geen vrije swing krijgt.",
+          "Na de T-bal herstellen naar een bruikbare homebase."
+        ]
+      }
+    ],
+    "setup": [
+      {
+        "title": "Positie",
+        "text": "Start in de verdedigende hoek, dicht bij glas en zijwand."
+      },
+      {
+        "title": "Houding",
+        "text": "Compact racket, lage basis en klaar om onder de bal te blijven."
+      },
+      {
+        "title": "Patroon",
+        "text": "Werk vanuit hoekverdediging naar lage T-bal en herstel."
+      }
+    ],
+    "targets": [
+      {
+        "name": "LOW T",
+        "text": "Bal 2 laag door de T-zone, niet halfhoog."
+      },
+      {
+        "name": "BODY/T",
+        "text": "Als de middenlijn dicht zit, mag body dezelfde functie overnemen."
+      },
+      {
+        "name": "RECOVERY HOMEBASE",
+        "text": "Na contact direct terug naar bruikbare verdediging of compact instappen."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Bal 1",
+        "text": "Verdedig de hoekbal compact en lees of je uit rood naar oranje kunt opschuiven. Waarom: eerst balans terugvinden."
+      },
+      {
+        "title": "Bal 2",
+        "text": "Speel laag door T of tegen body. Waarom: midden is veiliger én vervelender dan een comfortabele lob. Doelzone: LOW T / BODY/T"
+      },
+      {
+        "title": "Bal 3",
+        "text": "Herstel naar homebase of stap alleen in bij een echt korte reactie. Waarom: de lage T-bal moet je positie verbeteren, niet openbreken."
+      }
+    ],
+    "score": [
+      "Bal 2 blijft onder volleyhoogte.",
+      "T- of bodyzone wordt geraakt zonder te forceren.",
+      "Speler herstelt direct naar homebase of leest een korte reactie goed.",
+      "Geen halfhoge middenbal in de bandeja-zone."
+    ],
+    "coaching": [
+      "De T-zone is hier geen neutrale plek maar een tactische reset onder druk.",
+      "Laag door midden is vaak slimmer dan mooi langs de lijn.",
+      "Na de lage T-bal wil je weer speelbaar staan, niet heroïsch naar voren rennen."
+    ],
+    "machine": [
+      "Bal 1: diepe hoekbal, medium-hard.",
+      "Bal 2: bruikbare vervolgballen richting midden, medium.",
+      "Bal 3: reactiebal op servicelijn of richting homebase, medium-slow."
+    ],
+    "coachView": [
+      {
+        "title": "Observatie",
+        "bullets": [
+          "Spelers zoeken uit de hoek te snel de lijn of de lob.",
+          "De lage T-bal wordt onderschat als volwassen oplossing.",
+          "Na een goede middenbal wordt nog te laat hersteld."
+        ]
+      },
+      {
+        "title": "Wanneer géén lob?",
+        "bullets": [
+          "Als je redelijk stabiel bent en de T-zone laag kunt raken.",
+          "Als de netspeler wacht op een overhead of hoge volley.",
+          "Als de bal via midden veiliger blijft dan langs de lijn."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen halfhoge bal door het midden.",
+          "Geen scherpe lijnbal zonder balans.",
+          "Geen stap naar voren zonder echte korte reactie."
+        ]
+      },
+      {
+        "title": "Coach Tips",
+        "bullets": [
+          "Cue: laag door T is een keuze, geen compromis.",
+          "Cue: body als T dicht zit.",
+          "Cue: na laag midden direct weer thuis staan."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "category": "ANTI-BANDEJA DEFENSE",
+    "title": "Body Jam from Defense",
+    "shortTitle": "Body Jam",
+    "summary": "Gebruik het lichaam van de netspeler als target om swingruimte weg te nemen.",
+    "context": "Je verdedigt onder druk en zoekt niet de perfecte open hoek, maar het lichaam of de rackethand van de netspeler. Goede netspelers willen ruimte. Geef ze lichaam.",
+    "matchContext": "Tegen een sterke bandeja- of volleyspeler levert bodydruk vaak meer op dan nog een nette lob of een geforceerde passeerbal. Je maakt zijn contact klein en haalt tempo uit zijn volgende bal.",
+    "level": "average",
+    "levelLabel": "Gemiddeld",
+    "knltb": "6-7",
+    "type": "defense",
+    "typeLabel": "Anti-bandeja defense",
+    "sequence": "3-ball sequence",
+    "repeats": "20 herhalingen",
+    "totalBalls": "60 ballen totaal",
+    "categoryColor": "#6B2D2D",
+    "playerVariant": {
+      "left": [
+        "Voor linkshandig rechts mag de body jam vaak vertrekken vanuit backhand of midden naar heup/rackethand van de rechter netspeler.",
+        "De bedoeling is niet hard raken, maar swingruimte afpakken.",
+        "Na de bodybal verwacht je een korte of onhandige reactie en blijf je compact."
+      ],
+      "right": [
+        "Voor rechtshandig links spiegel je dezelfde body-logica naar de andere netspeler.",
+        "Ook hier blijft bodydruk een ruimteprobleem voor de volleyspeler, geen snelheidswedstrijd.",
+        "Recovery blijft klein en klaar voor een onzuivere reactie."
+      ]
+    },
+    "goal": [
+      {
+        "title": "Hoofddoel",
+        "text": "De netspeler met een lage bodybal vastzetten in plaats van hem ruimte of overheadritme te geven."
+      },
+      {
+        "type": "list",
+        "title": "Tactische doelen",
+        "items": [
+          "Hip/rackethand gebruiken als echt target.",
+          "De bal laag genoeg houden zodat de tegenstander geen vrije swing krijgt.",
+          "Na de bodybal klaarstaan voor een korte, onzuivere reactie."
+        ]
+      }
+    ],
+    "setup": [
+      {
+        "title": "Positie",
+        "text": "Start vanuit verdedigings-homebase of net achter de servicelijn."
+      },
+      {
+        "title": "Houding",
+        "text": "Compact racket en lichaam laag; je wilt de bal sturen, niet forceren."
+      },
+      {
+        "title": "Focus",
+        "text": "Kijk naar heup, lichaam of rackethand, niet naar de open hoek."
+      }
+    ],
+    "targets": [
+      {
+        "name": "BODY JAM",
+        "text": "Richt op het lichaam zodat de netspeler klein moet maken."
+      },
+      {
+        "name": "HIP / RACKET SIDE",
+        "text": "Specifiek op heup of rackethand voor minimale swingruimte."
+      },
+      {
+        "name": "LOW CONTACT",
+        "text": "De bal blijft onder comfortabele volleyhoogte."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Bal 1",
+        "text": "Verwerk de verdedigende bal en maak je contactpunt compact. Waarom: eerst controle, dan target."
+      },
+      {
+        "title": "Bal 2",
+        "text": "Speel de bodybal laag naar heup, torso of rackethand. Waarom: swingruimte wegnemen. Doelzone: BODY JAM / HIP-RACKET SIDE"
+      },
+      {
+        "title": "Bal 3",
+        "text": "Sta klaar voor een korte volleyreactie of herstel compact naar homebase. Waarom: de bodybal moet een vervolgprobleem maken."
+      }
+    ],
+    "score": [
+      "Bal raakt body- of heupzone zonder boven volleyhoogte te komen.",
+      "Netspeler krijgt geen vrije swing.",
+      "Speler leest de korte reactie of herstelt compact.",
+      "Geen onnodige hoekbal als body het juiste target was."
+    ],
+    "coaching": [
+      "Body is een tactisch target, geen noodrichting.",
+      "Een lage bodybal wint vaak meer tijd dan een middelmatige lob.",
+      "Je meet hier niet alleen 'erin', maar vooral of de tegenstander echt vastzit."
+    ],
+    "machine": [
+      "Bal 1: verdedigende aanvoer naar hoek of midden, medium-hard.",
+      "Bal 2: bruikbare bal voor lage body-aansturing, medium.",
+      "Bal 3: korte of onzuivere reactieballen, medium-slow."
+    ],
+    "coachView": [
+      {
+        "title": "Observatie",
+        "bullets": [
+          "Spelers zoeken onder druk te vaak de perfecte open hoek.",
+          "Daardoor geven ze de netspeler alsnog ruimte om groot uit te zwaaien.",
+          "Body als target wordt nog te vaak gezien als noodoplossing."
+        ]
+      },
+      {
+        "title": "Wanneer géén lob?",
+        "bullets": [
+          "Als de netspeler hoog en stabiel staat te wachten op overheads.",
+          "Als je compact genoeg bent om body laag te raken.",
+          "Als zijn swingruimte de echte bron van zijn kwaliteit is."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen bodybal op navelhoogte.",
+          "Geen harde passeerslag zonder balans.",
+          "Niet meteen wegdraaien na contact; verwacht de korte reactie."
+        ]
+      },
+      {
+        "title": "Coach Tips",
+        "bullets": [
+          "Cue: geef hem lichaam, geen ruimte.",
+          "Cue: laag in body is sterker dan hard in body.",
+          "Cue: target heup of rackethand, niet de schouder."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "category": "ANTI-BANDEJA DEFENSE",
+    "title": "Low-Low-Lob Pattern",
+    "shortTitle": "Low-Low-Lob",
+    "summary": "Bereid je lob voor door eerst twee lage ballen te spelen.",
+    "context": "Je wilt niet direct hoog spelen tegen een goede bandeja-speler. Eerst moet hij laag werken. Pas daarna wordt de lob tactisch sterk genoeg om echt ruimte achter hem te vinden.",
+    "matchContext": "Een losse lob tegen een goede bandeja is vaak te makkelijk. Een lob ná twee lage ballen is veel lastiger te verwerken, omdat de speler eerst moest bukken en voorwaarts of omlaag moest werken.",
+    "level": "advanced",
+    "levelLabel": "Advanced",
+    "knltb": "4-5",
+    "type": "defense",
+    "typeLabel": "Anti-bandeja defense",
+    "sequence": "4-ball sequence",
+    "repeats": "20 herhalingen",
+    "totalBalls": "80 ballen totaal",
+    "categoryColor": "#6B2D2D",
+    "playerVariant": {
+      "left": [
+        "Voor linkshandig rechts begin je vaak met een lage chiquita of bodybal vanuit de backhand- of middenzone.",
+        "De derde bal, de lob, wordt pas gespeeld nadat de netspeler twee keer laag moest werken.",
+        "Na de lob stap je alleen in als de diepte echt klopt; anders herstel je eerst."
+      ],
+      "right": [
+        "Voor rechtshandig links spiegel je dezelfde sequencing-logica aan de andere kant.",
+        "Ook hier telt de lob pas als derde keuze, niet als eerste reflex.",
+        "De vierde bal bevestigt of je doorstapt of gewoon opnieuw bruikbaar staat."
+      ]
+    },
+    "goal": [
+      {
+        "title": "Hoofddoel",
+        "text": "De lob voorbereiden met twee lage ballen zodat hij tactisch sterker wordt."
+      },
+      {
+        "type": "list",
+        "title": "Tactische doelen",
+        "items": [
+          "Eerst laag naar voeten of T spelen.",
+          "De netspeler twee keer onder volleyhoogte dwingen.",
+          "Pas daarna diep lobben wanneer zijn houding en positie verslechterd zijn.",
+          "Na de lob de juiste vervolgactie kiezen: instappen of herstellen."
+        ]
+      }
+    ],
+    "setup": [
+      {
+        "title": "Positie",
+        "text": "Start achterin of net achter servicelijn, klaar voor een sequentie van laag-laag-hoog."
+      },
+      {
+        "title": "Houding",
+        "text": "Compact racket, lage basis en geduld in de opbouw."
+      },
+      {
+        "title": "Denkregel",
+        "text": "De lob is hier geen opening, maar de derde vraag in het patroon."
+      }
+    ],
+    "targets": [
+      {
+        "name": "LOW FEET",
+        "text": "Bal 1 laag naar voeten of servicelijn-drop."
+      },
+      {
+        "name": "LOW T / BODY",
+        "text": "Bal 2 laag door T of op body om opnieuw lage contacthoogte te forceren."
+      },
+      {
+        "name": "DEEP LOB",
+        "text": "Bal 3 diep over de speler die net laag of voorwaarts moest werken."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Bal 1",
+        "text": "Speel een lage chiquita naar voeten. Waarom: de netspeler eerst laten zakken. Doelzone: LOW FEET"
+      },
+      {
+        "title": "Bal 2",
+        "text": "Speel opnieuw laag naar T of body. Waarom: nog minder comfort voor bandeja of volley. Doelzone: LOW T / BODY"
+      },
+      {
+        "title": "Bal 3",
+        "text": "Lob nu diep over de speler die laag moest werken. Waarom: de lob is nu tactisch sterker. Doelzone: DEEP LOB"
+      },
+      {
+        "title": "Bal 4",
+        "text": "Kies doorstappen of herstellen op basis van de kwaliteit van de lob. Waarom: sequencing eindigt bij positie, niet bij de mooie derde bal."
+      }
+    ],
+    "score": [
+      "Bal 1 houdt de netspeler laag.",
+      "Bal 2 bevestigt opnieuw lage contacthoogte.",
+      "Bal 3 is diep genoeg om nu echt tijd of ruimte te winnen.",
+      "Bal 4 kiest correct tussen doorstappen en herstellen."
+    ],
+    "coaching": [
+      "Niet direct lobben: eerst laag, dan nog eens laag, dan pas hoog.",
+      "De waarde van de lob hangt af van wat je daarvoor hebt afgedwongen.",
+      "De vierde bal laat zien of de speler het patroon tactisch begrijpt."
+    ],
+    "machine": [
+      "Bal 1: lage aanvoer voor chiquita naar voeten, medium-slow.",
+      "Bal 2: tweede bruikbare lage bal voor T/body, medium.",
+      "Bal 3: vervolgballen voor diepe lob, medium.",
+      "Bal 4: reactiebal na de lob, medium-slow."
+    ],
+    "coachView": [
+      {
+        "title": "Observatie",
+        "bullets": [
+          "Spelers willen te snel naar hoogte zonder eerst iets af te dwingen.",
+          "Daardoor wordt de lob door de bandeja-speler relatief makkelijk verwerkt.",
+          "Na een goede lob ontbreekt soms nog de juiste vervolgactie."
+        ]
+      },
+      {
+        "title": "Wanneer géén directe lob?",
+        "bullets": [
+          "Als de netspeler nog rechtop en comfortabel staat.",
+          "Als je eerst met lage ballen zijn voeten of balans kunt verstoren.",
+          "Als de lob nog niet diep genoeg uit je huidige positie gespeeld kan worden."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen eerste-bal-lob uit gewoonte.",
+          "Geen tweede bal die halfhoog blijft hangen na een goede eerste lage bal.",
+          "Geen automatische sprint naar voren na een middelmatige lob."
+        ]
+      },
+      {
+        "title": "Coach Tips",
+        "bullets": [
+          "Cue: laag-laag-hoog.",
+          "Cue: de lob moet verdiend worden.",
+          "Cue: na de lob opnieuw lezen, niet automatisch gaan."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "category": "ANTI-BANDEJA DEFENSE",
+    "title": "Random Defense Decision: Lob, Body, T or Chiquita",
+    "shortTitle": "Random Defense Decision",
+    "summary": "Train de keuze, niet alleen de slag: rood, oranje of groen.",
+    "context": "De machine speelt gevarieerde ballen in diepte, hoogte en richting. De speler moet vóór contact hardop of mentaal classificeren: rood, oranje of groen. Niet de slag staat centraal, maar of de speler de juiste bal bij de juiste situatie kiest.",
+    "matchContext": "Dit is de belangrijkste beslisoefening tegen goede bandeja-spelers. Een speler die alleen technisch kan slaan, maar niet tijdig kan kiezen, blijft alsnog de comfortabele overhead voeden.",
+    "level": "advanced",
+    "levelLabel": "Advanced",
+    "knltb": "1-5",
+    "type": "defense",
+    "typeLabel": "Anti-bandeja defense",
+    "sequence": "Random 1- of 3-ball decision sequence",
+    "repeats": "20 herhalingen",
+    "totalBalls": "60 ballen totaal",
+    "categoryColor": "#6B2D2D",
+    "playerVariant": {
+      "left": [
+        "Voor linkshandig rechts wisselen backhandhoek, forehandhoek en midden elkaar af zodat de speler echt moet classificeren.",
+        "Groen = chiquita naar voeten + instappen. Oranje = lage T/body. Rood = hoge reset of lob.",
+        "De focus ligt op keuze vóór contact, niet op het achteraf goedpraten van een mooie bal."
+      ],
+      "right": [
+        "Voor rechtshandig links wordt dezelfde random-logica gespiegeld over de andere baanzijde.",
+        "Ook hier blijft de kleurclassificatie leidend boven de technische voorkeur van de speler.",
+        "De positie na de bal telt net zo zwaar als de gekozen slag."
+      ]
+    },
+    "goal": [
+      {
+        "title": "Hoofddoel",
+        "text": "Leren kiezen tussen hoge reset/lob, lage body/T of chiquita naar voeten op basis van rood, oranje of groen."
+      },
+      {
+        "type": "list",
+        "title": "Tactische doelen",
+        "items": [
+          "De situatie vóór contact classificeren.",
+          "De juiste slag koppelen aan de juiste kleur.",
+          "Na de bal de positie kiezen die bij die kleur hoort.",
+          "Tempo alleen verhogen als de keuzes stabiel goed blijven."
+        ]
+      }
+    ],
+    "setup": [
+      {
+        "title": "Positie",
+        "text": "Start vanuit wisselende verdedigings- en overgangsposities."
+      },
+      {
+        "title": "Houding",
+        "text": "Racket vóór je, basis laag en klaar om verschillende richtingen te verwerken."
+      },
+      {
+        "title": "Regel",
+        "text": "De speler benoemt of denkt vóór contact: rood, oranje of groen."
+      }
+    ],
+    "targets": [
+      {
+        "name": "HIGH RESET / LOB",
+        "text": "Rood: hoog en diep tijd kopen."
+      },
+      {
+        "name": "LOW BODY / T",
+        "text": "Oranje: laag naar body of T, zonder vrije swing."
+      },
+      {
+        "name": "FEET ENTRY",
+        "text": "Groen: chiquita naar voeten plus gecontroleerde stap vooruit."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Bal 1",
+        "text": "Lees diepte, hoogte en richting en classificeer de bal. Waarom: de keuze moet vóór contact vallen."
+      },
+      {
+        "title": "Bal 2",
+        "text": "Voer de juiste oplossing uit: rood = hoog resetten of lobben, oranje = lage T/body, groen = chiquita naar voeten. Waarom: slag volgt op kleur."
+      },
+      {
+        "title": "Bal 3",
+        "text": "Neem de positie die bij je keuze hoort: herstellen, vasthouden of instappen. Waarom: goede beslissingen eindigen niet bij de slag."
+      }
+    ],
+    "score": [
+      "Juiste keuze vóór contact.",
+      "Uitvoering past technisch en tactisch bij de gekozen kleur.",
+      "Positie na de bal klopt met de gekozen oplossing.",
+      "Minstens 70% juiste keuzes voordat snelheid omhoog mag."
+    ],
+    "coaching": [
+      "De kleur is de beslissing; de slag is alleen de uitvoering ervan.",
+      "Een technisch mooie bal met de verkeerde kleur blijft een fout.",
+      "Tempo omhoog mag pas nadat keuze, uitvoering en positie samen kloppen."
+    ],
+    "machine": [
+      "Varieer diepte, hoogte en richting van de aanvoer zodat de speler echt moet lezen.",
+      "Start rustig met duidelijke verschillen tussen rood, oranje en groen.",
+      "Breng daarna het ritme richting wedstrijdtempo zonder onrealistische vaste patronen te forceren."
+    ],
+    "coachView": [
+      {
+        "title": "Observatie",
+        "bullets": [
+          "Spelers slaan vaak wat ze technisch het liefste doen in plaats van wat de rally vraagt.",
+          "De keuze komt te laat, waardoor de uitvoering gehaast wordt.",
+          "Na een ogenschijnlijk goede bal klopt de positie erna vaak nog niet."
+        ]
+      },
+      {
+        "title": "Wanneer géén lob?",
+        "bullets": [
+          "Als de situatie oranje of groen is en je de tegenstander laag kunt houden.",
+          "Als de netspeler klaarstaat voor een comfortabele bandeja.",
+          "Als jouw lob niet hoog en diep genoeg kan vertrekken."
+        ]
+      },
+      {
+        "title": "Niet doen",
+        "bullets": [
+          "Geen beslissing pas na contact nemen.",
+          "Geen halfhoge bal naar het midden als oranje oplossing.",
+          "Geen chiquita kiezen uit rood alleen omdat hij mooi voelt.",
+          "Geen bal nakijken na groen; de stap vooruit hoort erbij."
+        ]
+      },
+      {
+        "title": "Coach Tips",
+        "bullets": [
+          "Cue: eerst kleur, dan bal.",
+          "Cue: een goede keuze ziet er soms minder spectaculair uit.",
+          "Cue: positie na contact telt mee in de score."
         ]
       }
     ]

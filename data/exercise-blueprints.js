@@ -2,11 +2,11 @@ window.EXERCISE_BLUEPRINTS = [
   {
     id: "01",
     category: "TRANSITIE & DOORSTAPPEN",
-    title: "Extreme Defense - Glasbackhand Draaipatroon naar Net",
-    shortTitle: "Glasbackhand naar Net",
-    summary: "Van extreme defense bij het glas via een cross-lob terugschakelen naar controle en daarna opnieuw netdruk opbouwen.",
-    context: "Je wordt gedwongen naar het glas op je backhand. Dit is zo'n rallymoment waarop de kwaliteit van je eerste keuze alles bepaalt: blijf je hangen in defense, of gebruik je de bal om het punt weer open te breken?",
-    matchContext: "In wedstrijden gebeurt dit na een goede lob of bandeja richting je backhandzijde. Veel spelers overleven de eerste bal nog wel, maar blijven daarna achter plakken. Daardoor houdt de tegenstander het net en verdwijnt jouw kans op herstel.",
+    title: "Glasbackhand Decision: Lob of Low T",
+    shortTitle: "Glasbackhand Decision",
+    summary: "Train uit de glasbackhand wanneer je hoog reset, wanneer je laag naar T/body speelt en wanneer je juist met een chiquita mag instappen.",
+    context: "Je wordt diep in de backhandhoek vastgezet. Voor een linkshandige speler die rechts speelt is dit een klassiek beslismoment: niet elke glasbal vraagt om een lob. Soms koop je tijd met hoogte, maar vaak is laag door midden of naar de voeten tactisch slimmer.",
+    matchContext: "Tegen een speler met een goede bandeja is een middelmatige lob geen oplossing maar een uitnodiging. Deze oefening leert wanneer je juist geen automatische lob speelt, zodat de tegenstander onder volleyhoogte moet werken en jij weer regie krijgt.",
     level: "average",
     levelLabel: "Gemiddeld",
     knltb: "6-7",
@@ -18,105 +18,106 @@ window.EXERCISE_BLUEPRINTS = [
     categoryColor: "#0D5517",
     playerVariant: {
       left: [
-        "Start als linkshandige speler vanuit de rechterkant met de backhandhoek als verdedigende trigger.",
-        "Laat de cross-lob vertrekken naar linksachter om maximale tijd en baanruimte te winnen.",
-        "Koppel de recovery direct aan je forehand-gedreven netovername."
+        "Linkshandig rechts: lees de backglass-bal eerst op hoogte en afstand tot je lichaam. Jouw default is niet lobben, maar classificeren.",
+        "Oranje en groen mogen juist laag naar T, body of voeten vertrekken, zodat jij de sterke forehandvolley van de tegenstander onder zijn schouder dwingt.",
+        "Na een groene chiquita stap je door met je eerste pas schuin voorwaarts richting midden, niet recht op de bal af."
       ],
       right: [
-        "Spiegel de oefening voor een rechtshandige speler aan de linkerkant van de baan.",
-        "Verplaats de cross-lob naar rechtsachter zodat de speler tijd wint en de baan weer kan sluiten.",
-        "Behoud hetzelfde patroon: defense bij glas, recovery naar T, daarna netdruk."
+        "Rechtshandig links: spiegel de beslislogica vanuit de backhandhoek aan de andere kant van de baan.",
+        "Ook hier is de opdracht om alleen hoog te spelen als de bal echt achter je of buiten je balans komt.",
+        "Bij groen stap je door vanuit de backhandhoek en gebruik je de eerste volley om controle te bevestigen, niet om te gokken."
       ]
     },
     goal: [
       {
         title: "Hoofddoel",
-        text: "Je traint een vast herstelpatroon vanuit extreme defense: glasbal herkennen, draaien, hoog cross spelen, direct herstellen en daarna opnieuw het net opeisen."
+        text: "Je traint drie duidelijke oplossingen uit de glasbackhand: rood = hoog resetten, oranje = laag naar T/body, groen = chiquita naar voeten en instappen."
       },
       {
         type: "list",
         title: "Tactische doelen",
         items: [
-          "De glas-situatie vroeg herkennen en zonder paniek de juiste eerste keuze maken.",
-          "Tijd winnen met een hoge cross-lob en die gewonnen tijd ook echt gebruiken.",
-          "De bal op mid-court niet forceren, maar gebruiken als landing op weg naar voren.",
-          "Aan het net de druk weer overnemen met een lage, bruikbare volley."
+          "Herkennen wanneer de lob echt nodig is en wanneer laag spelen meer waarde heeft.",
+          "De tegenstander met een lage T- of bodybal onder volleyhoogte dwingen in plaats van hem een comfortabele bandeja te geven.",
+          "Na een groene oplossing direct ruimte naar voren nemen zonder de eerste volley te forceren.",
+          "Na een rode oplossing wél herstellen, maar niet automatisch het net najagen."
         ]
       }
     ],
     setup: [
-      { title: "Positie", text: "Glas-homebase achterin op de backhandzijde, ongeveer 0,5 tot 1 meter voor het glas." },
-      { title: "Houding", text: "Start neutraal. Lichaam niet al half indraaien; je wilt met de bal mee kunnen draaien." },
-      { title: "Voetenwerk", text: "Voor linkshandig: linkervoet als instap, daarna met de klok mee indraaien en achter de bal komen." },
+      { title: "Positie", text: "Start 0,5 tot 1 meter voor het achterglas in de backhandhoek." },
+      { title: "Houding", text: "Neutrale basis, racketkop iets open en voeten klaar om achteruit-in-zijwaarts te draaien." },
+      { title: "Voetenwerk", text: "Voor linkshandig rechts: eerste remstap met rechts, daarna indraaien zodat je de bal niet naast maar vóór het beslismoment leest." },
       { title: "Cyclus", text: "3-ball sequence, 20 herhalingen, 60 ballen totaal." }
     ],
     targets: [
-      { name: "Glas Cross", text: "Bal 1 hoog en diep cross. Niet voor show, maar om 3-4 seconden recovery-tijd te kopen en de tegenstander te laten schuiven." },
-      { name: "T-zone", text: "Bal 2 gecontroleerd naar T als stabiele landing. Dit is je controlemoment, geen winnaar." },
-      { name: "Voeten", text: "Bal 3 laag naar de voeten om de tegenstander te laten bukken en het net weer van jou te maken." }
+      { name: "HIGH RESET", text: "Rood: hoge cross-lob of hoge reset die echt tijd koopt en niet kort in de bandeja-zone valt." },
+      { name: "LOW T / BODY", text: "Oranje: lage bal door T of tegen het lichaam zodat de netspeler onder schouderhoogte moet volleren." },
+      { name: "FEET ENTRY", text: "Groen: korte chiquita naar voeten waarna jij direct de eerste stap vooruit maakt." }
     ],
     steps: [
-      { title: "Bal 1 - Glas-defense naar cross-lob", text: "Draai zijwaarts in plaats van achterwaarts te blijven lopen. Gebruik het glas, raak de bal ver achter je lichaam en speel hem met open racketface hoog cross. Focus eerst op hoogte, daarna op richting. Zodra de bal weg is: niet kijken, maar meteen 2-3 herstelpassen vooruit." },
-      { title: "Bal 2 - Transitievolley naar T", text: "Kom richting servicelijn of net daarvoor, maak een split-step vlak voor het contact en speel de volley stabiel naar T. Dit is je landing: je gebruikt de gewonnen tijd om van defense naar controle te gaan." },
-      { title: "Bal 3 - Netvolley voor druk", text: "Land aan het net, contact vóór het lichaam, laag tussen knie en middel. Speel een punch-volley naar de voeten. Niet hoog, niet mooi, maar bruikbaar en vervelend." }
+      { title: "Bal 1 - Lees rood, oranje of groen", text: "Gebruik het glas en beslis vóór contact. Rood: bal achter je of uit balans = hoge reset/lob. Oranje: bal naast je en redelijk stabiel = lage T- of bodybal. Groen: bal vóór je en controle = chiquita naar voeten." },
+      { title: "Bal 2 - Positie koppelen aan je keuze", text: "Na rood herstel je eerst naar een bruikbare verdedigingspositie. Na oranje schuif je compact naar midden om de lage reactie op te vangen. Na groen stap je door richting servicelijn en speel je de eerste volley als controlebal." },
+      { title: "Bal 3 - Bevestig de juiste vervolglogica", text: "Rood blijft neutraal. Oranje houdt de tegenstander laag met nog een body/T-keuze. Groen bevestigt de netovername met een rustige eerste volley of lage drukbal naar voeten." }
     ],
     score: [
-      "1 punt: lob in GLASS-CROSS met voldoende hoogte en diepte.",
-      "1 punt: directe recovery zonder bal nakijken.",
-      "1 punt: bal 2 en 3 uitgevoerd volgens patroon.",
-      "Doelwaarden: bal 1 minstens 15/20, bal 2 minstens 13/20, bal 3 minstens 14/20.",
-      "Extra KPI: minimaal 16 van de 20 herhalingen echt doorgestapt richting net."
+      "Juiste classificatie vóór contact: rood, oranje of groen.",
+      "Uitvoering past bij de keuze: hoog en diep, laag naar T/body of zacht naar voeten.",
+      "Tegenstander wordt bij oranje/groen onder volleyhoogte gedwongen.",
+      "Herstelpositie klopt met de gekozen oplossing: eerst neutraliseren, vasthouden of instappen."
     ],
     coaching: [
-      "Draaien is sneller en stabieler dan achterwaarts blijven lopen.",
-      "Hoogte is tijd: elke extra meter geeft ruimte voor herstel.",
-      "Na de lob moet je mentaal en fysiek al vooruit zijn."
+      "Niet elke moeilijke glasbal vraagt om hoogte; de kwaliteit van je balans bepaalt de keuze.",
+      "Een lage T- of bodybal kan tactisch sterker zijn dan een halfgoede lob tegen een goede bandeja.",
+      "Na groen is je eerste stap vooruit onderdeel van de slag, geen los moment erna."
     ],
     machine: [
-      "Bal 1: hoog en diep naar backhand, medium-hard, lob-achtige hoogte.",
-      "Bal 2: mid-court iets rechts van midden, medium tempo, volleyhoogte.",
-      "Bal 3: voor bij net op backhandzijde, medium-slow, laag contactpunt."
+      "Bal 1: diepe backglass-bal naar de backhandhoek, medium-hard, zodat de speler echt moet lezen of hij achter, naast of vóór de bal komt.",
+      "Bal 2: vervolgbal vanuit mid-court, medium tempo, bedoeld als reactie op rood/oranje/groen.",
+      "Bal 3: lage of halfhoge bevestigingsbal, medium-slow, voor herstel, controlevolley of tweede lage drukbal."
     ],
     coachView: [
       {
         title: "Observatie",
         bullets: [
-          "Spelers blijven na de glasbal vaak achter plakken in plaats van te herstellen.",
-          "De eerste verdedigende bal is te kort of te centraal en koopt dus geen echte tijd.",
-          "De recovery naar T start te laat, waardoor de tegenstander dominant blijft."
+          "Spelers maken van de glasbackhand te vaak één automatische oplossing: hoog cross en hopen.",
+          "De lob vertrekt vaak zonder genoeg hoogte of diepte en geeft de bandeja-speler juist ritme.",
+          "Bij een bruikbare bal naast of vóór het lichaam wordt te weinig laag door midden of naar voeten gespeeld."
         ]
       },
       {
-        title: "Waarom dit fout gaat",
+        title: "Beslisregel",
         bullets: [
-          "Er is geen automatisme: de speler denkt nog na in plaats van te reageren.",
-          "Het herstelpatroon ontbreekt: de glasbal wordt gezien als eindpunt van defense.",
-          "De tegenstander voelt daardoor geen omslag in het punt en houdt het net."
+          "🔴 Rood: uit balans of bal achter je = hoog resetten of hoog cross lobben.",
+          "🟠 Oranje: redelijk stabiel, bal naast je = laag naar T of body, zonder forceren.",
+          "🟢 Groen: bal vóór je met controle = chiquita naar voeten en direct instappen."
         ]
       },
       {
-        title: "Wat je wilt zien",
+        title: "Wanneer géén lob?",
         bullets: [
-          "Glasbal herkennen, draaien en hoog cross spelen zonder twijfel.",
-          "Direct herstel vooruit als vaste reflex na de lob.",
-          "Een duidelijke transitie van glas naar T en van T naar net."
+          "Als de tegenstander stabiel klaarstaat voor een comfortabele bandeja.",
+          "Als jouw lob niet tegelijk hoog én diep genoeg kan worden gespeeld.",
+          "Als je redelijk in balans bent en de bal laag naar T/body kunt houden.",
+          "Als de tegenstander juist comfortabel overheadritme zoekt."
         ]
       },
       {
-        title: "Beslisregel per bal",
+        title: "Niet doen",
         bullets: [
-          "Bal 1: altijd hoog en diep cross; hoogte gaat vóór perfectie.",
-          "Bal 2: standaard naar T zolang je nog aan het landen bent.",
-          "Bal 3: naar voeten als je in balans bent; anders eerst controle."
+          "Niet automatisch lobben zodra je onder druk staat.",
+          "Geen halfhoge bal door het midden die op ideale bandeja-hoogte hangt.",
+          "Geen harde passeerslag uit de glasbackhand zonder balans.",
+          "Geen bal nakijken na een groene keuze; de stap vooruit hoort erbij."
         ]
       },
       {
         title: "Coach Tips",
         bullets: [
-          "Cue: tijd kopen = tijd gebruiken.",
-          "Cue: eerst overleven, dan pas domineren.",
-          "Cue: draai, lob, ga.",
-          "Laat de speler na bal 1 al 2-3 herstelpassen maken."
+          "Cue: niet de reflex, maar de kleur kiezen.",
+          "Cue: laag door midden is vaak slimmer dan halfhoog over hem heen.",
+          "Cue: groen betekent niet haasten, maar gecontroleerd vooruit.",
+          "Laat de speler vóór contact rood, oranje of groen benoemen."
         ]
       }
     ]
@@ -124,11 +125,11 @@ window.EXERCISE_BLUEPRINTS = [
   {
     id: "02",
     category: "TRANSITIE & DOORSTAPPEN",
-    title: "Lage Forehand - Lob - Transitie naar Net",
-    shortTitle: "Lage Forehand naar Net",
-    summary: "Van een lage forehand in mid-court via een bewuste lob direct de netovername inzetten.",
-    context: "Je krijgt een lage forehand in mid-court. Dat is precies het soort bal waarop veel spelers iets halfs doen: geen echte aanval, maar ook geen duidelijke oplossing. Het gevolg is niemandsland.",
-    matchContext: "Deze oefening leert dat een lastige lage bal niet het einde van initiatief hoeft te zijn. Door de juiste lob te kiezen en meteen te bewegen, verander je een twijfelbal in een aanvalsmoment.",
+    title: "Lage Forehand: Chiquita of Lob Decision",
+    shortTitle: "Forehand Decision",
+    summary: "Beslis uit een lage forehand of je laag naar voeten/body speelt, hoog reset of juist diep lobt wanneer de netspeler te ver naar voren hangt.",
+    context: "Je krijgt een lage forehand in mid-court of iets daarachter. Hier ontstaat vaak de oude reflex: lob en hopen. Deze oefening maakt de keuze specifieker en koppelt die meteen aan herstel of doorstappen.",
+    matchContext: "In wedstrijden verlies je veel punten niet op de eerste lage forehand, maar op de verkeerde oplossing erna. Tegen een comfortabele netspeler wil je vaak eerst laag maken; pas als hij te ver naar voren hangt of jij rood bent, krijgt hoogte voorrang.",
     level: "beginner",
     levelLabel: "Beginner",
     knltb: "8-9",
@@ -140,98 +141,110 @@ window.EXERCISE_BLUEPRINTS = [
     categoryColor: "#0D5517",
     playerVariant: {
       left: [
-        "Linkshandig vanaf de rechterkant: gebruik de forehandzijde als instap om snel onder de lage bal te komen.",
-        "Laat de lob vertrekken naar het midden-diepe gebied achter de tegenstander.",
-        "Denk direct: lob betekent voorwaarts versnellen."
+        "Linkshandig rechts: lees eerst of je de bal vóór je krijgt. Alleen dan mag de lage forehand echt een chiquita-entry worden.",
+        "Wanneer de netspeler comfortabel blijft staan, gebruik je body of lage T als target in plaats van blind over hem heen te spelen.",
+        "Hangt de tegenstander te ver naar voren of te dicht op het net, dan mag de lob de ruimte achter hem juist wel aanspreken."
       ],
       right: [
-        "Spiegel de oefening voor een rechtshandige speler vanaf de linkerkant.",
-        "Gebruik dezelfde logica: lage forehand, gecontroleerde lob, dan meteen naar het net.",
-        "Verwissel links/rechts referenties in opstelling en coachcues."
+        "Rechtshandig links: spiegel dezelfde beslisboom vanaf de andere forehandzijde.",
+        "Ook hier blijft de opdracht: niet alles hoog oplossen, maar kiezen tussen chiquita, lage body/T, lob of hoge reset.",
+        "De herstelpositie na contact is even belangrijk als de keuze zelf."
       ]
     },
     goal: [
       {
         title: "Hoofddoel",
-        text: "Je traint de lage forehand als startpunt van een actieve nettransitie. Niet blijven hangen in mid-court, maar een duidelijke keuze maken: lob, gaan en het net opeisen."
+        text: "Je traint de lage forehand als beslismoment: goed staan = laag spelen, tegenstander te ver voorin = lob, uit balans = hoge reset."
       },
       {
         type: "list",
         title: "Tactische doelen",
         items: [
-          "De lage forehand niet passief oplossen, maar gebruiken om tijd en ruimte te creëren.",
-          "De lob koppelen aan direct doorstappen, in plaats van wachten op wat er gebeurt.",
-          "De eerste volley na de lob zien als bevestiging van positie, niet als finishbal.",
-          "Op het net druk opbouwen zonder je timing te verliezen."
+          "Niet automatisch de lob kiezen als oude standaardoplossing.",
+          "De netspeler onder volleyhoogte dwingen met een lage chiquita of body/T-bal wanneer dat kan.",
+          "Hoog alleen gebruiken als het tactisch klopt: rood of tegenstander te ver naar voren.",
+          "Na contact direct herstellen naar homebase of doorstappen naar servicelijn, afhankelijk van de gekozen bal."
         ]
       }
     ],
     setup: [
-      { title: "Positie", text: "Mid-court op de forehandzijde, net ver genoeg naar voren om te twijfelen tussen blijven en gaan." },
-      { title: "Houding", text: "Laag basispunt, racket onder de bal, gewicht licht naar voren zodat je de lob omhoog kunt dragen." },
+      { title: "Positie", text: "Start in mid-court aan de forehandzijde, klaar om zowel laag als hoog te kunnen uitsturen." },
+      { title: "Houding", text: "Basis laag, racket onder de bal, maar lichaam niet automatisch al onder de lobhoek openen." },
+      { title: "Leesmoment", text: "Classificeer vóór contact: goed vóór de bal, redelijk stabiel naast de bal, of echt uit balans." },
       { title: "Cyclus", text: "4-ball sequence, 20 herhalingen, 80 ballen totaal." }
     ],
     targets: [
-      { name: "Lob Deep", text: "Bal 1 hoog genoeg en diep genoeg achter de tegenstander om echt tijd te winnen." },
-      { name: "T of Body", text: "Bal 2 als gecontroleerde bevestiging van je netpositie; eerst landen, dan verder." },
-      { name: "Voeten of Body", text: "Bal 3 en 4 gebruiken om de druk te houden of het punt af te maken wanneer de situatie groen is." }
+      { name: "LOW FEET", text: "Groen: lage chiquita naar voeten of servicelijn-drop, zodat de netspeler moet bukken." },
+      { name: "BODY / T", text: "Oranje: lage bal naar lichaam of T, zonder vrije swing voor de volleyspeler." },
+      { name: "DEEP LOB / RESET", text: "Rood of overcommit van de tegenstander: hoog en diep achter hem, of hoge reset om tijd te kopen." },
+      { name: "RECOVERY LANE", text: "Na elke keuze direct herstel naar homebase of eerste stap vooruit richting servicelijn." }
     ],
     steps: [
-      { title: "Bal 1 - Lage forehand naar lob", text: "Neem de bal vóór je lichaam, houd je basis laag en speel een gecontroleerde lob met genoeg hoogte. De bal moet niet alleen over de tegenstander heen, maar hem ook echt van het net wegduwen." },
-      { title: "Bal 2 - Eerste controlevolley", text: "Gebruik de tijd van de lob om door te stappen. De eerste overgangsbal speel je niet op risico, maar stabiel naar T of body om je positie te bevestigen." },
-      { title: "Bal 3 - Druk aan het net", text: "Nu mag de volley vervelender worden: laag naar voeten of body, met de intentie om de tegenstander onder de bal te houden." },
-      { title: "Bal 4 - Finish of consolideren", text: "Als je voor de bal bent en in ritme bent: afmaken. Zo niet: nog één controlebal en het net houden." }
+      { title: "Bal 1 - Kies chiquita, body/T, lob of reset", text: "Goed vóór de bal = lage chiquita naar voeten. Tegenstander comfortabel aan net = lage body/T. Tegenstander te ver naar voren = lob. Uit balans = hoge reset zonder haast." },
+      { title: "Bal 2 - Positie terugpakken", text: "Na een lage keuze herstel je compact en lees je de lage reactie. Na een goede lob mag je richting servicelijn bewegen, maar alleen als de hoogte en diepte echt tijd kochten." },
+      { title: "Bal 3 - Eerste vervolgkeuze", text: "Wordt de tegenstander laag gehouden, dan speel je opnieuw onder volleyhoogte of controleer je naar T. Komt er na een lob een korte reactie, dan neem je rustig het net over." },
+      { title: "Bal 4 - Controle boven haast", text: "De laatste bal is alleen een finish als de situatie groen blijft. Anders consolideer je met een lage controlebal en blijf je in goede positie." }
     ],
     score: [
-      "1 punt: bruikbare lob met voldoende hoogte en diepte.",
-      "1 punt: direct doorgestapt na bal 1.",
-      "1 punt: stabiele controlebal bij bal 2.",
-      "1 punt: juiste drukkeuze bij bal 3 en 4.",
-      "Extra focus: meet of de speler na de lob nog steeds in mid-court blijft hangen of echt het net claimt."
+      "Juiste keuze op bal 1: chiquita, body/T, lob of hoge reset.",
+      "Bal blijft laag genoeg of hoog genoeg voor de gekozen oplossing.",
+      "Tegenstander wordt onder volleyhoogte gedwongen wanneer laag de juiste keuze was.",
+      "Herstelpositie na contact klopt: homebase terug of gecontroleerd doorstappen."
     ],
     coaching: [
-      "Mid-court is niemands land; gebruik het niet als eindstation.",
-      "Lob en doorstappen zijn één gekoppelde actie.",
-      "Laat de speler eerst diepte zoeken, dan pas finesse."
+      "De lage forehand is geen automatische lobbal; eerst lezen, dan spelen.",
+      "Body of T is vaak waardevoller dan een matige lob tegen een speler met goede overheads.",
+      "Doorstappen mag alleen als jouw eerste bal daar echt tijd of lage reactie voor heeft gekocht."
     ],
     machine: [
-      "Bal 1: laag naar forehand in mid-court, medium tempo.",
-      "Bal 2: overgangsbal na lob, medium-slow, medium hoogte.",
-      "Bal 3: netbal voor druk, medium, laag-medium.",
-      "Bal 4: netbal variërend voor finish of controle."
+      "Bal 1: lage forehand naar mid-court of net daarachter, medium tempo.",
+      "Bal 2: reactieballen variëren tussen lage volleyreactie, korte middenbal of extra diepte na een lob.",
+      "Bal 3: vervolgbal op servicelijn- of nethoogte, medium, om herstel of eerste volley te testen.",
+      "Bal 4: afsluitende druk- of controlebal, medium-slow, afhankelijk van de voorgaande keuze."
     ],
     coachView: [
       {
         title: "Observatie",
         bullets: [
-          "Veel spelers slaan een veilige drive en blijven hangen in mid-court.",
-          "De lob wordt te laat gekozen of krijgt te weinig hoogte om echt tijd te kopen.",
-          "Na de lob volgt geen automatische netbeweging, waardoor het initiatief weer vervliegt."
+          "Spelers kiezen uit een lage forehand nog te vaak blind voor de lob, ook als laag spelen beter is.",
+          "Een lage kansbal wordt soms te hoog of te hard gespeeld, waardoor de netspeler comfortabel kan volleren.",
+          "Na contact ontbreekt vaak de juiste herstelactie: of te laat vooruit, of juist onnodig naar voren."
         ]
       },
       {
-        title: "Waarom deze oefening telt",
+        title: "Beslisregel",
         bullets: [
-          "Mid-court is zelden een plek om te blijven; je moet erdoorheen werken.",
-          "De waarde van de lob zit niet alleen in de bal zelf, maar in wat hij mogelijk maakt.",
-          "De eerste volley na de lob bepaalt of de rolwisseling echt lukt."
+          "🟢 Groen: goed vóór de bal = lage chiquita naar voeten en eventueel instappen.",
+          "🟠 Oranje: redelijk stabiel = lage body- of T-bal en direct herstellen.",
+          "🔴 Rood: uit balans = hoge reset.",
+          "Tegenstander te ver naar voren = lob, maar alleen als hij echt diep genoeg kan."
         ]
       },
       {
-        title: "Beslisregel per fase",
+        title: "Wanneer géén lob?",
         bullets: [
-          "Lage forehand in mid-court = eerst lob overwegen vóór drive.",
-          "Bal 2 bevestigt de positie, niet de winnaar.",
-          "Bal 4 alleen afmaken als je lichaam duidelijk vóór de bal is."
+          "Als de tegenstander al stabiel klaarstaat voor zijn bandeja of volley.",
+          "Als jouw contactpunt te laag of te laat is om nog echt hoogte en diepte te creëren.",
+          "Als je de bal laag naar voeten of body kunt spelen zonder te forceren.",
+          "Als de tegenstander juist comfortabel overheadritme zoekt."
+        ]
+      },
+      {
+        title: "Niet doen",
+        bullets: [
+          "Geen automatische lob uit gewoonte.",
+          "Geen halfhoge chiquita die boven de netband blijft hangen.",
+          "Geen harde passeerslag uit lage forehand zonder balans.",
+          "Geen bal nakijken na een lage keuze; herstel direct."
         ]
       },
       {
         title: "Coach Tips",
         bullets: [
-          "Cue: lob = naar voren.",
-          "Cue: eerst net pakken, daarna pas afmaken.",
-          "Cue: geen niemandsland.",
-          "Gebruik het buitenbeen om rem en versnelling aan elkaar te koppelen."
+          "Cue: laag is vaak de eerste aanval op een goede bandeja.",
+          "Cue: kies vóór contact, niet erna.",
+          "Cue: eerst kwaliteit van keuze, dan snelheid.",
+          "Laat de speler benoemen waarom hij voor lob, reset of laag koos."
         ]
       }
     ]
@@ -350,11 +363,11 @@ window.EXERCISE_BLUEPRINTS = [
   {
     id: "04",
     category: "TRANSITIE & DOORSTAPPEN",
-    title: "Chiquita - Doorstappen - Controle - Finish",
-    shortTitle: "Chiquita naar Finish",
-    summary: "Gebruik de chiquita als duidelijke trigger om het net te pakken en daarna gecontroleerd af te maken.",
-    context: "Je speelt een lage chiquita vanuit mid-court. Zodra de tegenstander moet bukken, wil jij de ruimte aan het net opeisen.",
-    matchContext: "Dit is een reference drill: de techniek werkt al, maar het tactische begrip en de timing van het doorstappen moeten nog consistenter worden.",
+    title: "Chiquita Entry: Low Feet → Step In → Control",
+    shortTitle: "Chiquita Entry",
+    summary: "De referentie-oefening voor lage ballen naar de voeten: laag houden, direct instappen en daarna eerst controleren voordat je afmaakt.",
+    context: "Je speelt een lage chiquita vanuit mid-court. Zodra de tegenstander onder volleyhoogte moet werken, wil je de ruimte aan het net nemen zonder meteen te jagen op een winner.",
+    matchContext: "Dit is de basisdrill voor alle lage entries. Niet de mooie bal staat centraal, maar of jouw chiquita de tegenstander echt laag dwingt en jij binnen één seconde de eerste stap vooruit zet.",
     level: "average",
     levelLabel: "Gemiddeld",
     knltb: "6-7",
@@ -366,55 +379,109 @@ window.EXERCISE_BLUEPRINTS = [
     categoryColor: "#0D5517",
     playerVariant: {
       left: [
-        "Linkshandige referentie-oefening vanaf rechts op de baan.",
-        "Gebruik de chiquita laag naar de voeten en koppel direct je doorstap naar het net.",
-        "Deze oefening is je basismodel voor triggerherkenning."
+        "Linkshandig rechts: dit is je referentiedrill voor de lage bal naar voeten vanaf de rechterkant.",
+        "De eerste stap vooruit komt direct uit je contactritme, zodat je niet eerst kijkt of de bal mooi genoeg is.",
+        "Na de entry is je eerste volley een controlevolley; finish pas als de volgende bal echt groen is."
       ],
       right: [
-        "Rechtshandige spiegelversie vanaf links op de baan.",
-        "Behoud dezelfde logica: lage chiquita, tegenstander moet bukken, jij stapt door.",
-        "Laat de controlevolley en finish meebewegen met de gespiegeld gekozen open ruimtes."
+        "Rechtshandige links: spiegel dezelfde referentie-oefening vanaf de andere zijde van de baan.",
+        "De lage chiquita blijft de trigger; niet de winner, maar de stap vooruit en de controle na contact bepalen de kwaliteit.",
+        "Afmaken mag pas als de eerste controlevolley je echt voor de bal houdt."
       ]
     },
-    goal: "Verfijn de chiquita als reference drill: zacht en laag spelen, het net pakken en daarna met controle afmaken.",
+    goal: [
+      {
+        title: "Hoofddoel",
+        text: "De chiquita gebruiken als echte entry-bal: laag naar voeten, direct eerste stap vooruit, dan controle en alleen finishen in een groene situatie."
+      },
+      {
+        type: "list",
+        title: "Tactische doelen",
+        items: [
+          "De bal laag genoeg houden om de tegenstander onder volleyhoogte te dwingen.",
+          "Binnen één seconde de eerste stap vooruit maken na contact.",
+          "De eerste volley gebruiken als controlebal, niet als gehaaste winnaar.",
+          "Alleen finishen als balans, positie en volgende bal samen groen blijven."
+        ]
+      }
+    ],
     setup: [
-      "Positie: mid-court of baseline-homebase, centraal of iets naar backhand.",
-      "Houding: racket klaar, voeten levend, voorbereid op een korte bal.",
-      "Cycli: 4 ballen per herhaling, 20 herhalingen."
+      { title: "Positie", text: "Start in mid-court of iets achter de servicelijn, centraal of licht naar backhand." },
+      { title: "Houding", text: "Racket vóór je, basis laag en klaar om de bal met zachte hand naar beneden te begeleiden." },
+      { title: "Timing", text: "De doorstap start direct na contact; wacht niet op visuele bevestiging van een perfecte stuit." },
+      { title: "Cyclus", text: "4-ball sequence, 20 herhalingen, 80 ballen totaal." }
     ],
     targets: [
-      { name: "Chiquita Voeten", text: "Bal 1 zacht en laag naar de voeten, net over het net." },
-      { name: "T-zone", text: "Bal 2 als landing om je netpositie te bevestigen." },
-      { name: "Voeten Finish", text: "Bal 3 of 4 naar voeten om het punt af te maken." }
+      { name: "LOW FEET", text: "Bal 1 zacht en laag naar voeten of net onder de servicelijn, zonder omhoog te springen." },
+      { name: "STEP-IN LANE", text: "Bal 2 begint met een directe eerste stap vooruit en een split-step op tijd." },
+      { name: "CONTROL VOLLEY", text: "Bal 2 of 3 eerst naar T/body om positie te bevestigen; finish alleen als bal 4 groen is." }
     ],
     steps: [
-      { title: "Bal 1 - Chiquita laag", text: "Speel een zachte slice of push net over het net richting de voeten." },
-      { title: "Bal 2 - Doorstappen en landen", text: "Pak direct het net en speel de eerste volley gecontroleerd naar T." },
-      { title: "Bal 3 - Punch voor druk", text: "Houd de tegenstander laag met een punch-volley richting voeten." },
-      { title: "Bal 4 - Finish", text: "Maak het punt af als je stabiel bent of speel nog één controlebal." }
+      { title: "Bal 1 - Chiquita naar voeten", text: "Speel de eerste bal zacht en laag zodat de tegenstander onder volleyhoogte moet werken. De bal mag niet mooi omhoog komen; hij moet vervelend laag blijven." },
+      { title: "Bal 2 - Step in en landen", text: "Binnen één seconde na contact zet je de eerste stap vooruit. Split-step op tijd en speel daarna de eerste volley gecontroleerd naar T of body." },
+      { title: "Bal 3 - Tweede lage drukbal", text: "Als de tegenstander nog laag zit, houd je hem laag met een punch-volley naar voeten of body. Geen haastige hoekbal." },
+      { title: "Bal 4 - Finish alleen op groen", text: "Alleen afmaken als je duidelijk vóór de bal bent en de rally groen is. Zo niet, nog één controlebal en het net houden." }
     ],
     score: [
-      "1 punt: lage chiquita naar de juiste zone.",
-      "1 punt: automatisch doorgestapt.",
-      "1 punt: controlevolley op T.",
-      "1 punt: finish of juiste drukkeuze."
+      "Bal 1 blijft laag en dwingt de tegenstander onder volleyhoogte.",
+      "De eerste stap vooruit komt binnen één seconde na contact.",
+      "De eerste volley daarna is controle, geen gehaaste winner.",
+      "Finish gebeurt alleen wanneer de situatie echt groen is."
     ],
     coaching: [
-      "Chiquita laag betekent direct doorstappen.",
-      "De landing aan het net is eerst controle, pas daarna druk.",
-      "Gebruik deze oefening als referentie voor alle andere transitiepatronen."
+      "Dit is de referentie voor lage entries: eerst laag maken, dan ruimte pakken.",
+      "Een goede chiquita is pas compleet als de stap vooruit en de controlevolley kloppen.",
+      "De eerste volley na instappen moet het punt ordenen, niet direct willen beslissen."
     ],
     machine: [
-      "Bal 1: mid-court bal voor chiquita, medium-slow.",
-      "Bal 2: return na chiquita, slow-medium, medium hoogte.",
-      "Bal 3: netbal voor punch, medium, laag-medium.",
-      "Bal 4: netbal variërend voor finish."
+      "Bal 1: mid-court bal voor lage chiquita, medium-slow.",
+      "Bal 2: reactiebal na de chiquita, slow-medium, zodat de speler tijdig kan landen op de eerste volley.",
+      "Bal 3: lage netbal of halfvolle volleyreactie, medium, voor tweede drukbal.",
+      "Bal 4: variabele laatste bal voor finish of extra controle."
     ],
     coachView: [
-      { title: "Observatie", bullets: ["De trigger werkt al goed, maar de tactische reden moet nog bewuster worden.", "Speler kan nog consistenter doorstappen na een echt lage chiquita.", "De landing aan het net mag rustiger en slimmer."] },
-      { title: "Wat je leert", bullets: ["Een lage chiquita zien als moment om ruimte in te nemen.", "De eerste volley na doorstappen gebruiken als landing, niet als haastige winnaar.", "De hele cyclus spelen als één patroon: laag maken, gaan, landen, afmaken."] },
-      { title: "Beslisregel", bullets: ["Lage chiquita = direct vooruit.", "Bal 2 eerst stabiliseren op T.", "Pas finishen als de speler echt comfortabel vóór de bal komt."] },
-      { title: "Coach Tips", bullets: ["Cue: chiquita laag, lichaam naar voren.", "Cue: eerst landen, dan afmaken.", "Deze drill is de blauwdruk voor doorstapgedrag."] }
+      {
+        title: "Observatie",
+        bullets: [
+          "De chiquita is vaak technisch acceptabel, maar niet laag genoeg om de tegenstander echt te laten bukken.",
+          "De eerste stap vooruit komt te laat doordat de speler zijn eigen bal nakijkt.",
+          "Na instappen wordt de eerste volley nog te vaak als winner gezien in plaats van als landing."
+        ]
+      },
+      {
+        title: "Wat je leert",
+        bullets: [
+          "Een lage bal naar voeten herkennen als directe entry-trigger.",
+          "Doorstappen zonder haast en toch op tijd aan het net landen.",
+          "Eerst controleren, pas daarna afmaken."
+        ]
+      },
+      {
+        title: "Beslisregel",
+        bullets: [
+          "Lage chiquita = direct eerste stap vooruit.",
+          "Eerste volley = controle naar T/body.",
+          "Finish alleen wanneer de volgende bal nog steeds groen is."
+        ]
+      },
+      {
+        title: "Niet doen",
+        bullets: [
+          "Geen chiquita die hoog opstuit.",
+          "Geen bal nakijken na de lage entry.",
+          "Geen eerste volley forceren op winner-tempo.",
+          "Niet finishen uit oranje positie."
+        ]
+      },
+      {
+        title: "Coach Tips",
+        bullets: [
+          "Cue: laag maken, dan gaan.",
+          "Cue: eerste volley is landing.",
+          "Cue: finish is verdiend, niet geforceerd.",
+          "Gebruik deze drill als blauwdruk voor alle lage instapballen."
+        ]
+      }
     ]
   },
   {
