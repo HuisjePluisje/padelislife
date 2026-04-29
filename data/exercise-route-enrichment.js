@@ -1,5 +1,8 @@
 (function applyExerciseRouteMetadata() {
-  const metadata = window.EXERCISE_ROUTE_METADATA || {};
+  const metadata = {
+    ...(window.EXERCISE_ROUTE_METADATA || {}),
+    ...(window.EXTRA_EXERCISE_ROUTE_METADATA || {})
+  };
   const routes = Array.isArray(window.TRAINING_ROUTES) ? window.TRAINING_ROUTES : [];
   const routeMap = routes.reduce((map, route) => {
     map[route.slug] = route;
@@ -40,7 +43,7 @@
         if (mergedMeta.audit) {
           mergedMeta.audit = {
             ...mergedMeta.audit,
-            route: mergedMeta.audit.route || routeDetails.name
+            route: routeDetails.name
           };
         }
       }
@@ -51,4 +54,5 @@
 
   enrich(window.EXERCISE_BLUEPRINTS);
   enrich(window.EXTRA_EXERCISE_BLUEPRINTS);
+  enrich(window.BONUS_EXERCISE_BLUEPRINTS);
 })();

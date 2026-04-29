@@ -851,6 +851,350 @@
           "Height": 40
         }
       ]
+    },
+    "30 - Bajada uit Achterglas": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 22,
+          "Spin": 0,
+          "Freq": 68,
+          "Width": 18,
+          "Height": 88
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 72,
+          "Width": 18,
+          "Height": 82
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 82,
+          "Width": 30,
+          "Height": 46
+        },
+        {
+          "Speed": 27,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 50,
+          "Height": 40
+        }
+      ]
+    },
+    "31 - Bajada Decision": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 20,
+          "Spin": 0,
+          "Freq": 66,
+          "Width": 18,
+          "Height": 90
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 74,
+          "Width": 18,
+          "Height": 74
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 82,
+          "Width": 30,
+          "Height": 48
+        },
+        {
+          "Speed": 25,
+          "Spin": 0,
+          "Freq": 70,
+          "Width": 50,
+          "Height": 38
+        }
+      ]
+    },
+    "32 - Vibora of Bandeja": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 14,
+          "Spin": 0,
+          "Freq": 70,
+          "Width": 18,
+          "Height": 86
+        },
+        {
+          "Speed": 18,
+          "Spin": 1,
+          "Freq": 74,
+          "Width": 18,
+          "Height": 78
+        },
+        {
+          "Speed": 24,
+          "Spin": 1,
+          "Freq": 80,
+          "Width": 30,
+          "Height": 66
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 50,
+          "Height": 42
+        }
+      ]
+    },
+    "33 - Drop Volley Dejada": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 30,
+          "Height": 40
+        },
+        {
+          "Speed": 22,
+          "Spin": -3,
+          "Freq": 72,
+          "Width": 18,
+          "Height": 35
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 80,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 18,
+          "Height": 42
+        }
+      ]
+    },
+    "34 - Chiquita Eerste Volley": {
+      "shotCount": 5,
+      "shots": [
+        {
+          "Speed": 19,
+          "Spin": -5,
+          "Freq": 56,
+          "Width": 50,
+          "Height": 35
+        },
+        {
+          "Speed": 22,
+          "Spin": -4,
+          "Freq": 66,
+          "Width": 30,
+          "Height": 34
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 18,
+          "Height": 40
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 18,
+          "Height": 42
+        }
+      ]
+    },
+    "35 - Forehand Midden Lock": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 30,
+          "Height": 40
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 50,
+          "Height": 40
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 84,
+          "Width": 18,
+          "Height": 42
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 35,
+          "Height": 38
+        }
+      ]
+    },
+    "36 - Middenbal Afspraken Duo": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 45,
+          "Height": 40
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 55,
+          "Height": 40
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 74,
+          "Width": 50,
+          "Height": 35
+        },
+        {
+          "Speed": 30,
+          "Spin": 0,
+          "Freq": 85,
+          "Width": 50,
+          "Height": 44
+        }
+      ]
+    },
+    "37 - Serve Wide Ball 3": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 32,
+          "Spin": 1,
+          "Freq": 68,
+          "Width": 18,
+          "Height": 38
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 50,
+          "Height": 40
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 30,
+          "Height": 40
+        },
+        {
+          "Speed": 26,
+          "Spin": -2,
+          "Freq": 72,
+          "Width": 18,
+          "Height": 35
+        }
+      ]
+    },
+    "38 - Golden Point Druk": {
+      "shotCount": 5,
+      "shots": [
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 18,
+          "Height": 40
+        },
+        {
+          "Speed": 20,
+          "Spin": 0,
+          "Freq": 68,
+          "Width": 18,
+          "Height": 88
+        },
+        {
+          "Speed": 27,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 24,
+          "Spin": -3,
+          "Freq": 72,
+          "Width": 30,
+          "Height": 35
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 84,
+          "Width": 18,
+          "Height": 44
+        }
+      ]
+    },
+    "39 - Defense to Neutral": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 34,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 18,
+          "Height": 42
+        },
+        {
+          "Speed": 30,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 72,
+          "Width": 18,
+          "Height": 72
+        },
+        {
+          "Speed": 26,
+          "Spin": -2,
+          "Freq": 74,
+          "Width": 30,
+          "Height": 35
+        }
+      ]
     }
   },
   "Padel Studio - Rechts": {
@@ -1703,6 +2047,350 @@
           "Freq": 58,
           "Width": 88,
           "Height": 40
+        }
+      ]
+    },
+    "30 - Bajada uit Achterglas": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 22,
+          "Spin": 0,
+          "Freq": 68,
+          "Width": 82,
+          "Height": 88
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 72,
+          "Width": 82,
+          "Height": 82
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 82,
+          "Width": 70,
+          "Height": 46
+        },
+        {
+          "Speed": 27,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 50,
+          "Height": 40
+        }
+      ]
+    },
+    "31 - Bajada Decision": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 20,
+          "Spin": 0,
+          "Freq": 66,
+          "Width": 82,
+          "Height": 90
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 74,
+          "Width": 82,
+          "Height": 74
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 82,
+          "Width": 70,
+          "Height": 48
+        },
+        {
+          "Speed": 25,
+          "Spin": 0,
+          "Freq": 70,
+          "Width": 50,
+          "Height": 38
+        }
+      ]
+    },
+    "32 - Vibora of Bandeja": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 14,
+          "Spin": 0,
+          "Freq": 70,
+          "Width": 82,
+          "Height": 86
+        },
+        {
+          "Speed": 18,
+          "Spin": 1,
+          "Freq": 74,
+          "Width": 82,
+          "Height": 78
+        },
+        {
+          "Speed": 24,
+          "Spin": 1,
+          "Freq": 80,
+          "Width": 70,
+          "Height": 66
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 50,
+          "Height": 42
+        }
+      ]
+    },
+    "33 - Drop Volley Dejada": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 70,
+          "Height": 40
+        },
+        {
+          "Speed": 22,
+          "Spin": -3,
+          "Freq": 72,
+          "Width": 82,
+          "Height": 35
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 80,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 82,
+          "Height": 42
+        }
+      ]
+    },
+    "34 - Chiquita Eerste Volley": {
+      "shotCount": 5,
+      "shots": [
+        {
+          "Speed": 19,
+          "Spin": -5,
+          "Freq": 56,
+          "Width": 50,
+          "Height": 35
+        },
+        {
+          "Speed": 22,
+          "Spin": -4,
+          "Freq": 66,
+          "Width": 70,
+          "Height": 34
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 82,
+          "Height": 40
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 82,
+          "Height": 42
+        }
+      ]
+    },
+    "35 - Forehand Midden Lock": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 70,
+          "Height": 40
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 50,
+          "Height": 40
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 84,
+          "Width": 82,
+          "Height": 42
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 65,
+          "Height": 38
+        }
+      ]
+    },
+    "36 - Middenbal Afspraken Duo": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 55,
+          "Height": 40
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 45,
+          "Height": 40
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 74,
+          "Width": 50,
+          "Height": 35
+        },
+        {
+          "Speed": 30,
+          "Spin": 0,
+          "Freq": 85,
+          "Width": 50,
+          "Height": 44
+        }
+      ]
+    },
+    "37 - Serve Wide Ball 3": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 32,
+          "Spin": 1,
+          "Freq": 68,
+          "Width": 82,
+          "Height": 38
+        },
+        {
+          "Speed": 26,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 50,
+          "Height": 40
+        },
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 84,
+          "Width": 70,
+          "Height": 40
+        },
+        {
+          "Speed": 26,
+          "Spin": -2,
+          "Freq": 72,
+          "Width": 82,
+          "Height": 35
+        }
+      ]
+    },
+    "38 - Golden Point Druk": {
+      "shotCount": 5,
+      "shots": [
+        {
+          "Speed": 28,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 82,
+          "Height": 40
+        },
+        {
+          "Speed": 20,
+          "Spin": 0,
+          "Freq": 68,
+          "Width": 82,
+          "Height": 88
+        },
+        {
+          "Speed": 27,
+          "Spin": 0,
+          "Freq": 78,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 24,
+          "Spin": -3,
+          "Freq": 72,
+          "Width": 70,
+          "Height": 35
+        },
+        {
+          "Speed": 30,
+          "Spin": 1,
+          "Freq": 84,
+          "Width": 82,
+          "Height": 44
+        }
+      ]
+    },
+    "39 - Defense to Neutral": {
+      "shotCount": 4,
+      "shots": [
+        {
+          "Speed": 34,
+          "Spin": 0,
+          "Freq": 76,
+          "Width": 82,
+          "Height": 42
+        },
+        {
+          "Speed": 30,
+          "Spin": 0,
+          "Freq": 82,
+          "Width": 50,
+          "Height": 38
+        },
+        {
+          "Speed": 24,
+          "Spin": 0,
+          "Freq": 72,
+          "Width": 82,
+          "Height": 72
+        },
+        {
+          "Speed": 26,
+          "Spin": -2,
+          "Freq": 74,
+          "Width": 70,
+          "Height": 35
         }
       ]
     }

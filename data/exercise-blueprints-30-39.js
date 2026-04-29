@@ -82,27 +82,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Hoogte lezen",
+        "title": "Block 1 - Hoogte lezen",
         "text": "Speel 8 herhalingen waarin je vóór contact hardop zegt: groen of rood. Groen = bajada. Rood = reset. De score telt alleen als de keuze klopt, niet als de bal toevallig goed valt."
       },
       {
-        "title": "2. Block 2 - Richting zonder winnerdrang",
+        "title": "Block 2 - Richting zonder winnerdrang",
         "text": "Speel 6 herhalingen bajada naar deep T of body. Het doel is een lage reactie afdwingen, niet de bal langs iedereen slaan."
       },
       {
-        "title": "3. Block 3 - Bajada + positie",
+        "title": "Block 3 - Bajada + positie",
         "text": "Speel 6 herhalingen waarbij de slag pas telt als je na contact direct hoger in de baan staat."
       },
       {
-        "title": "4. Block 4 - Random glasbal",
+        "title": "Block 4 - Random glasbal",
         "text": "Varieer hoogte en diepte. De speler mag alleen aanvallen als contact vóór het lichaam en boven heuphoogte haalbaar is."
       }
     ],
     "score": [
-      "**1pt** — Juiste classificatie vóór contact: bajada of reset.",
-      "**1pt** — Contactpunt vóór het lichaam en niet naast/achter de heup.",
-      "**1pt** — Bajada gaat laag/diep naar T, midden of body.",
-      "**1pt** — Na contact volgt actieve positiewinst zonder blind te sprinten."
+      "Juiste classificatie vóór contact: bajada of reset.",
+      "Contactpunt vóór het lichaam en niet naast/achter de heup.",
+      "Bajada gaat laag/diep naar T, midden of body.",
+      "Na contact volgt actieve positiewinst zonder blind te sprinten."
     ],
     "coaching": [
       "Cue: eerst hoogte, dan richting, dan snelheid.",
@@ -245,27 +245,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Alleen classificeren",
+        "title": "Block 1 - Alleen classificeren",
         "text": "Speel 10 ballen waarbij de uitvoering minder belangrijk is dan de juiste kleur benoemen vóór contact."
       },
       {
-        "title": "2. Block 2 - Oranje discipline",
+        "title": "Block 2 - Oranje discipline",
         "text": "Speel 8 herhalingen waarin alle twijfelgevallen oranje zijn. Geen hero-bajada op twijfel."
       },
       {
-        "title": "3. Block 3 - Groen afmaken zonder forceren",
+        "title": "Block 3 - Groen afmaken zonder forceren",
         "text": "Speel 6 groene ballen waarin de bajada gericht naar T/body gaat en positiewinst verplicht is."
       },
       {
-        "title": "4. Block 4 - Random decision",
+        "title": "Block 4 - Random decision",
         "text": "Speel 10 random herhalingen. Elke verkeerde kleur is fout, ook als de bal technisch goed terugkomt."
       }
     ],
     "score": [
-      "**1pt** — Kleur benoemd vóór contact.",
-      "**1pt** — Balkeuze past bij de kleur.",
-      "**1pt** — Uitvoering heeft het juiste venster: hoog/diep, laag/body of bajada-druk.",
-      "**1pt** — Herstelpositie klopt met gekozen kleur."
+      "Kleur benoemd vóór contact.",
+      "Balkeuze past bij de kleur.",
+      "Uitvoering heeft het juiste venster: hoog/diep, laag/body of bajada-druk.",
+      "Herstelpositie klopt met gekozen kleur."
     ],
     "coaching": [
       "Cue: naam geven vóór contact.",
@@ -408,27 +408,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Bandeja discipline",
+        "title": "Block 1 - Bandeja discipline",
         "text": "Speel 8 herhalingen waarin alle diepe lobs met bandeja/body worden opgelost. Geen víbora op een bal waarop je achteruit valt."
       },
       {
-        "title": "2. Block 2 - Víbora alleen op groen",
+        "title": "Block 2 - Víbora alleen op groen",
         "text": "Speel 6 kanslobs waarbij contact vóór je lichaam en boven schouderhoogte moet zijn. Víbora telt alleen als je balans houdt."
       },
       {
-        "title": "3. Block 3 - Richting kiezen",
+        "title": "Block 3 - Richting kiezen",
         "text": "Wissel body, T en zijwand af. De speler benoemt vóór contact de target."
       },
       {
-        "title": "4. Block 4 - Random lobkwaliteit",
+        "title": "Block 4 - Random lobkwaliteit",
         "text": "De machine wisselt hoogte en diepte. De speler kiest bandeja, víbora of reset en herstelt direct naar netpositie."
       }
     ],
     "score": [
-      "**1pt** — Juiste overhead gekozen op basis van lobkwaliteit.",
-      "**1pt** — Slag blijft diep of laag genoeg om geen gratis counter te geven.",
-      "**1pt** — Na contact direct herstel naar netpositie.",
-      "**1pt** — Geen víbora geforceerd vanuit achterwaartse balans."
+      "Juiste overhead gekozen op basis van lobkwaliteit.",
+      "Slag blijft diep of laag genoeg om geen gratis counter te geven.",
+      "Na contact direct herstel naar netpositie.",
+      "Geen víbora geforceerd vanuit achterwaartse balans."
     ],
     "coaching": [
       "Cue: bandeja houdt vast, víbora zet druk.",
@@ -571,27 +571,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Eerst verdienen",
+        "title": "Block 1 - Eerst verdienen",
         "text": "Speel 8 reeksen waarin de drop pas mag na twee diepe/bodyvolleys. Te vroeg kort spelen is fout."
       },
       {
-        "title": "2. Block 2 - Touch zonder polsflip",
+        "title": "Block 2 - Touch zonder polsflip",
         "text": "Speel 8 drops met korte beweging en open racketblad. De bal moet laag over het net vallen, niet omhoog zweven."
       },
       {
-        "title": "3. Block 3 - Drop + sluiten",
+        "title": "Block 3 - Drop + sluiten",
         "text": "Na elke drop zet je direct twee kleine passen naar voren. De oefening telt niet als je blijft kijken."
       },
       {
-        "title": "4. Block 4 - Random keuze",
+        "title": "Block 4 - Random keuze",
         "text": "De feeder/machine varieert balhoogte. Alleen bij groene positie en diepe tegenstander mag de drop gekozen worden."
       }
     ],
     "score": [
-      "**1pt** — Drop is verdiend door eerdere diepte of bodydruk.",
-      "**1pt** — Contact is compact en zacht, zonder grote backswing.",
-      "**1pt** — Bal valt kort en laag genoeg om geen makkelijke tegenaanval te geven.",
-      "**1pt** — Speler sluit direct naar voren na de drop."
+      "Drop is verdiend door eerdere diepte of bodydruk.",
+      "Contact is compact en zacht, zonder grote backswing.",
+      "Bal valt kort en laag genoeg om geen makkelijke tegenaanval te geven.",
+      "Speler sluit direct naar voren na de drop."
     ],
     "coaching": [
       "Cue: eerst diep maken, dan kort maken.",
@@ -734,27 +734,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Chiquita laag",
+        "title": "Block 1 - Chiquita laag",
         "text": "Speel 8 herhalingen waarbij alleen de hoogte telt: de bal moet onder comfortabele volleyhoogte blijven."
       },
       {
-        "title": "2. Block 2 - Chiquita + pas",
+        "title": "Block 2 - Chiquita + pas",
         "text": "Speel 8 herhalingen waarbij de eerste stap na contact verplicht schuin voorwaarts is."
       },
       {
-        "title": "3. Block 3 - Eerste volley",
+        "title": "Block 3 - Eerste volley",
         "text": "Speel 8 reeksen met chiquita, split-step en controlevolley. Winnerdrang is fout."
       },
       {
-        "title": "4. Block 4 - Random vervolg",
+        "title": "Block 4 - Random vervolg",
         "text": "Wissel tussen volley op body, lage voetenbal en lobreactie. De speler moet na de chiquita blijven lezen."
       }
     ],
     "score": [
-      "**1pt** — Chiquita blijft laag en dwingt een moeilijke volley af.",
-      "**1pt** — Eerste stap na contact is direct en schuin voorwaarts.",
-      "**1pt** — Split-step vóór de eerste volley.",
-      "**1pt** — Eerste volley bevestigt controle zonder te forceren."
+      "Chiquita blijft laag en dwingt een moeilijke volley af.",
+      "Eerste stap na contact is direct en schuin voorwaarts.",
+      "Split-step vóór de eerste volley.",
+      "Eerste volley bevestigt controle zonder te forceren."
     ],
     "coaching": [
       "Cue: laag spelen, rustig lopen, vroeg stoppen.",
@@ -898,27 +898,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Alleen T",
+        "title": "Block 1 - Alleen T",
         "text": "Speel 8 herhalingen waarin elke forehand door T moet. Score telt alleen als de bal laag genoeg blijft."
       },
       {
-        "title": "2. Block 2 - Body jam",
+        "title": "Block 2 - Body jam",
         "text": "Speel 8 herhalingen op lichaam/heup. Doel is een rommelige volleyreactie, geen winner."
       },
       {
-        "title": "3. Block 3 - Middenbal + partnercall",
+        "title": "Block 3 - Middenbal + partnercall",
         "text": "Speel 8 reeksen waarin de speler roept wie de volgende middenbal pakt."
       },
       {
-        "title": "4. Block 4 - T/body/random",
+        "title": "Block 4 - T/body/random",
         "text": "Wissel T en body af. De speler benoemt de target vóór contact."
       }
     ],
     "score": [
-      "**1pt** — Target vooraf benoemd: T of body.",
-      "**1pt** — Bal blijft laag of zwaar genoeg om geen comfortabele volley te geven.",
-      "**1pt** — Speler en partner sluiten middenpositie na contact.",
-      "**1pt** — Geen wilde crossbal wanneer midden/body de logische keuze is."
+      "Target vooraf benoemd: T of body.",
+      "Bal blijft laag of zwaar genoeg om geen comfortabele volley te geven.",
+      "Speler en partner sluiten middenpositie na contact.",
+      "Geen wilde crossbal wanneer midden/body de logische keuze is."
     ],
     "coaching": [
       "Cue: door midden is agressief als hij laag is.",
@@ -1061,27 +1061,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Call verplicht",
+        "title": "Block 1 - Call verplicht",
         "text": "Speel 10 middenballen waarbij punt alleen telt als de call vóór contact komt."
       },
       {
-        "title": "2. Block 2 - Forehand owns middle",
+        "title": "Block 2 - Forehand owns middle",
         "text": "Speel 10 ballen waarbij de speler met forehandvoordeel de bal pakt, tenzij hij rood staat."
       },
       {
-        "title": "3. Block 3 - Cover na call",
+        "title": "Block 3 - Cover na call",
         "text": "Speel 10 reeksen waarin de niet-slaande speler direct dekking moet kiezen na de call."
       },
       {
-        "title": "4. Block 4 - Random midden/hoek",
+        "title": "Block 4 - Random midden/hoek",
         "text": "Mix middenballen met hoekballen zodat jullie niet elk geluid als middenbal interpreteren."
       }
     ],
     "score": [
-      "**1pt** — Vroege duidelijke call.",
-      "**1pt** — Juiste speler neemt de bal op basis van positie en forehandvoordeel.",
-      "**1pt** — Balkeuze is simpel en laag door midden/body/T.",
-      "**1pt** — Partnerdekking na de slag is zichtbaar."
+      "Vroege duidelijke call.",
+      "Juiste speler neemt de bal op basis van positie en forehandvoordeel.",
+      "Balkeuze is simpel en laag door midden/body/T.",
+      "Partnerdekking na de slag is zichtbaar."
     ],
     "coaching": [
       "Cue: call vóór voetenwerk volledig is.",
@@ -1224,27 +1224,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Serve/opening + split",
+        "title": "Block 1 - Serve/opening + split",
         "text": "Speel 10 herhalingen waarin alleen opening en herstel tellen. Geen goede split = geen punt."
       },
       {
-        "title": "2. Block 2 - Ball 3 naar T/body",
+        "title": "Block 2 - Ball 3 naar T/body",
         "text": "Speel 10 herhalingen waarin derde bal verplicht naar T of body gaat."
       },
       {
-        "title": "3. Block 3 - Returnrichting lezen",
+        "title": "Block 3 - Returnrichting lezen",
         "text": "Wissel returnfeeds zodat de speler moet kiezen tussen drive, volley of lage controlebal."
       },
       {
-        "title": "4. Block 4 - Scorevariant",
+        "title": "Block 4 - Scorevariant",
         "text": "Speel alsof het 30-30 is: fout op opening of ball 3 kost dubbel."
       }
     ],
     "score": [
-      "**1pt** — Opening heeft duidelijk doel: wide of positie-openend.",
-      "**1pt** — Split-step na opening op tijd.",
-      "**1pt** — Ball 3 target vooraf gekozen en uitgevoerd.",
-      "**1pt** — Vierde bal bevestigt druk of neutrale controle."
+      "Opening heeft duidelijk doel: wide of positie-openend.",
+      "Split-step na opening op tijd.",
+      "Ball 3 target vooraf gekozen en uitgevoerd.",
+      "Vierde bal bevestigt druk of neutrale controle."
     ],
     "coaching": [
       "Cue: serve is vraag, ball 3 is antwoord.",
@@ -1387,27 +1387,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Eén regel",
+        "title": "Block 1 - Eén regel",
         "text": "Kies één regel, bijvoorbeeld: alles onder druk naar T/body. Speel 8 reeksen zonder ervan af te wijken."
       },
       {
-        "title": "2. Block 2 - Twee keuzes",
+        "title": "Block 2 - Twee keuzes",
         "text": "Voeg tweede keuze toe: T/body of hoge lob. De speler benoemt vóór contact welke hij kiest."
       },
       {
-        "title": "3. Block 3 - Foutclassificatie",
+        "title": "Block 3 - Foutclassificatie",
         "text": "Na elke fout zegt de speler: keuze-fout of uitvoeringsfout. Alleen keuze-fouten worden direct besproken."
       },
       {
-        "title": "4. Block 4 - Golden point ladder",
+        "title": "Block 4 - Golden point ladder",
         "text": "Win 3 reeksen op rij om door te gaan. Bij een keuze-fout terug naar nul."
       }
     ],
     "score": [
-      "**1pt** — Beslisregel vóór de reeks gekozen.",
-      "**1pt** — Onder druk geen ongeplande hero-bal.",
-      "**1pt** — Fout wordt correct benoemd als keuze of uitvoering.",
-      "**1pt** — Na elke reeks snelle mentale reset."
+      "Beslisregel vóór de reeks gekozen.",
+      "Onder druk geen ongeplande hero-bal.",
+      "Fout wordt correct benoemd als keuze of uitvoering.",
+      "Na elke reeks snelle mentale reset."
     ],
     "coaching": [
       "Cue: onder druk wordt je plan kleiner, niet groter.",
@@ -1551,27 +1551,27 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     ],
     "steps": [
       {
-        "title": "1. Block 1 - Rood accepteren",
+        "title": "Block 1 - Rood accepteren",
         "text": "Speel 8 herhalingen waarin de eerste bal altijd als rood wordt behandeld. Doel: tijd kopen, geen counter."
       },
       {
-        "title": "2. Block 2 - Oranje stabiliseren",
+        "title": "Block 2 - Oranje stabiliseren",
         "text": "Speel 8 herhalingen waarbij de tweede bal laag T of diep midden moet zijn."
       },
       {
-        "title": "3. Block 3 - Pas groen op bal 3/4",
+        "title": "Block 3 - Pas groen op bal 3/4",
         "text": "Aanvallen mag pas op derde of vierde bal als de machine een duidelijk groene bal geeft."
       },
       {
-        "title": "4. Block 4 - Rally-reset",
+        "title": "Block 4 - Rally-reset",
         "text": "Speel volledige reeksen waarin succes betekent: na vier ballen staat de speler neutraal of beter, niet per se aan het net."
       }
     ],
     "score": [
-      "**1pt** — Eerste drukbal wordt niet geforceerd gecounterd.",
-      "**1pt** — Reset is hoog/diep of laag genoeg om druk te verminderen.",
-      "**1pt** — Herstel naar neutrale basis na bal 1 en 2.",
-      "**1pt** — Aanval wordt pas gekozen op echte groene bal."
+      "Eerste drukbal wordt niet geforceerd gecounterd.",
+      "Reset is hoog/diep of laag genoeg om druk te verminderen.",
+      "Herstel naar neutrale basis na bal 1 en 2.",
+      "Aanval wordt pas gekozen op echte groene bal."
     ],
     "coaching": [
       "Cue: van rood naar oranje is winst.",

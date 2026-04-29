@@ -31,16 +31,24 @@
 | 27 | Body Jam from Defense | Anti-Bandeja Defense | Low Ball Control | keep | Body-target is duidelijk en wedstrijdecht | Alleen routekoppeling toevoegen | Belangrijke body-oplossing tegen goede netspelers |
 | 28 | Low-Low-Lob Pattern | Anti-Bandeja Defense | Match Warm-Up / Random, Net Dominance | keep | Sequencing is helder en tactisch sterk | Alleen als late route-stap positioneren | Laat goed zien wanneer de lob wél verdiend is |
 | 29 | Random Defense Decision: Lob, Body, T or Chiquita | Anti-Bandeja Defense | Match Warm-Up / Random, Glass Defense | keep | Sterke capstone die de hele route samenbrengt | Alleen route- en auditvelden toevoegen | Beste route-eindtest voor keuze vóór contact |
+| 30 | Bajada uit Achterglas: hoog glas omzetten naar druk | Glass Defense | Low Ball Control, Net Dominance | keep | Hoge glasbal wordt te snel als winner of te passief behandeld | Koppelen aan Glass Defense als bajada-progressie met duidelijke resetgrens | Sterke brug van glasverdediging naar gecontroleerde glasaanval |
+| 31 | Bajada Decision: rood, oranje of groen uit achterglas | Glass Defense | Anti-Bandeja Defense, Low Ball Control | keep | Twijfelballen uit het achterglas worden te vaak half aangevallen | Behouden als expliciete rood-oranje-groen drill voor bajada-keuze | Maakt van bajada een beslissing in plaats van een reflex |
+| 32 | Víbora of Bandeja: overhead-keuze bij lobkwaliteit | Overhead Under Pressure | Bandeja Control, Vibora / Pressure Shot | keep | Lobkwaliteit wordt vaak te laat gelezen waardoor de verkeerde overhead volgt | Behouden als drukkeuze tussen bandeja, víbora en reset | Vult de ontbrekende overhead-keuze onder druk sterk in |
+| 33 | Drop Volley / Dejada: zacht afmaken na netdruk | Dropshot Decision | Net Dominance, Low Ball Control | keep | Korte volley wordt vaak te vroeg of zonder vervolgpositie gespeeld | Behouden als primaire dropshot-decision drill | Dekt eindelijk het conditionele diep-diep-kort patroon |
+| 34 | Chiquita + Eerste Volley: laag instappen zonder haast | Low Ball Control | Return + First Volley, Net Dominance | keep | Goede chiquita wordt nog te weinig gekoppeld aan split-step en eerste volley | Behouden als transitievervolg op lage balcontrole | Sterke drill voor instappen zonder winnerdrang |
+| 35 | Forehand door Midden: linkshandige druk op T/body | Net Dominance | Low Ball Control, Match Warm-Up / Random | keep | Middenforehand wordt vaak te hoog of te hero-cross gespeeld | Behouden als T/body-drukdrill voor forehand door midden | Geeft de linkshandige rechterkant eindelijk een eigen middenwapen |
+| 36 | Middenbal-afspraken: Celeste rechts + Jeremiah links | Net Dominance | Match Warm-Up / Random | keep | Twijfel, stilte en dubbele beweging blijven een groot duo-probleem | Behouden als communicatie-capstone rond middenballen | Team-play inhoud is sterk, maar landt nu binnen bestaande route-opzet |
+| 37 | Serve Wide + Ball 3: eerste drie ballen met plan | Return + First Volley | Match Warm-Up / Random, Net Dominance | keep | Opening en ball 3 worden te vaak los van elkaar gespeeld | Behouden als latere opening-drill met split-step en ball-3-target | Versterkt de bibliotheek rond eerste drie ballen duidelijk |
+| 38 | Golden Point Druk: keuzevastheid onder scorebordstress | Match Warm-Up / Random | Anti-Bandeja Defense, Return + First Volley | keep | Onder scoreborddruk valt de speler terug op oude reflexen | Behouden als wedstrijddruk- en keuzediscipline-oefening | Goed bruikbaar als mentale capstone zonder extra wedstrijdvorm |
+| 39 | Defense to Neutral: van overleven naar neutraal zonder forceren | Glass Defense | Anti-Bandeja Defense, Low Ball Control | keep | Spelers willen te snel van rood naar groen en slaan het neutrale station over | Behouden als geduld- en neutralisatievorm | Geeft de glasroute een volwassen tussenstap van rood naar oranje |
 
 ## Missing Route Coverage
 
-- `Dropshot Decision`: er staat nog geen bestaande oefening in de bibliotheek die echt conditioneel op stopbal-keuze draait.
-- `Vibora / Pressure Shot`: er is nog geen drill waarin de vibora zelf de primaire drukslag is met duidelijke risicoherkenning.
-- `Match Warm-Up / Random`: de route bestaat nu, maar heeft nog weinig echte random warm-up dekking buiten oefening 10 en de secundaire koppelingen.
+- `Team Play`: de inhoud is nu aanwezig via oefening 36, maar de huidige route-architectuur heeft nog geen eigen team-play slug. Daardoor hangt deze drill nu logisch onder `Net Dominance`.
 
 ## Auditstatus Telling
 
-- `keep`: 14
+- `keep`: 24
 - `rewrite`: 12
 - `split`: 1
 - `move`: 2

@@ -3,7 +3,8 @@
     "Disclaimer: deze instellingen zijn praktische richtlijnen voor de PadelShooter 3A. Zie ze als startpunt en finetune op baan, ballen en spelniveau.";
   const exercises = [
     ...(Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : []),
-    ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : [])
+    ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : []),
+    ...(Array.isArray(window.BONUS_EXERCISE_BLUEPRINTS) ? window.BONUS_EXERCISE_BLUEPRINTS : [])
   ];
   const appPrograms = window.PADELSHOOTER_APP_PROGRAMS || {};
 

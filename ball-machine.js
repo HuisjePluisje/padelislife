@@ -1,6 +1,7 @@
 const EXERCISES = [
   ...(Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : []),
-  ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : [])
+  ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : []),
+  ...(Array.isArray(window.BONUS_EXERCISE_BLUEPRINTS) ? window.BONUS_EXERCISE_BLUEPRINTS : [])
 ];
 
 const ROUTES = Array.isArray(window.TRAINING_ROUTES) ? window.TRAINING_ROUTES : [];
