@@ -1255,6 +1255,14 @@ a { color: inherit; }
   gap: 10px;
 }
 
+.results-download-note {
+  max-width: 320px;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--muted);
+  text-align: right;
+}
+
 .results-subnote {
   max-width: 760px;
   margin: 12px 0 0;
@@ -1302,6 +1310,18 @@ a { color: inherit; }
   font-family: "Fraunces", serif;
   font-size: 1.55rem;
   line-height: 1.05;
+}
+
+.result-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.result-title-link:hover,
+.result-title-link:focus-visible {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.14em;
 }
 
 .result-body > p {
@@ -1569,6 +1589,13 @@ a { color: inherit; }
 .machine-program-card p {
   margin: 0;
   font-weight: 700;
+}
+
+.machine-program-meta {
+  margin-top: 6px !important;
+  font-size: 0.88rem;
+  font-weight: 600 !important;
+  color: var(--muted);
 }
 
 .machine-values-table-wrap {

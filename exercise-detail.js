@@ -252,6 +252,7 @@ function machineVariantCard(variant, isActive, exercise, variantKey) {
       <div class="content-box machine-program-card">
         <h4>Programmanaam</h4>
         <p>${exercise.padelShooterPreset?.[variantKey]?.programName || `${exercise.shortTitle} ${variant.label}`}</p>
+        <p class="machine-program-meta">${exercise.padelShooterPreset?.[variantKey]?.categoryName || "PadelShooter import"}</p>
       </div>
       <div class="machine-values-table-wrap">
         <table class="machine-values-table">
@@ -275,7 +276,7 @@ function machineVariantCard(variant, isActive, exercise, variantKey) {
       </ul>
       <div class="machine-actions">
         <button class="toolbar-button toolbar-button-small" type="button" data-machine-copy="${variantKey}">Kopieer preset</button>
-        <button class="toolbar-button toolbar-button-small toolbar-button-ghost" type="button" data-machine-download="${variantKey}">Download JSON</button>
+        <button class="toolbar-button toolbar-button-small toolbar-button-ghost" type="button" data-machine-download="${variantKey}">Download app-programma</button>
       </div>
     </article>
   `;
@@ -407,7 +408,12 @@ function bindMachineActions(exercise) {
       if (!preset) {
         return;
       }
-      downloadJson(preset, `padelshooter-${exercise.id}-${variantKey}.json`);
+      downloadJson(
+        preset.appImportProgram || preset,
+        preset.appImportProgram
+          ? `programs-${exercise.id}-${variantKey}.json`
+          : `padelshooter-${exercise.id}-${variantKey}.json`
+      );
     });
   });
 }

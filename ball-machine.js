@@ -208,7 +208,11 @@ function renderList() {
           <div class="result-band" style="--card-color:${exercise.categoryColor}"></div>
           <div class="result-body">
             <span class="eyebrow">Oefening ${exercise.id}</span>
-            <h3 class="result-title">${exercise.title}</h3>
+            <h3 class="result-title">
+              <a class="result-title-link" href="./exercise.html?id=${exercise.id}&handedness=${detailHandedness}">
+                ${exercise.title}
+              </a>
+            </h3>
             <p>${exercise.summary}</p>
             <div class="meta-row">
               <span class="meta-pill">${handednessLabel(state.handedness)}</span>
@@ -276,7 +280,7 @@ function bindEvents() {
           })
         : {};
       const handLabel = state.handedness === "all" ? "left-right" : state.handedness;
-      const filename = `padelshooter-presets-${handLabel}-${state.route}.json`;
+      const filename = `programs-${handLabel}-${state.route}.json`;
       downloadJson(data, filename);
     });
   }

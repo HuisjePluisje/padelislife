@@ -5,6 +5,7 @@
     ...(Array.isArray(window.EXERCISE_BLUEPRINTS) ? window.EXERCISE_BLUEPRINTS : []),
     ...(Array.isArray(window.EXTRA_EXERCISE_BLUEPRINTS) ? window.EXTRA_EXERCISE_BLUEPRINTS : [])
   ];
+  const appPrograms = window.PADELSHOOTER_APP_PROGRAMS || {};
 
   function mirrorDirectionalText(text) {
     const swaps = [
@@ -209,10 +210,22 @@
 
   function buildPreset(exercise, handedness) {
     const variant = machineLinesFor(exercise, handedness);
-    const balls = ballObjectsFrom(variant.lines).map((ball) => ({
+    const variantCategory = handedness === "left" ? "Padel Studio - Links" : "Padel Studio - Rechts";
+    const categoryPrograms = appPrograms[variantCategory] || {};
+    const exerciseKey = String(exercise.id).padStart(2, "0");
+    const programName = Object.keys(categoryPrograms).find((name) => name.startsWith(`${exerciseKey} - `));
+    const appProgram = programName ? categoryPrograms[programName] : null;
+    const fallbackBalls = ballObjectsFrom(variant.lines).map((ball) => ({
       ...ball,
       ...valuesFromInstruction(ball.instruction, handedness)
     }));
+    const balls = appProgram
+      ? appProgram.shots.map((shot, index) => ({
+          ball: index + 1,
+          instruction: ballObjectsFrom(variant.lines)[index]?.instruction || `Programmaschot ${index + 1}`,
+          ...shot
+        }))
+      : fallbackBalls;
 
     return {
       machine: "PadelShooter 3A",
@@ -221,13 +234,15 @@
       shortTitle: exercise.shortTitle,
       handedness,
       playerProfile: variant.label,
-      programName: `${exercise.id} ${exercise.shortTitle} ${handedness === "left" ? "L" : "R"}`,
+      categoryName: variantCategory,
+      programName: programName || `${exercise.id} ${exercise.shortTitle} ${handedness === "left" ? "L" : "R"}`,
       route: exercise.routeName || exercise.primaryRoute || "",
       totalBalls: exercise.totalBalls,
       sequence: exercise.sequence,
       focus: exercise.habitFocus || "",
       machineSetup: variant.lines,
       balls,
+      appImportProgram: appProgram ? { [variantCategory]: { [programName]: appProgram } } : null,
       disclaimer
     };
   }
@@ -249,6 +264,27 @@
   window.buildPadelShooterPreset = buildPreset;
   window.buildPadelShooterCatalog = function buildPadelShooterCatalog(items, handedness, filters = {}) {
     const variants = handedness === "all" ? ["left", "right"] : [handedness];
+    const importPayload = {};
+
+    variants.forEach((variantKey) => {
+      const variantCategory = variantKey === "left" ? "Padel Studio - Links" : "Padel Studio - Rechts";
+      importPayload[variantCategory] = {};
+
+      items.forEach((exercise) => {
+        const preset = buildPreset(exercise, variantKey);
+        if (preset.appImportProgram?.[variantCategory]?.[preset.programName]) {
+          importPayload[variantCategory][preset.programName] = preset.appImportProgram[variantCategory][preset.programName];
+        }
+      });
+
+      if (!Object.keys(importPayload[variantCategory]).length) {
+        delete importPayload[variantCategory];
+      }
+    });
+
+    if (Object.keys(importPayload).length) {
+      return importPayload;
+    }
 
     return {
       machine: "PadelShooter 3A",
