@@ -98,7 +98,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Varieer hoogte en diepte. De speler mag alleen aanvallen als contact vóór het lichaam en boven heuphoogte haalbaar is."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Juiste classificatie vóór contact: bajada of reset.",
+      "**1pt** — Contactpunt vóór het lichaam en niet naast/achter de heup.",
+      "**1pt** — Bajada gaat laag/diep naar T, midden of body.",
+      "**1pt** — Na contact volgt actieve positiewinst zonder blind te sprinten."
+    ],
     "coaching": [
       "Cue: eerst hoogte, dan richting, dan snelheid.",
       "Cue: bajada is druk, geen gok.",
@@ -256,7 +261,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Speel 10 random herhalingen. Elke verkeerde kleur is fout, ook als de bal technisch goed terugkomt."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Kleur benoemd vóór contact.",
+      "**1pt** — Balkeuze past bij de kleur.",
+      "**1pt** — Uitvoering heeft het juiste venster: hoog/diep, laag/body of bajada-druk.",
+      "**1pt** — Herstelpositie klopt met gekozen kleur."
+    ],
     "coaching": [
       "Cue: naam geven vóór contact.",
       "Cue: twijfel is oranje, geen groen.",
@@ -414,7 +424,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "De machine wisselt hoogte en diepte. De speler kiest bandeja, víbora of reset en herstelt direct naar netpositie."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Juiste overhead gekozen op basis van lobkwaliteit.",
+      "**1pt** — Slag blijft diep of laag genoeg om geen gratis counter te geven.",
+      "**1pt** — Na contact direct herstel naar netpositie.",
+      "**1pt** — Geen víbora geforceerd vanuit achterwaartse balans."
+    ],
     "coaching": [
       "Cue: bandeja houdt vast, víbora zet druk.",
       "Cue: voeten beslissen de slag.",
@@ -572,7 +587,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "De feeder/machine varieert balhoogte. Alleen bij groene positie en diepe tegenstander mag de drop gekozen worden."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Drop is verdiend door eerdere diepte of bodydruk.",
+      "**1pt** — Contact is compact en zacht, zonder grote backswing.",
+      "**1pt** — Bal valt kort en laag genoeg om geen makkelijke tegenaanval te geven.",
+      "**1pt** — Speler sluit direct naar voren na de drop."
+    ],
     "coaching": [
       "Cue: eerst diep maken, dan kort maken.",
       "Cue: zacht is niet slap; zacht is gecontroleerd.",
@@ -730,7 +750,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Wissel tussen volley op body, lage voetenbal en lobreactie. De speler moet na de chiquita blijven lezen."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Chiquita blijft laag en dwingt een moeilijke volley af.",
+      "**1pt** — Eerste stap na contact is direct en schuin voorwaarts.",
+      "**1pt** — Split-step vóór de eerste volley.",
+      "**1pt** — Eerste volley bevestigt controle zonder te forceren."
+    ],
     "coaching": [
       "Cue: laag spelen, rustig lopen, vroeg stoppen.",
       "Cue: chiquita koopt positie, niet direct het punt.",
@@ -889,7 +914,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Wissel T en body af. De speler benoemt de target vóór contact."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Target vooraf benoemd: T of body.",
+      "**1pt** — Bal blijft laag of zwaar genoeg om geen comfortabele volley te geven.",
+      "**1pt** — Speler en partner sluiten middenpositie na contact.",
+      "**1pt** — Geen wilde crossbal wanneer midden/body de logische keuze is."
+    ],
     "coaching": [
       "Cue: door midden is agressief als hij laag is.",
       "Cue: body wint tijd, open ruimte wint niet altijd punten.",
@@ -1047,7 +1077,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Mix middenballen met hoekballen zodat jullie niet elk geluid als middenbal interpreteren."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Vroege duidelijke call.",
+      "**1pt** — Juiste speler neemt de bal op basis van positie en forehandvoordeel.",
+      "**1pt** — Balkeuze is simpel en laag door midden/body/T.",
+      "**1pt** — Partnerdekking na de slag is zichtbaar."
+    ],
     "coaching": [
       "Cue: call vóór voetenwerk volledig is.",
       "Cue: wie niet slaat, speelt ook mee.",
@@ -1205,7 +1240,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Speel alsof het 30-30 is: fout op opening of ball 3 kost dubbel."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Opening heeft duidelijk doel: wide of positie-openend.",
+      "**1pt** — Split-step na opening op tijd.",
+      "**1pt** — Ball 3 target vooraf gekozen en uitgevoerd.",
+      "**1pt** — Vierde bal bevestigt druk of neutrale controle."
+    ],
     "coaching": [
       "Cue: serve is vraag, ball 3 is antwoord.",
       "Cue: eerst klaarstaan, dan kiezen.",
@@ -1363,7 +1403,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Win 3 reeksen op rij om door te gaan. Bij een keuze-fout terug naar nul."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Beslisregel vóór de reeks gekozen.",
+      "**1pt** — Onder druk geen ongeplande hero-bal.",
+      "**1pt** — Fout wordt correct benoemd als keuze of uitvoering.",
+      "**1pt** — Na elke reeks snelle mentale reset."
+    ],
     "coaching": [
       "Cue: onder druk wordt je plan kleiner, niet groter.",
       "Cue: fout mag, keuze-fout liever niet.",
@@ -1522,7 +1567,12 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "text": "Speel volledige reeksen waarin succes betekent: na vier ballen staat de speler neutraal of beter, niet per se aan het net."
       }
     ],
-    "score": [],
+    "score": [
+      "**1pt** — Eerste drukbal wordt niet geforceerd gecounterd.",
+      "**1pt** — Reset is hoog/diep of laag genoeg om druk te verminderen.",
+      "**1pt** — Herstel naar neutrale basis na bal 1 en 2.",
+      "**1pt** — Aanval wordt pas gekozen op echte groene bal."
+    ],
     "coaching": [
       "Cue: van rood naar oranje is winst.",
       "Cue: neutraliseren is actief, niet passief.",
