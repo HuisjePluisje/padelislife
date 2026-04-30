@@ -3,16 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1-vs-2 Training | Padel Studio</title>
-    <meta
-      name="description"
-      content="1-vs-2 training in padel met uitgewerkte vormen voor solo-speler, duo-druk en conditioned points."
-    />
-    <meta property="og:title" content="1-vs-2 Training | Padel Studio" />
-    <meta
-      property="og:description"
-      content="Ondertal als volwaardige trainingsvorm voor reset, druk en positionele keuzes."
-    />
     <meta property="og:image" content="https://huisjepluisje.github.io/padelislife/assets/padel-studio-wordmark.svg" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -25,6 +15,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <title>Trainingsprogramma's | Padel Studio</title>
+    <meta
+      name="description"
+      content="Kies een vast trainingsprogramma van 60 of 90 minuten en open direct de juiste oefeningvariant voor Celeste of Jeremiah."
+    />
+    <meta property="og:title" content="Trainingsprogramma's | Padel Studio" />
+    <meta
+      property="og:description"
+      content="Dertig vaste trainingsroutes die bestaande oefeningen logisch bundelen, inclusief speler-variant, PadelShooter-side en KPI."
+    />
   </head>
   <body class="site-body">
     <div class="site-shell">
@@ -39,7 +39,8 @@
               <a href="./ball-machine.html"><strong>Ballenmachine</strong><span>Gerichte vormen met instellingen en coach cues.</span></a>
               <a href="./one-on-one.html"><strong>Partnertraining</strong><span>Met z'n tweeën trainen zonder ruis of tijdverlies.</span></a>
               <a href="./one-vs-two.html"><strong>1-vs-2</strong><span>Slimme vormen voor drie spelers en ondertal.</span></a>
-              <a href="./sessie-opbouw.html"><strong>Sessie-opbouw</strong><span>Van warming-up naar drukpunten in één training.</span></a><a href="./training-programmas.html"><strong>Trainingsprogramma's</strong><span>Vaste routes van 60 of 90 minuten met de juiste speler-variant.</span></a>
+              <a href="./sessie-opbouw.html"><strong>Sessie-opbouw</strong><span>Van warming-up naar drukpunten in één training.</span></a>
+              <a href="./training-programmas.html"><strong>Trainingsprogramma's</strong><span>Vaste routes van 60 of 90 minuten met de juiste speler-variant.</span></a>
             </div>
           </div>
           <div class="nav-group">
@@ -71,87 +72,87 @@
           </div>
         </nav>
       </header>
-      <main>
-        <section class="module-hero">
-          <div class="module-hero-copy">
-            <p class="eyebrow">1-vs-2 Training</p>
-            <h1>Train slim als je één speler mist en maak van ondertal een volwaardige werkvorm.</h1>
-            <p class="lead">
-              Deze module draait om scenario's waarin één speler moet overleven, vertragen,
-              resetten of juist slim versnellen tegen twee spelers. Niet als noodgreep, maar als
-              bewuste trainingsvorm voor positionering en keuzes onder druk.
-            </p>
+
+      <main class="theme-main">
+        <section class="simple-hero">
+          <p class="eyebrow">Training · Trainingsprogramma's</p>
+          <h1>Trainingsprogramma’s</h1>
+          <div class="pillar-summary">
+            <p>Kies een vast programma van 60 of 90 minuten. Elk programma linkt naar bestaande oefeningen met de juiste speler-variant.</p>
           </div>
-          <div class="module-hero-side">
-            <div class="module-hero-visual module-hero-visual-one-vs-two"></div>
-            <article class="hero-note-card">
-              <span class="hero-note-kicker">Waarom dit telt</span>
-              <h3>Ondertal leert veel</h3>
-              <p>De solo-speler leert oplossingen. Het duo leert druk bouwen zonder rommelig te worden.</p>
-            </article>
+          <div class="hero-actions">
+            <a class="button button-primary" href="./ball-machine.html">Open Ballenmachine</a>
+            <a class="button button-secondary" href="./training.html">Terug naar Training</a>
           </div>
         </section>
 
-        <section class="module-section">
-          <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Formaten</p>
-            <h2>Vijf uitgewerkte formats voor trainingen met drie spelers.</h2>
+        <section class="section-block">
+          <div class="section-header-block">
+            <div class="section-title-group">
+              <span class="section-icon">🎛</span>
+              <span class="section-title">Filter programma’s</span>
+            </div>
           </div>
-
-          <div class="stats-row">
-            <article class="stat-card">
-              <span>Spelvormen</span>
-              <strong id="one-vs-two-count">5</strong>
-            </article>
-            <article class="stat-card">
-              <span>Rollen</span>
-              <strong>Solo + duo</strong>
-            </article>
-            <article class="stat-card">
-              <span>Doel</span>
-              <strong>Reset, druk, transitie</strong>
-            </article>
-            <article class="stat-card">
-              <span>Gebruik</span>
-              <strong>Veel rotatie</strong>
-            </article>
+          <div class="section-body">
+            <div class="program-filters">
+              <label class="program-filter">
+                <span>Speler</span>
+                <select id="program-filter-player">
+                  <option value="all">Alle spelers</option>
+                  <option value="Celeste">Celeste</option>
+                  <option value="Jeremiah">Jeremiah</option>
+                </select>
+              </label>
+              <label class="program-filter">
+                <span>Niveau</span>
+                <select id="program-filter-level">
+                  <option value="all">Alle niveaus</option>
+                  <option value="beginner">Beginner</option>
+                  <option value="advanced">Advanced</option>
+                </select>
+              </label>
+              <label class="program-filter">
+                <span>Duur</span>
+                <select id="program-filter-duration">
+                  <option value="all">Alle duren</option>
+                  <option value="60">60 minuten</option>
+                  <option value="90">90 minuten</option>
+                </select>
+              </label>
+              <label class="program-filter">
+                <span>Type</span>
+                <select id="program-filter-type">
+                  <option value="all">Alle types</option>
+                  <option value="beginner_celeste">beginner_celeste</option>
+                  <option value="advanced_60">advanced_60</option>
+                  <option value="advanced_90">advanced_90</option>
+                </select>
+              </label>
+            </div>
           </div>
         </section>
 
-        <section class="module-section">
+        <section class="home-section">
           <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Werkvormen</p>
-            <h2>Ondertal als bewuste trainingsvorm, niet als noodoplossing.</h2>
+            <p class="eyebrow">Overzicht</p>
+            <h2 class="section-title-wide">Dertig vaste routes die je direct van doel naar oefening brengen.</h2>
+            <p id="program-results-text">30 programma’s</p>
           </div>
-
-          <div class="library-grid" id="one-vs-two-grid"></div>
+          <div class="theme-grid program-grid" id="program-grid"></div>
         </section>
 
-        <section class="module-section">
+        <section class="home-section" id="program-detail-section">
           <div class="section-intro section-intro-wide">
-            <p class="eyebrow">Wat het leert</p>
-            <h2>Waarom deze module voor beide kanten werkt.</h2>
+            <p class="eyebrow">Programma-detail</p>
+            <h2 class="section-title-wide">Bekijk de logica achter het programma en open daarna de juiste oefeningvariant.</h2>
+            <p id="program-detail-intro">Selecteer een programma om de blokken, KPI en oefeninglinks te bekijken.</p>
           </div>
-
-          <div class="principles-grid">
-            <article class="principle-card">
-              <h3>Voor de solo-speler</h3>
-              <p>Onder druk resetten, slim ademruimte zoeken en het net alleen terugpakken wanneer het verdiend is.</p>
-            </article>
-            <article class="principle-card">
-              <h3>Voor het duo</h3>
-              <p>Compact druk opbouwen, midden sluiten en niet jagen zonder duidelijke vervolgpositie.</p>
-            </article>
-            <article class="principle-card">
-              <h3>Voor de coach</h3>
-              <p>Snelle zichtbaarheid van besluitvorming, discipline en communicatie in echte spelcontext.</p>
-            </article>
-          </div>
+          <div id="program-detail"></div>
         </section>
       </main>
     </div>
-    <script src="data/module-content.js"></script>
-    <script src="module-pages.js"></script>
-      <script src="navigation.js"></script>
+    <script src="data/training-programmas-data.js"></script>
+    <script src="navigation.js"></script>
+    <script src="training-programmas.js"></script>
   </body>
 </html>
