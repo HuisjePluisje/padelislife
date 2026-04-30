@@ -2574,6 +2574,117 @@ a { color: inherit; }
   box-shadow: var(--shadow-soft);
 }
 
+.analysis-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.analysis-flow-compact {
+  margin-top: 16px;
+}
+
+.flow-step {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255, 250, 244, 0.96) 0%, rgba(243, 231, 215, 0.9) 100%);
+  box-shadow: var(--shadow-soft);
+}
+
+.flow-step strong {
+  font-size: 0.96rem;
+}
+
+.flow-step span {
+  color: var(--muted);
+  line-height: 1.55;
+  font-size: 0.93rem;
+}
+
+.analysis-link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.analysis-link-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(220, 236, 224, 0.6);
+  color: var(--green);
+  font-size: 0.84rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.analysis-link-chip:hover,
+.analysis-link-chip:focus-visible {
+  border-color: rgba(25, 95, 45, 0.26);
+  transform: translateY(-1px);
+}
+
+.analysis-split-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.analysis-section-stack {
+  display: grid;
+  gap: 20px;
+}
+
+.analysis-table-wrap {
+  overflow-x: auto;
+  padding: 2px;
+}
+
+.analysis-table {
+  width: 100%;
+  min-width: 780px;
+  border-collapse: collapse;
+  background: rgba(255, 250, 244, 0.9);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.analysis-table th,
+.analysis-table td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  line-height: 1.55;
+}
+
+.analysis-table th {
+  background: linear-gradient(180deg, #fffdf8 0%, #f3e7d7 100%);
+  font-size: 0.86rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.analysis-table td {
+  color: var(--muted);
+}
+
+.analysis-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.analysis-callout ul {
+  margin-top: 12px;
+}
+
 .program-filters {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -2735,6 +2846,10 @@ a { color: inherit; }
 @media (max-width: 1080px) {
   .program-filters {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .analysis-split-grid {
+    grid-template-columns: 1fr;
   }
 }
 
