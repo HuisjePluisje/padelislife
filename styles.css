@@ -2732,7 +2732,10 @@ a { color: inherit; }
 }
 
 .program-card {
+  display: flex;
+  flex-direction: column;
   align-content: start;
+  gap: 16px;
 }
 
 .program-card-selected {
@@ -2769,8 +2772,12 @@ a { color: inherit; }
   margin: 0;
 }
 
-.training-program-detail {
-  gap: 24px;
+.program-profile-box p {
+  margin: 0;
+}
+
+.program-card .toolbar-button {
+  margin-top: auto;
 }
 
 .program-exercise-links {
@@ -2843,12 +2850,127 @@ a { color: inherit; }
   line-height: 1.55;
 }
 
+.program-block-transfer {
+  background: linear-gradient(180deg, rgba(237, 246, 240, 0.96) 0%, rgba(225, 239, 229, 0.92) 100%);
+}
+
+.program-block-log {
+  background: linear-gradient(180deg, rgba(251, 246, 238, 0.96) 0%, rgba(238, 230, 218, 0.92) 100%);
+}
+
+.training-program-detail-page {
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.training-program-hero {
+  margin-top: 28px;
+}
+
+.training-program-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.program-detail-grid,
+.program-exercise-grid,
+.session-print-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.program-exercise-card {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255, 250, 244, 0.98) 0%, rgba(243, 231, 215, 0.9) 100%);
+}
+
+.program-exercise-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.program-exercise-card h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  line-height: 1.12;
+}
+
+.program-exercise-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.program-note {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.96rem;
+}
+
+.program-question-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.training-program-print-section .section-body {
+  display: grid;
+  gap: 18px;
+}
+
+.session-print-card {
+  display: grid;
+  gap: 18px;
+  padding: 22px;
+  border-radius: 22px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255, 250, 244, 0.98) 0%, rgba(243, 231, 215, 0.9) 100%);
+}
+
+.session-print-card-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: start;
+}
+
+.session-print-card-head h3 {
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 1.08;
+}
+
+.session-print-card-head .eyebrow {
+  margin-bottom: 10px;
+}
+
+.session-print-timeline .program-block-list {
+  margin-top: 16px;
+}
+
 @media (max-width: 1080px) {
   .program-filters {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .analysis-split-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .training-program-summary-grid,
+  .program-detail-grid,
+  .program-exercise-grid,
+  .session-print-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -2864,6 +2986,88 @@ a { color: inherit; }
 
   .program-block-time {
     justify-self: start;
+  }
+
+  .session-print-card-head {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  .site-header,
+  .hero-actions,
+  .training-program-detail-page > :not(.training-program-print-section) {
+    display: none !important;
+  }
+
+  .site-shell {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .theme-main,
+  .training-program-print-section,
+  .training-program-print-section .section-body {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    background: #fff;
+  }
+
+  .training-program-print-section {
+    border: 0;
+    box-shadow: none;
+  }
+
+  .training-program-print-section .section-header-block {
+    display: none;
+  }
+
+  .session-print-card,
+  .session-print-card .content-box,
+  .session-print-card .program-block-item {
+    box-shadow: none;
+    background: #fff;
+    border-color: #d7c8b4;
+  }
+
+  .session-print-card {
+    padding: 0;
+    border: 0;
+    gap: 12px;
+  }
+
+  .session-print-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .session-print-card h3,
+  .session-print-card h4,
+  .session-print-card p,
+  .session-print-card li,
+  .session-print-card strong,
+  .session-print-card span {
+    color: #182d3c !important;
+  }
+
+  .program-block-list {
+    gap: 8px;
+  }
+
+  .program-block-item {
+    padding: 10px;
+    page-break-inside: avoid;
   }
 }
 
