@@ -72,6 +72,8 @@
 
   const themeContent = {
     "Achterglas": {
+      mainPrinciple:
+        "Eerst weer controle over richting en herstel, daarna pas kiezen tussen reset, lage uitweg of gecontroleerde aanval.",
       situation:
         "De rally start diep achterin, vaak via het achterglas of vanuit de hoek. Je eerste taak is niet winnen, maar weer controle krijgen over richting, hoogte en herstelpositie.",
       why:
@@ -98,6 +100,8 @@
       ]
     },
     "Laag verdedigen zonder automatische lob": {
+      mainPrinciple:
+        "Niet automatisch hoog spelen: zodra je redelijk in balans bent, kies je bewust voor T, lichaam of voeten.",
       situation:
         "Je staat onder druk achterin, maar niet elke moeilijke bal vraagt om een lob. Zodra je redelijk in balans bent, kan laag verdedigen slimmer zijn: door de T, op het lichaam of naar de voeten.",
       why:
@@ -124,6 +128,8 @@
       ]
     },
     "Chiquita & doorstappen": {
+      mainPrinciple:
+        "Een chiquita telt pas echt als hij laag blijft en direct wordt gekoppeld aan de eerste stap vooruit.",
       situation:
         "Je krijgt een werkbare bal vanuit achterin of middenveld. De kans zit niet alleen in de chiquita zelf, maar vooral in de eerste stap erna en de controle op de eerste volley.",
       why:
@@ -150,6 +156,8 @@
       ]
     },
     "Netspel": {
+      mainPrinciple:
+        "Houd eerst het net vast met controle en druk; open of finish pas wanneer de bal echt groen wordt.",
       situation:
         "Je hebt het net en moet het punt opbouwen zonder direct te willen afmaken. De eerste vraag is niet of je kunt finishen, maar of je de tegenstander klein kunt houden.",
       why:
@@ -176,6 +184,8 @@
       ]
     },
     "Bandeja / víbora": {
+      mainPrinciple:
+        "Kies de overhead op basis van lobdiepte en herstelmogelijkheid, niet op basis van wat technisch het stoerst voelt.",
       situation:
         "De tegenstander lobt en jij moet kiezen of deze overhead bedoeld is om het net te houden, druk te zetten of te resetten.",
       why:
@@ -203,6 +213,8 @@
       ]
     },
     "Serve + eerste drie ballen": {
+      mainPrinciple:
+        "De eerste bal opent, de tweede bevestigt en de derde mag het patroon nooit onnodig breken.",
       situation:
         "Het punt start met service of return. De training draait om de eerste drie ballen en de vraag of je vervolgplan klopt.",
       why:
@@ -229,6 +241,8 @@
       ]
     },
     "Wedstrijdmix": {
+      mainPrinciple:
+        "Onder wisselende scenario’s en scoredruk kies je voor het meest volwassen patroon van de dag, niet voor de impuls.",
       situation:
         "Je combineert meerdere rallyproblemen in één sessie en test of je keuzes overeind blijven zodra de situatie wisselt of de score druk toevoegt.",
       why:
@@ -311,6 +325,16 @@
 
   window.TrainingProgramsCore = {
     programs,
+    knltbOptions: ["KNLTB 8-9", "KNLTB 7-8", "KNLTB 6-7"],
+    themeOptions: [
+      "Achterglas",
+      "Laag verdedigen zonder automatische lob",
+      "Chiquita & doorstappen",
+      "Netspel",
+      "Bandeja / víbora",
+      "Serve + eerste drie ballen",
+      "Wedstrijdmix"
+    ],
     findProgramById(id) {
       return programs.find((program) => program.id === id) || null;
     }
