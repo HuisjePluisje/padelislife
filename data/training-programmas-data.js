@@ -1,14 +1,14 @@
 window.TRAINING_PROGRAMS_DATA = {
   "version": "v1",
   "title": "Padel Studio - 30 trainingsprogramma's",
-  "scope": "10 beginnerprogramma’s voor Celeste, 10 gevorderde programma’s van 60 minuten voor Jeremiah en 10 gevorderde programma’s van 90 minuten.",
+  "scope": "30 trainingsprogramma’s op KNLTB-niveau: 8-9, 7-8 en 6-7. Programma’s worden gefilterd op niveau en handigheid, niet op persoonsnaam.",
   "routing": {
-    "celeste": {
+    "rightHanded": {
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts"
     },
-    "jeremiah": {
+    "leftHanded": {
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links"
@@ -19,14 +19,14 @@ window.TRAINING_PROGRAMS_DATA = {
     {
       "id": "TP-001",
       "title": "Achterglas vertrouwen: eerst terug in de rally",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste leert glasballen rustig lezen en kiest eerst voor terugspelen/neutraliseren in plaats van paniek of te snel aanvallen.",
+      "goal": "De rechtshandige speler leert glasballen rustig lezen en kiest eerst voor terugspelen/neutraliseren in plaats van paniek of te snel aanvallen.",
       "logicalFlow": "Van simpel neutraliseren naar backglass lezen en daarna pas een beperkte keuze: hoog resetten of laag veilig terug.",
       "exerciseIds": [
         "39",
@@ -91,22 +91,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 14 van 20 glasballen speelbaar terug; maximaal 4 directe fouten uit de hoek/achterglas.",
-      "transferGame": "Rally start achterin. Celeste krijgt 1 punt extra wanneer ze na glas eerst neutraal terugkomt en daarna goed herstelt.",
+      "transferGame": "Rally start achterin. De rechtshandige speler krijgt 1 punt extra wanneer de speler na glas eerst neutraal terugkomt en daarna goed herstelt.",
       "coachNote": "Beginnerregel: geen bajada, geen winnerdrang. Eerst bal lezen, terugspelen en positie herstellen.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-002",
       "title": "Lage forehand: chiquita of lob zonder haast",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste traint een rustige keuze uit de lage forehand: laag terug, chiquita wanneer het kan, lob wanneer het moet.",
+      "goal": "De rechtshandige speler traint een rustige keuze uit de lage forehand: laag terug, chiquita wanneer het kan, lob wanneer het moet.",
       "logicalFlow": "Eerst simpele forehand-keuze, daarna lob als veilige optie en pas aan het einde een eenvoudige chiquita-instap.",
       "exerciseIds": [
         "02",
@@ -170,23 +170,23 @@ window.TRAINING_PROGRAMS_DATA = {
           "log": "Aantal juiste keuzes en aantal halfhoge ballen."
         }
       ],
-      "successCriterionKpi": "In 12 van 20 reeksen kiest Celeste bewust: laag, lob of neutraliseren; minder dan 5 halfhoge weggeefballen.",
-      "transferGame": "Punt start met lage forehand. Celeste noemt vóór contact ‘laag’ of ‘lob’. Alleen bewuste keuzes tellen.",
+      "successCriterionKpi": "In 12 van 20 reeksen kiest rechtshandige speler bewust: laag, lob of neutraliseren; minder dan 5 halfhoge weggeefballen.",
+      "transferGame": "Punt start met lage forehand. De rechtshandige speler noemt vóór contact ‘laag’ of ‘lob’. Alleen bewuste keuzes tellen.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-003",
       "title": "Return basis: diep spelen en positie kiezen",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste leert dat een return geen losse slag is: diep spelen, split-step maken en dan kiezen of ze blijft of doorstapt.",
+      "goal": "De rechtshandige speler leert dat een return geen losse slag is: diep spelen, split-step maken en dan kiezen: blijven of doorstappen.",
       "logicalFlow": "Van returndiepte naar body block en dan eenvoudige samenwerking/middenafspraak.",
       "exerciseIds": [
         "03",
@@ -239,7 +239,7 @@ window.TRAINING_PROGRAMS_DATA = {
           "minutes": 12,
           "exerciseId": "36",
           "exerciseTitle": "Middenbal-afspraken Duo",
-          "focus": "middenbalafspraken met Jeremiah"
+          "focus": "middenbalafspraken met linkshandige speler"
         },
         {
           "minutes": 12,
@@ -250,23 +250,23 @@ window.TRAINING_PROGRAMS_DATA = {
           "log": "Diepe returns, onterechte doorstapmomenten, communicatie."
         }
       ],
-      "successCriterionKpi": "Minimaal 70% returns landt diep genoeg of body/midden; Celeste stapt alleen door bij een goede return.",
+      "successCriterionKpi": "Minimaal 70% returns landt diep genoeg of body/midden; rechtshandige speler stapt alleen door bij een goede return.",
       "transferGame": "Speel alleen de eerste 5 ballen van het punt. Stop daarna en scoor positievoordeel: achteruitgeduwd, neutraal of net gewonnen.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-004",
       "title": "Lob als veilige uitweg",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste bouwt een betrouwbare lob op als uitweg onder druk, zonder automatisch na elke bal naar voren te rennen.",
+      "goal": "De rechtshandige speler bouwt een betrouwbare lob op als uitweg onder druk, zonder automatisch na elke bal naar voren te rennen.",
       "logicalFlow": "Eerst lob-positioneren, daarna low-low-lob, daarna transition lob alleen wanneer de bal en balans goed zijn.",
       "exerciseIds": [
         "10",
@@ -323,7 +323,7 @@ window.TRAINING_PROGRAMS_DATA = {
         },
         {
           "minutes": 12,
-          "transfer": "Lob telt alleen als hij tijd koopt; daarna herstel checken."
+          "transfer": "Lob telt alleen als de speler tijd koopt; daarna herstel checken."
         },
         {
           "minutes": 4,
@@ -331,22 +331,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 13 van 20 lobs zijn hoog/diep genoeg om tijd te kopen; herstel volgt direct na contact.",
-      "transferGame": "Rally start onder druk. Celeste scoort wanneer haar lob de tegenstander achter de servicelijn dwingt en zij goed herstelt.",
+      "transferGame": "Rally start onder druk. De rechtshandige speler scoort wanneer de lob de tegenstander achter de servicelijn dwingt en de speler goed herstelt.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-005",
       "title": "Volleybasis: vasthouden voor afmaken",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste leert aan het net eerst controle en positie vasthouden, niet meteen afmaken.",
+      "goal": "De rechtshandige speler leert aan het net eerst controle en positie vasthouden, niet meteen afmaken.",
       "logicalFlow": "Van basisvolleys naar freeze volley en daarna pas simpele finish-or-freeze keuze.",
       "exerciseIds": [
         "07",
@@ -410,23 +410,23 @@ window.TRAINING_PROGRAMS_DATA = {
           "log": "Netfouten, goede freeze balls, te snelle finishes."
         }
       ],
-      "successCriterionKpi": "Minimaal 15 van 20 volleys blijven laag/speelbaar; Celeste kiest vaker freeze/control dan wild finishen.",
+      "successCriterionKpi": "Minimaal 15 van 20 volleys blijven laag/speelbaar; rechtshandige speler kiest vaker freeze/control dan wild finishen.",
       "transferGame": "Netduel: winnaar telt alleen als er eerst één controlevolley of freeze volley is gespeeld.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-006",
       "title": "Hoekverdediging zonder paniek",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste traint moeilijke hoekballen terug naar neutraal krijgen zonder te forceren.",
+      "goal": "De rechtshandige speler traint moeilijke hoekballen terug naar neutraal krijgen zonder te forceren.",
       "logicalFlow": "Van corner defense naar low T reset, daarna double glass alleen rustig en als lees-oefening.",
       "exerciseIds": [
         "16",
@@ -491,22 +491,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 12 van 20 hoekballen komen terug als reset of low T; geen harde paniekslagen uit balans.",
-      "transferGame": "Punt start in de hoek. Celeste wint het mini-punt als ze binnen 3 ballen weer neutraal staat.",
+      "transferGame": "Punt start in de hoek. De rechtshandige speler wint het mini-punt als de speler binnen 3 ballen weer neutraal staat.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-007",
       "title": "Body defense: bal op je af zonder blokkeren",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste leert ballen op het lichaam compact op te vangen en daarna open ruimte of midden te vinden.",
+      "goal": "De rechtshandige speler leert ballen op het lichaam compact op te vangen en daarna open ruimte of midden te vinden.",
       "logicalFlow": "Eerst body jam overleven, daarna open cross, daarna neutraliseren als default.",
       "exerciseIds": [
         "27",
@@ -571,22 +571,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "12 van 20 bodyballen worden compact verwerkt zonder achteruit te vallen of racket te groot te maken.",
-      "transferGame": "Tegenstander/machine speelt body. Celeste krijgt punt voor compacte block + herstel, niet voor hard slaan.",
+      "transferGame": "Tegenstander/machine speelt body. De rechtshandige speler krijgt punt voor compacte block + herstel, niet voor hard slaan.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-008",
       "title": "Chiquita beginner: laag spelen en niet haasten",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner-plus",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste maakt kennis met de chiquita als rustige lage bal naar voeten, niet als trucje of winner.",
+      "goal": "rechtshandige speler maakt kennis met de chiquita als rustige lage bal naar voeten, niet als trucje of winner.",
       "logicalFlow": "Eerst low-feet chiquita, daarna chiquita entry, daarna eerste volley alleen als de bal echt goed is.",
       "exerciseIds": [
         "25",
@@ -650,23 +650,23 @@ window.TRAINING_PROGRAMS_DATA = {
           "log": "Lage chiquita’s, onterechte instap, fouten in net."
         }
       ],
-      "successCriterionKpi": "Minimaal 10 van 20 chiquita’s blijven laag genoeg; Celeste stapt alleen in na een groene bal.",
-      "transferGame": "Chiquita-spel: na een goede lage bal mag Celeste één stap vooruit, maar niet blind naar het net sprinten.",
-      "coachNote": "Deze training is beginner-plus. Als Celeste veel directe fouten maakt: oefening 34 overslaan en terug naar 25 + 39.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "successCriterionKpi": "Minimaal 10 van 20 chiquita’s blijven laag genoeg; rechtshandige speler stapt alleen in na een groene bal.",
+      "transferGame": "Chiquita-spel: na een goede lage bal mag rechtshandige speler één stap vooruit, maar niet blind naar het net sprinten.",
+      "coachNote": "Deze training is beginner-plus. Als rechtshandige speler veel directe fouten maakt: oefening 34 overslaan en terug naar 25 + 39.",
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-009",
       "title": "Eerste drie ballen: service/return met plan",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste krijgt simpele patronen voor de eerste drie ballen, zodat punten minder rommelig starten.",
+      "goal": "De rechtshandige speler krijgt simpele patronen voor de eerste drie ballen, zodat punten minder rommelig starten.",
       "logicalFlow": "Van serve/ball 3 naar return deep, daarna middenafspraak zodat duo-patronen duidelijker worden.",
       "exerciseIds": [
         "18",
@@ -719,7 +719,7 @@ window.TRAINING_PROGRAMS_DATA = {
           "minutes": 12,
           "exerciseId": "36",
           "exerciseTitle": "Middenbal-afspraken Duo",
-          "focus": "middenafspraken met Jeremiah"
+          "focus": "middenafspraken met linkshandige speler"
         },
         {
           "minutes": 12,
@@ -733,20 +733,20 @@ window.TRAINING_PROGRAMS_DATA = {
       "successCriterionKpi": "In 70% van de reeksen is na drie ballen duidelijk: blijven, doorstappen of midden dekken.",
       "transferGame": "Speel alleen de eerste drie tot vijf ballen. Daarna stoppen en beoordelen wie positievoordeel heeft.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-010",
       "title": "Beginner wedstrijdmix: rustig kiezen onder druk",
-      "player": "Celeste",
-      "playerType": "beginner_celeste",
+      "player": "rechtshandige speler",
+      "playerType": "knltb_8_9_right_handed",
       "level": "beginner",
       "durationMinutes": 60,
       "handedness": "right-handed",
       "exerciseUrlParam": "handedness=right",
       "padelShooterSide": "Padel Studio - Rechts",
-      "goal": "Celeste combineert de belangrijkste beginnersthema’s in een simpele wedstrijdvorm: neutraliseren, lobben, laag spelen, net vasthouden.",
+      "goal": "De rechtshandige speler combineert de belangrijkste beginnersthema’s in een simpele wedstrijdvorm: neutraliseren, lobben, laag spelen, net vasthouden.",
       "logicalFlow": "Eerst defense to neutral, daarna random defense, daarna volleybasis en eindigen met lichte scoreborddruk.",
       "exerciseIds": [
         "39",
@@ -817,22 +817,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "65% juiste keuzes onder lichte random druk; niet meer dan 6 directe fouten in de transfergame.",
-      "transferGame": "Mini-tiebreak tot 7. Celeste krijgt bonuspunt voor juiste keuze, ook als de bal niet perfect is.",
+      "transferGame": "Mini-tiebreak tot 7. De rechtshandige speler krijgt bonuspunt voor juiste keuze, ook als de bal niet perfect is.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "Rechtshandig, beginner/opbouw, Padel Studio - Rechts",
-      "jeremiahVariant": "n.v.t. — Celeste-only programma"
+      "rightHandedVariant": "Rechtshandig, KNLTB 8-9, Padel Studio - Rechts",
+      "leftHandedVariant": "niet van toepassing"
     },
     {
       "id": "TP-011",
       "title": "Achterglas Decision: reset, low T of chiquita",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah traint uit de glasbackhand bewuste keuzes in plaats van automatische lobs.",
+      "goal": "De linkshandige speler traint uit de glasbackhand bewuste keuzes in plaats van automatische lobs.",
       "logicalFlow": "Van backglass decision naar bajada/chiquita-keuze en daarna random defense onder ruis.",
       "exerciseIds": [
         "01",
@@ -897,22 +897,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 14 van 20 keuzes vóór contact correct benoemd; oranje/groen blijft onder volleyhoogte.",
-      "transferGame": "Punt start uit achterglas. Punt telt dubbel als Jeremiah laag speelt, positie wint en daarna niet forceert.",
+      "transferGame": "Punt start uit achterglas. Punt telt dubbel als linkshandige speler laag speelt, positie wint en daarna niet forceert.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-012",
       "title": "Bajada naar aanval",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah leert hoge glasballen benutten met gecontroleerde bajada en daarna vervolgdruk.",
+      "goal": "De linkshandige speler leert hoge glasballen benutten met gecontroleerde bajada en daarna vervolgdruk.",
       "logicalFlow": "Eerst forehandglas lezen, dan bajada-techniek, dan decision, dan chiquita/eerste volley als vervolgroute.",
       "exerciseIds": [
         "13",
@@ -979,20 +979,20 @@ window.TRAINING_PROGRAMS_DATA = {
       "successCriterionKpi": "12 van 20 bajada-kansen worden als drukbal gespeeld zonder onnodige fout; rode ballen worden niet geforceerd.",
       "transferGame": "Alleen scoren na een bajada die laag/diep druk zet of na een bewuste reset bij rood.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-013",
       "title": "Chiquita Entry + eerste volley",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah koppelt lage voetenballen aan direct terrein winnen en een beheerste eerste volley.",
+      "goal": "linkshandige speler koppelt lage voetenballen aan direct terrein winnen en een beheerste eerste volley.",
       "logicalFlow": "Van chiquita entry naar backglass low feet, daarna eerste volley en finish/freeze decision.",
       "exerciseIds": [
         "04",
@@ -1057,22 +1057,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Na 70% van de goede chiquita’s volgt direct een eerste stap vooruit; eerste volley wordt niet geforceerd.",
-      "transferGame": "Punt telt alleen als Jeremiah via lage bal naar voeten het net terugpakt of druk creëert.",
+      "transferGame": "Punt telt alleen als linkshandige speler via lage bal naar voeten het net terugpakt of druk creëert.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-014",
       "title": "Anti-Bandeja Defense",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah leert tegen sterke overheadspelers niet steeds de middelmatige lob te geven.",
+      "goal": "De linkshandige speler leert tegen sterke overheadspelers niet steeds de middelmatige lob te geven.",
       "logicalFlow": "Van no-lob/low T naar low-low-lob en defense to neutral: eerst onder volleyhoogte werken, daarna pas hoog.",
       "exerciseIds": [
         "01",
@@ -1137,22 +1137,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 12 van 20 oranje/groene ballen blijven laag genoeg om de volley onder schouderhoogte te dwingen.",
-      "transferGame": "Tegenstander mag alleen scoren met bandeja. Jeremiah krijgt bonus voor lage T/body die overheadritme breekt.",
+      "transferGame": "Tegenstander mag alleen scoren met bandeja. De linkshandige speler krijgt bonus voor lage T/body die overheadritme breekt.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-015",
       "title": "Bandeja/Víbora Decision",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah traint overheadkeuzes: vasthouden met bandeja, snijden/drukken met víbora of terug naar net herstellen.",
+      "goal": "De linkshandige speler traint overheadkeuzes: vasthouden met bandeja, snijden/drukken met víbora of terug naar net herstellen.",
       "logicalFlow": "Van lob-read naar recovery-bandeja, daarna víbora/bandeja-keuze en counterbandeja naar finish window.",
       "exerciseIds": [
         "14",
@@ -1217,22 +1217,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "In 10 van 15 overheadsituaties is keuze en herstel logisch: geen wilde winner wanneer vasthouden beter is.",
-      "transferGame": "Elke lob op Jeremiah moet eindigen in bandeja/víbora + herstel. Punt telt alleen als netpositie opnieuw klopt.",
+      "transferGame": "Elke lob op De linkshandige speler moet eindigen in bandeja/víbora + herstel. Punt telt alleen als netpositie opnieuw klopt.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-016",
       "title": "Linkshandige midden-dominantie",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah gebruikt zijn linkshandige forehand om het midden te controleren en tegenstanders vast te zetten.",
+      "goal": "De linkshandige speler gebruikt de linkshandige forehand om het midden te controleren en tegenstanders vast te zetten.",
       "logicalFlow": "Van forehand middle lock naar volley combos, backhand volley lock en cross-body-DTL patroon.",
       "exerciseIds": [
         "35",
@@ -1309,22 +1309,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "15 van 20 netballen hebben een duidelijke bedoeling: midden lock, body, freeze of DTL openen.",
-      "transferGame": "Netduel waarin Jeremiah pas mag versnellen nadat hij eerst midden/body heeft vastgezet.",
+      "transferGame": "Netduel waarin linkshandige speler pas mag versnellen nadat de speler eerst midden/body heeft vastgezet.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-017",
       "title": "Drop Volley / Dejada na netdominantie",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah voegt touch toe aan zijn netspel: niet alleen hard/diep, maar ook kort wanneer tegenstanders hangen.",
+      "goal": "De linkshandige speler voegt touch toe aan het netspel: niet alleen hard/diep, maar ook kort wanneer tegenstanders hangen.",
       "logicalFlow": "Van controlevolleys naar freeze, dan drop volley, daarna finish-or-freeze onder keuze-druk.",
       "exerciseIds": [
         "07",
@@ -1391,20 +1391,20 @@ window.TRAINING_PROGRAMS_DATA = {
       "successCriterionKpi": "Minimaal 8 van 15 dropvolley-kansen zijn bewust gekozen en technisch zacht genoeg; geen drop uit slechte positie.",
       "transferGame": "Netduel: drop volley mag alleen na voorafgaande diepe/freeze bal die tegenstander naar achter houdt.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-018",
       "title": "Serve wide + ball 3",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah maakt van service geen startschot maar een plan: wide openen, ball 3 kiezen en midden/net dekken.",
+      "goal": "linkshandige speler maakt van service geen startschot maar een plan: wide openen, ball 3 kiezen en midden/net dekken.",
       "logicalFlow": "Van specifieke linkshandige serve wide naar bestaande serve+ball3, return/doorstap en body-block scenario’s.",
       "exerciseIds": [
         "37",
@@ -1471,20 +1471,20 @@ window.TRAINING_PROGRAMS_DATA = {
       "successCriterionKpi": "70% van de eerste-drie-ballenreeksen eindigt met positievoordeel of duidelijke neutrale controle.",
       "transferGame": "Speel alleen de eerste vijf ballen. Score: +1 voor positievoordeel na bal 3, +1 voor juiste midden/netdekking.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-019",
       "title": "Corner & Double Glass onder druk",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah traint moeilijke hoek- en dubbelglasballen om niet alleen te overleven maar logisch te rebuilden.",
+      "goal": "De linkshandige speler traint moeilijke hoek- en dubbelglasballen om niet alleen te overleven maar logisch te rebuilden.",
       "logicalFlow": "Van corner defense naar double glass, daarna backhand pressure en body defense naar open space, eindigend random.",
       "exerciseIds": [
         "16",
@@ -1561,22 +1561,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 65% van de corner/double-glass situaties eindigt in neutral, low T/body of gecontroleerde rebuild.",
-      "transferGame": "Start elk punt in de hoek. Jeremiah scoort extra als hij binnen drie ballen weer T/midden heroverd heeft.",
+      "transferGame": "Start elk punt in de hoek. De linkshandige speler scoort extra als de speler binnen drie ballen weer T/midden heroverd heeft.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-020",
       "title": "Golden Point: wedstrijdkeuzes onder druk",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_60",
       "level": "advanced",
       "durationMinutes": 60,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Jeremiah combineert defense, netkeuze, middenafspraken en finish/freeze onder scoreborddruk.",
+      "goal": "De linkshandige speler combineert defense, netkeuze, middenafspraken en finish/freeze onder scoreborddruk.",
       "logicalFlow": "Van random defense naar golden point, middenbalafspraken en finish/freeze als laatste beslislaag.",
       "exerciseIds": [
         "29",
@@ -1629,7 +1629,7 @@ window.TRAINING_PROGRAMS_DATA = {
           "minutes": 10,
           "exerciseId": "36",
           "exerciseTitle": "Middenbal-afspraken Duo",
-          "focus": "middenafspraken Celeste/Jeremiah"
+          "focus": "middenafspraken rechts-/linkshandig"
         },
         {
           "minutes": 10,
@@ -1655,13 +1655,13 @@ window.TRAINING_PROGRAMS_DATA = {
       "successCriterionKpi": "In golden-pointvorm minimaal 60% juiste keuze onder druk; geen twee punten achter elkaar dezelfde onbewuste fout.",
       "transferGame": "Golden-point tiebreak: elke rally start met scenario-call. Na punt direct benoemen: juiste keuze of verkeerde keuze.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de routekaart.",
-      "celesteVariant": "n.v.t. — Jeremiah-only programma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "niet van toepassing",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-021",
       "title": "Achterglas naar aanval: decision, bajada, chiquita",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -1751,15 +1751,15 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 18 van 30 beslissingen vóór contact juist benoemd; minimaal 70% van oranje/groene ballen blijft laag genoeg om de netspeler onder schouderhoogte te laten werken.",
-      "transferGame": "Start elk punt met een diepe glasbal op Jeremiah. Punt telt dubbel als hij via low exit, bajada of chiquita positie wint zonder halfhoge middenbal.",
+      "transferGame": "Start elk punt met een diepe glasbal op linkshandige speler. Punt telt dubbel als de speler via low exit, bajada of chiquita positie wint zonder halfhoge middenbal.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-022",
       "title": "Bajada-dag: hoge glasbal omzetten naar druk",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -1855,15 +1855,15 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 12 van 20 bajada’s landen diep/T/body zonder directe fout; minimaal 8 keer correcte vervolgstap na de bajada.",
-      "transferGame": "Punt start met hoge glasbal. Jeremiah mag pas voor winner gaan nadat hij eerst een drukbal op T/body of voeten heeft gespeeld.",
+      "transferGame": "Punt start met hoge glasbal. De linkshandige speler mag pas voor winner gaan nadat de speler eerst een drukbal op T/body of voeten heeft gespeeld.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-023",
       "title": "Anti-bandeja defense: laag blijven tegen overhead-druk",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -1945,7 +1945,7 @@ window.TRAINING_PROGRAMS_DATA = {
         },
         {
           "minutes": 14,
-          "transfer": "anti-bandeja game: overhead van tegenstander telt alleen als hij comfortabel boven schouderhoogte krijgt."
+          "transfer": "anti-bandeja game: overhead van tegenstander telt alleen als de speler comfortabel boven schouderhoogte krijgt."
         },
         {
           "minutes": 4,
@@ -1953,15 +1953,15 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 15 van 25 exits zijn laag of hoog genoeg; maximaal 5 halfhoge ballen in de bandeja-zone.",
-      "transferGame": "Tegenstander zoekt overhead. Jeremiah krijgt score voor elke lage bal die een volley onder schouderhoogte afdwingt.",
+      "transferGame": "Tegenstander zoekt overhead. De linkshandige speler krijgt score voor elke lage bal die een volley onder schouderhoogte afdwingt.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-024",
       "title": "Overhead-keuze: bandeja, víbora of counterbandeja",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -2051,15 +2051,15 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 16 van 25 overheads hebben de juiste keuze: hold, druk, counter of finish-window; na 80% van de overheads volgt herstel naar net.",
-      "transferGame": "Lob-start. Jeremiah roept vóór de slag “bandeja”, “víbora” of “reset” en krijgt score op keuze + herstel.",
+      "transferGame": "Lob-start. linkshandige speler roept vóór de slag “bandeja”, “víbora” of “reset” en krijgt score op keuze + herstel.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-025",
       "title": "Linkshandige midden-dominantie: T, body en squeeze",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -2104,7 +2104,7 @@ window.TRAINING_PROGRAMS_DATA = {
         },
         {
           "exerciseId": "36",
-          "title": "Middenbal-afspraken: Celeste rechts + Jeremiah links",
+          "title": "Middenbal-afspraken: rechtshandig links + linkshandig rechts",
           "url": "exercise.html?id=36&handedness=left"
         }
       ],
@@ -2148,7 +2148,7 @@ window.TRAINING_PROGRAMS_DATA = {
         {
           "minutes": 8,
           "exerciseId": "36",
-          "exerciseTitle": "Middenbal-afspraken: Celeste rechts + Jeremiah links",
+          "exerciseTitle": "Middenbal-afspraken: rechtshandig links + linkshandig rechts",
           "focus": "middenbal-afspraken binnen righty/lefty-teamlogica"
         },
         {
@@ -2157,19 +2157,19 @@ window.TRAINING_PROGRAMS_DATA = {
         },
         {
           "minutes": 4,
-          "log": "Noteer: welke middenbal is van Jeremiah, welke van partner, waar valt de eerste twijfel?"
+          "log": "Noteer: welke middenbal is van linkshandige speler, welke van partner, waar valt de eerste twijfel?"
         }
       ],
       "successCriterionKpi": "Minimaal 18 van 30 netballen hebben duidelijke intentie: T, body, squeeze, freeze of open angle.",
-      "transferGame": "Netduel waarin Jeremiah alleen mag versnellen nadat hij eerst midden/body heeft vastgezet.",
+      "transferGame": "Netduel waarin De linkshandige speler alleen mag versnellen nadat de speler eerst midden/body heeft vastgezet.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-026",
       "title": "Netdruk met touch: freeze, dejada en finish",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -2259,15 +2259,15 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 10 succesvolle zachte keuzes uit 20; drop/dejada mag alleen na echte netdruk of open ruimte.",
-      "transferGame": "Netduel tot 11. Jeremiah krijgt extra punt als hij eerst freeze of body speelt en daarna pas dejada/finish kiest.",
+      "transferGame": "Netduel tot 11. De linkshandige speler krijgt extra punt als de speler eerst freeze of body speelt en daarna pas dejada/finish kiest.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-027",
       "title": "Eerste drie ballen: serve, return en ball 3 met plan",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -2306,7 +2306,7 @@ window.TRAINING_PROGRAMS_DATA = {
         },
         {
           "exerciseId": "36",
-          "title": "Middenbal-afspraken: Celeste rechts + Jeremiah links",
+          "title": "Middenbal-afspraken: rechtshandig links + linkshandig rechts",
           "url": "exercise.html?id=36&handedness=left"
         }
       ],
@@ -2344,7 +2344,7 @@ window.TRAINING_PROGRAMS_DATA = {
         {
           "minutes": 8,
           "exerciseId": "36",
-          "exerciseTitle": "Middenbal-afspraken: Celeste rechts + Jeremiah links",
+          "exerciseTitle": "Middenbal-afspraken: rechtshandig links + linkshandig rechts",
           "focus": "middenbal-afspraken na return/serve"
         },
         {
@@ -2356,16 +2356,16 @@ window.TRAINING_PROGRAMS_DATA = {
           "log": "Noteer: serve-richting, ball-3 keuze, te vroeg naar net of te laat sluiten."
         }
       ],
-      "successCriterionKpi": "In 70% van de reeksen staat Jeremiah na bal 3 of 4 in minstens neutrale positie; minimaal 12 goede ball-3 keuzes.",
+      "successCriterionKpi": "In 70% van de reeksen staat linkshandige speler na bal 3 of 4 in minstens neutrale positie; minimaal 12 goede ball-3 keuzes.",
       "transferGame": "Speel alleen de eerste vijf ballen van elk punt. Daarna stoppen en scoren op positievoordeel.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-028",
       "title": "Corner & double glass: uit de hoek naar neutraal",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -2467,15 +2467,15 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 20 van 30 hoek/dubbelglasballen komen speelbaar terug; minimaal 12 keer is de herstelpositie correct na de bal.",
-      "transferGame": "Startpunt in de hoek. Score als Jeremiah binnen drie ballen van overleven naar neutraal komt.",
+      "transferGame": "Startpunt in de hoek. Score als linkshandige speler binnen drie ballen van overleven naar neutraal komt.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-029",
       "title": "Defense to counter: van bodydruk naar instappen",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
@@ -2569,7 +2569,7 @@ window.TRAINING_PROGRAMS_DATA = {
         },
         {
           "minutes": 10,
-          "transfer": "bodydruk-game: punt telt als Jeremiah eerst ruimte opent voordat hij versnelt."
+          "transfer": "bodydruk-game: punt telt als linkshandige speler eerst ruimte opent voordat de speler versnelt."
         },
         {
           "minutes": 4,
@@ -2577,22 +2577,22 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 15 van 25 verdedigende ballen worden niet teruggelegd in het racket; minimaal 8 succesvolle step-in momenten.",
-      "transferGame": "Tegenstander speelt bewust body/backhand. Jeremiah scoort extra als hij eerst neutraliseert en daarna pas countert.",
+      "transferGame": "Tegenstander speelt bewust body/backhand. De linkshandige speler scoort extra als de speler eerst neutraliseert en daarna pas countert.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     },
     {
       "id": "TP-030",
       "title": "Match simulation: random, scoreborddruk en keuzevastheid",
-      "player": "Jeremiah",
+      "player": "linkshandige speler",
       "playerType": "advanced_90",
       "level": "advanced",
       "durationMinutes": 90,
       "handedness": "left-handed",
       "exerciseUrlParam": "handedness=left",
       "padelShooterSide": "Padel Studio - Links",
-      "goal": "Alle gevorderde bouwstenen onder wedstrijdruis combineren: defense, overhead, midden, touch en scoreborddruk.",
+      "goal": "Alle KNLTB 6-7e bouwstenen onder wedstrijdruis combineren: defense, overhead, midden, touch en scoreborddruk.",
       "logicalFlow": "Random defense, golden point pressure, overhead decision, midden-dominantie, drop/finish en laatste transfergame.",
       "exerciseIds": [
         "29",
@@ -2687,10 +2687,10 @@ window.TRAINING_PROGRAMS_DATA = {
         }
       ],
       "successCriterionKpi": "Minimaal 65% juiste keuzes onder random/scoreborddruk; minder dan 4 directe fouten op ballen die eerst geneutraliseerd hadden moeten worden.",
-      "transferGame": "Tiebreak tot 7 met vaste startscenario’s: achterglas, lob op Jeremiah, netduel, bodydruk en golden point.",
+      "transferGame": "Tiebreak tot 7 met vaste startscenario’s: achterglas, lob op linkshandige speler, netduel, bodydruk en golden point.",
       "coachNote": "Gebruik de oefeningdetailpagina’s voor exacte uitvoering, PadelShooter-instellingen, scoring en volledige uitwerking. Dit programma is de 90-minuten routekaart.",
-      "celesteVariant": "n.v.t. — gevorderd 90-minutenprogramma",
-      "jeremiahVariant": "Linkshandig, gevorderd, speelt rechts, Padel Studio - Links"
+      "rightHandedVariant": "n.v.t. — KNLTB 6-7 90-minutenprogramma",
+      "leftHandedVariant": "Linkshandig, KNLTB 6-7, speelt rechts, Padel Studio - Links"
     }
   ]
 };

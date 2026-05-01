@@ -18,7 +18,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#5A3B2E",
     "playerVariant": {
       "left": [
-        "Linkshandig rechts: de bal komt terug in jouw forehandruimte na het achterglas. Je leest eerst of hij hoog genoeg terugkomt; alleen dan mag je versnellen.",
+        "Linkshandig rechts: de bal komt terug in jouw forehandruimte na het achterglas. Je leest eerst of de speler hoog genoeg terugkomt; alleen dan mag je versnellen.",
         "Je primaire richting is diep door midden/T of naar de body van de netspeler, niet wild cross langs de lijn.",
         "Na een goede bajada stap je door naar een hogere herstelpositie, maar je jaagt het net niet blind na als de bal te laag of te laat is."
       ],
@@ -37,7 +37,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
         "type": "list",
         "title": "Tactische doelen",
         "items": [
-          "Herkennen wanneer een glasbal echt bajada-waardig is en wanneer hij alleen een reset verdient.",
+          "Herkennen wanneer een glasbal echt bajada-waardig is en wanneer de speler alleen een reset verdient.",
           "De bal met gecontroleerde versnelling door midden, T of body spelen in plaats van hard zonder plan.",
           "Na contact niet blijven kijken, maar één tot twee passen terrein winnen.",
           "De bajada gebruiken als drukopbouw, niet als verplichte winner."
@@ -514,7 +514,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       "right": [
         "Rechtshandig links: spiegel de dropzones naar jouw forehand- en backhandvolleyruimte.",
         "Speel de korte bal alleen na duidelijke diepte of bodydruk.",
-        "Je eerste stap na de drop is naar voren, niet achterover om te kijken of hij goed is."
+        "Je eerste stap na de drop is naar voren, niet achterover om te kijken of de speler goed is."
       ]
     },
     "goal": [
@@ -677,7 +677,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       "right": [
         "Rechtshandig links: spiegel de instaplijn vanaf jouw kant.",
         "Na de chiquita win je ruimte, maar je blijft laag en klaar voor een bal op de voeten.",
-        "De eerste volley bevestigt het net, hij hoeft het punt niet meteen af te maken."
+        "De eerste volley bevestigt het net, de speler hoeft het punt niet meteen af te maken."
       ]
     },
     "goal": [
@@ -822,7 +822,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     "shortTitle": "Forehand Midden Lock",
     "summary": "Als linkshandige speler op rechts kun je met je forehand veel ballen door het midden/T controleren. Dat is een tactisch voordeel, maar alleen als je de bal laag en doelgericht speelt en niet alles als winner probeert.",
     "context": "Als linkshandige speler op rechts kun je met je forehand veel ballen door het midden/T controleren. Dat is een tactisch voordeel, maar alleen als je de bal laag en doelgericht speelt en niet alles als winner probeert.",
-    "matchContext": "In duo's met een rechtshandige speler links en een linkshandige speler rechts ontstaat in het midden veel forehandpotentie. Deze oefening leert Jeremiah zijn forehand door midden gebruiken om de tegenstander te jammen, twijfel te maken en de volgende volley makkelijker te krijgen.",
+    "matchContext": "In duo's met een rechtshandige speler links en een linkshandige speler rechts ontstaat in het midden veel forehandpotentie. Deze oefening leert linkshandige speler de forehand door midden gebruiken om de tegenstander te jammen, twijfel te maken en de volgende volley makkelijker te krijgen.",
     "level": "average",
     "levelLabel": "Gemiddeld",
     "knltb": "6-7",
@@ -836,11 +836,11 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       "left": [
         "Linkshandig rechts: dit is jouw specifieke wapen. Forehand door T/body moet jouw standaard drukbal worden wanneer de middenbaan open is.",
         "Speel vooral laag en compact; je hoeft de bal niet langs de speler te slaan als je hem op het lichaam kunt vastzetten.",
-        "Na een goede middenbal blijf je actief naar voren en sluit je de lijn met Celeste af."
+        "Na een goede middenbal blijf je actief naar voren en sluit je de lijn met rechtshandige speler af."
       ],
       "right": [
         "Rechtshandig links: spiegel de oefening als forehand-drukbal vanaf links, maar het tactische duo-effect is anders.",
-        "Voor Celeste is dit vooral controle: forehand door midden zonder te overdrijven, zodat Jeremiah daarnaast ruimte kan lezen.",
+        "Voor KNLTB 8-9 is dit vooral controle: forehand door midden zonder te overdrijven, zodat linkshandige speler daarnaast ruimte kan lezen.",
         "De nadruk ligt op veilige middenkeuze en herstel, niet op maximale versnelling."
       ]
     },
@@ -921,7 +921,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       "Geen wilde crossbal wanneer midden/body de logische keuze is."
     ],
     "coaching": [
-      "Cue: door midden is agressief als hij laag is.",
+      "Cue: door midden is agressief als de speler laag is.",
       "Cue: body wint tijd, open ruimte wint niet altijd punten.",
       "Laat speler vóór contact T of body roepen.",
       "Zet een cone op T als visuele target."
@@ -970,7 +970,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       {
         "title": "Coach Tips",
         "bullets": [
-          "Cue: door midden is agressief als hij laag is.",
+          "Cue: door midden is agressief als de speler laag is.",
           "Cue: body wint tijd, open ruimte wint niet altijd punten.",
           "Laat speler vóór contact T of body roepen.",
           "Zet een cone op T als visuele target."
@@ -981,10 +981,10 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
   {
     "id": "36",
     "category": "MIDDENDRUK & TEAMPLAY",
-    "title": "Middenbal-afspraken: Celeste rechts + Jeremiah links",
+    "title": "Middenbal-afspraken: rechtshandig links + linkshandig rechts",
     "shortTitle": "Middenbal Afspraken",
-    "summary": "Jullie spelen als duo met Celeste rechtshandig en Jeremiah linkshandig. Daardoor kunnen sommige middenballen juist door twee forehands worden gepakt, maar dat voordeel wordt pas groot als de afspraak helder is.",
-    "context": "Jullie spelen als duo met Celeste rechtshandig en Jeremiah linkshandig. Daardoor kunnen sommige middenballen juist door twee forehands worden gepakt, maar dat voordeel wordt pas groot als de afspraak helder is.",
+    "summary": "Jullie spelen als duo met een rechtshandige en linkshandige speler. Daardoor kunnen sommige middenballen juist door twee forehands worden gepakt, maar dat voordeel wordt pas groot als de afspraak helder is.",
+    "context": "Jullie spelen als duo met een rechtshandige en linkshandige speler. Daardoor kunnen sommige middenballen juist door twee forehands worden gepakt, maar dat voordeel wordt pas groot als de afspraak helder is.",
     "matchContext": "Veel punten worden verloren door twijfelballen in het midden: allebei kijken, allebei gaan, of iemand pakt een bal vanuit de verkeerde positie. Deze oefening maakt middenballen expliciet: wie neemt welke bal, wie dekt erna en wat is de call?",
     "level": "average",
     "levelLabel": "Gemiddeld",
@@ -997,14 +997,14 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#7B5E2A",
     "playerVariant": {
       "left": [
-        "Linkshandig rechts / Jeremiah: jij neemt middenballen die vóór je forehand komen of die je met druk door T/body kunt spelen.",
+        "Linkshandig rechts / linkshandige speler: jij neemt middenballen die vóór je forehand komen of die je met druk door T/body kunt spelen.",
         "Je call moet vroeg zijn: 'ik', 'jij' of 'laat'. Geen overleg tijdens contact.",
-        "Na jouw middenbal sluit je rechtsvoor/midden zodat Celeste niet alleen de volgende bal hoeft te dekken."
+        "Na jouw middenbal sluit je rechtsvoor/midden zodat rechtshandige speler niet alleen de volgende bal hoeft te dekken."
       ],
       "right": [
-        "Rechtshandig links / Celeste: jij neemt middenballen die logisch voor jouw forehand of stabiele volley liggen.",
-        "Als Jeremiah roept, laat je los en dek je direct de volgende hoek of lobruimte.",
-        "Voor Celeste is de hoofdopdracht: niet twijfelen, maar vroeg kiezen en simpel uitvoeren."
+        "Rechtshandig links / rechtshandige speler: jij neemt middenballen die logisch voor jouw forehand of stabiele volley liggen.",
+        "Als linkshandige speler roept, laat je los en dek je direct de volgende hoek of lobruimte.",
+        "Voor KNLTB 8-9 is de hoofdopdracht: niet twijfelen, maar vroeg kiezen en simpel uitvoeren."
       ]
     },
     "goal": [
@@ -1066,7 +1066,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       },
       {
         "title": "Block 2 - Forehand owns middle",
-        "text": "Speel 10 ballen waarbij de speler met forehandvoordeel de bal pakt, tenzij hij rood staat."
+        "text": "Speel 10 ballen waarbij de speler met forehandvoordeel de bal pakt, tenzij de speler rood staat."
       },
       {
         "title": "Block 3 - Cover na call",
@@ -1148,7 +1148,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     "shortTitle": "Serve Wide Ball 3",
     "summary": "De rally begint niet pas na de return. Je serve of openingsbal bepaalt vaak welke derde bal je krijgt. Deze oefening simuleert het patroon: wide openen, verwachte return lezen, derde bal gericht spelen.",
     "context": "De rally begint niet pas na de return. Je serve of openingsbal bepaalt vaak welke derde bal je krijgt. Deze oefening simuleert het patroon: wide openen, verwachte return lezen, derde bal gericht spelen.",
-    "matchContext": "Veel spelers serveren zonder plan en reageren pas daarna. Voor Jeremiah als linkshandige speler rechts is vooral de wide serve/opening interessant: die kan de returnlijn openen voor een forehand door midden of eerste volley.",
+    "matchContext": "Veel spelers serveren zonder plan en reageren pas daarna. Voor KNLTB 6-7 als linkshandige speler rechts is vooral de wide serve/opening interessant: die kan de returnlijn openen voor een forehand door midden of eerste volley.",
     "level": "advanced",
     "levelLabel": "Advanced",
     "knltb": "4-5",
@@ -1160,13 +1160,13 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#2F6B45",
     "playerVariant": {
       "left": [
-        "Linkshandig rechts / Jeremiah: wide openen vanaf rechts en klaarstaan voor ball 3 door midden/T of body.",
-        "Je serve/opening hoeft niet hard; hij moet de returnrichting voorspelbaar maken.",
+        "Linkshandig rechts / linkshandige speler: wide openen vanaf rechts en klaarstaan voor ball 3 door midden/T of body.",
+        "Je serve/opening hoeft niet hard; de speler moet de returnrichting voorspelbaar maken.",
         "Ball 3 is de echte trainingsbal: laag houden, target kiezen, positie winnen."
       ],
       "right": [
-        "Rechtshandig links / Celeste: wide openen of returnachtige feed gebruiken om het principe te leren.",
-        "Voor Celeste ligt de nadruk op serve + klaarstaan, niet op maximale slice of snelheid.",
+        "Rechtshandig links / rechtshandige speler: wide openen of returnachtige feed gebruiken om het principe te leren.",
+        "Voor KNLTB 8-9 ligt de nadruk op serve + klaarstaan, niet op maximale slice of snelheid.",
         "Ball 3 simpel naar diep midden/body is beter dan een moeilijke hoek."
       ]
     },
@@ -1323,13 +1323,13 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#7A1E1E",
     "playerVariant": {
       "left": [
-        "Linkshandig rechts / Jeremiah: jouw drukkeuze moet simpel blijven: T/body, goede lob of lage chiquita, geen spectaculaire bal zonder opbouw.",
+        "Linkshandig rechts / linkshandige speler: jouw drukkeuze moet simpel blijven: T/body, goede lob of lage chiquita, geen spectaculaire bal zonder opbouw.",
         "Gebruik je linkshandige forehand als drukwapen, maar alleen binnen de gekozen regel.",
         "Na elke fout benoem je of het een technische fout of keuze-fout was."
       ],
       "right": [
-        "Rechtshandig links / Celeste: onder druk is eenvoud het doel. Hoog percentage, duidelijke target, geen last-minute twijfel.",
-        "Voor Celeste telt vooral: vroeg kiezen, hoog genoeg resetten of laag genoeg spelen.",
+        "Rechtshandig links / rechtshandige speler: onder druk is eenvoud het doel. Hoog percentage, duidelijke target, geen last-minute twijfel.",
+        "Voor KNLTB 8-9 telt vooral: vroeg kiezen, hoog genoeg resetten of laag genoeg spelen.",
         "Na elke bal direct terug naar basispositie, niet blijven balen."
       ]
     },
@@ -1374,7 +1374,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       },
       {
         "name": "QUALITY LOB",
-        "text": "Alleen lob als hij echt hoog en diep kan."
+        "text": "Alleen lob als de speler echt hoog en diep kan."
       },
       {
         "name": "LOW FEET",
@@ -1392,7 +1392,7 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
       },
       {
         "title": "Block 2 - Twee keuzes",
-        "text": "Voeg tweede keuze toe: T/body of hoge lob. De speler benoemt vóór contact welke hij kiest."
+        "text": "Voeg tweede keuze toe: T/body of hoge lob. De speler benoemt vóór contact welke de speler kiest."
       },
       {
         "title": "Block 3 - Foutclassificatie",
@@ -1487,14 +1487,14 @@ window.BONUS_EXERCISE_BLUEPRINTS = [
     "categoryColor": "#4B5C73",
     "playerVariant": {
       "left": [
-        "Linkshandig rechts / Jeremiah: gebruik je forehand en glascontrole om druk te neutraliseren zonder meteen te willen overnemen.",
+        "Linkshandig rechts / linkshandige speler: gebruik je forehand en glascontrole om druk te neutraliseren zonder meteen te willen overnemen.",
         "Rood betekent: tijd kopen. Oranje betekent: laag of diep stabiliseren. Groen komt pas daarna.",
         "Na een goede neutralisatie kom je hoger in de baan, maar je hoeft niet direct naar het net."
       ],
       "right": [
-        "Rechtshandig links / Celeste: dit is een kernvorm voor rust achterin. Eerst bal terug, dan positie, dan pas initiatief.",
+        "Rechtshandig links / rechtshandige speler: dit is een kernvorm voor rust achterin. Eerst bal terug, dan positie, dan pas initiatief.",
         "Gebruik hoge reset of diepe middenbal om van paniek naar controle te gaan.",
-        "Voor Celeste telt vooral: geen haastcounter vanuit rood."
+        "Voor KNLTB 8-9 telt vooral: geen haastcounter vanuit rood."
       ]
     },
     "goal": [
