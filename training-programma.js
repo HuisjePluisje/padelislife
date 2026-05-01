@@ -179,6 +179,7 @@
           <span class="meta-pill">${escapeHtml(program.knltbLabel)}</span>
           <span class="meta-pill">${escapeHtml(program.durationLabel)}</span>
           <span class="meta-pill">${escapeHtml(program.handednessLabel)}</span>
+          <span class="meta-pill">${escapeHtml(program.playSideLabel)}</span>
           <span class="meta-pill meta-pill-soft">${escapeHtml(program.themeLabel)}</span>
         </div>
         <div class="hero-actions">
@@ -238,6 +239,14 @@
           </div>
           <div class="section-body">
             <div class="program-detail-grid">
+              <div class="content-box">
+                <h4>Spelerprofiel</h4>
+                <p>${escapeHtml(program.profileSummary)}</p>
+              </div>
+              <div class="content-box">
+                <h4>Speelzijde</h4>
+                <p>${escapeHtml(program.playSideLabel)}</p>
+              </div>
               <div class="content-box">
                 <h4>Hoofdprincipe</h4>
                 <p>${escapeHtml(program.themeContent.mainPrinciple)}</p>

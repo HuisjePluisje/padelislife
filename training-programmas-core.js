@@ -288,6 +288,84 @@
     };
   }
 
+  function createPickupDescription(block) {
+    return `Raap de ballen, benoem kort wat goed ging in ${block.exerciseTitle.toLowerCase()} en kies één aandachtspunt voor de volgende ronde.`;
+  }
+
+  function createSchedule(program, exerciseBlocks, transferBlock, logBlock) {
+    const isNinetyMinute = program.durationMinutes === 90;
+    const coreExerciseLimit = isNinetyMinute ? 6 : 4;
+    const coreExercises = exerciseBlocks.slice(0, coreExerciseLimit);
+    const optionalExercises = exerciseBlocks.slice(coreExerciseLimit);
+    const applicationMinutes = isNinetyMinute ? 15 : 10;
+    const scheduleBlocks = [
+      {
+        type: "note",
+        minutes: 5,
+        title: "Start / doel / eerste preset",
+        description: "Leg het hoofdprincipe uit, zet de eerste preset klaar en spreek af waar de speler op gaat letten."
+      }
+    ];
+
+    coreExercises.forEach((block, index) => {
+      scheduleBlocks.push({
+        type: "exercise",
+        minutes: 5,
+        exerciseId: block.exerciseId,
+        title: block.exerciseTitle,
+        focus: block.focus,
+        link: block.link || null,
+        stageLabel:
+          isNinetyMinute && index === coreExercises.length - 1 && coreExercises.length === 6
+            ? "Verdiepend blok"
+            : `Kernoefening ${index + 1}`
+      });
+      scheduleBlocks.push({
+        type: "pickup",
+        minutes: 5,
+        title: "Ballen rapen en korte feedback",
+        description: createPickupDescription(block)
+      });
+    });
+
+    scheduleBlocks.push({
+      type: "application",
+      minutes: applicationMinutes,
+      title: "Toepassingsvorm",
+      description: transferBlock ? transferBlock.transfer : program.transferGame
+    });
+
+    scheduleBlocks.push({
+      type: "sessionCard",
+      minutes: 5,
+      title: "Sessiekaart / afronden",
+      description: logBlock ? logBlock.log : "Werk kort de KPI bij, ruim op en noteer wat je volgende keer wilt herhalen."
+    });
+
+    if (isNinetyMinute) {
+      scheduleBlocks.push({
+        type: "rest",
+        minutes: 5,
+        title: "Buffer",
+        description: "Gebruik deze minuten voor extra raaptijd, presetwissel, drinkpauze of een korte herhaling van het hoofdprincipe."
+      });
+    }
+
+    return {
+      coreExercises,
+      optionalExercises,
+      scheduleBlocks,
+      applicationMinutes,
+      totalPickupMinutes: coreExercises.length * 5,
+      quickFacts: [
+        { label: "Duur", value: `${program.durationMinutes} min` },
+        { label: "Kern-oefeningen", value: String(coreExercises.length) },
+        { label: "Raaptijd inbegrepen", value: "Ja" },
+        { label: "Toepassingsvorm", value: `${applicationMinutes} min` }
+      ]
+    };
+  }
+
   function enrichProgram(program) {
     const themeLabel = themeById[program.id] || "Wedstrijdmix";
     const exerciseLinkById = {};
@@ -305,6 +383,10 @@
         exerciseCount: list.length
       }));
 
+    const transferBlock = program.blocks.find((block) => block.transfer) || null;
+    const logBlock = program.blocks.find((block) => block.log) || null;
+    const schedule = createSchedule(program, exerciseBlocks, transferBlock, logBlock);
+
     return {
       ...program,
       knltbLabel: knltbById[program.id],
@@ -316,8 +398,16 @@
       profileSummary: profile.profileSummary,
       handednessParam: profile.handednessParam,
       exerciseBlocks,
-      transferBlock: program.blocks.find((block) => block.transfer) || null,
-      logBlock: program.blocks.find((block) => block.log) || null
+      transferBlock,
+      logBlock,
+      coreExerciseCount: schedule.coreExercises.length,
+      coreExercises: schedule.coreExercises,
+      optionalExercises: schedule.optionalExercises,
+      scheduleBlocks: schedule.scheduleBlocks,
+      applicationMinutes: schedule.applicationMinutes,
+      totalPickupMinutes: schedule.totalPickupMinutes,
+      quickFacts: schedule.quickFacts,
+      hasPickupTime: schedule.totalPickupMinutes > 0
     };
   }
 

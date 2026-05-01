@@ -124,6 +124,11 @@
               <h4>Spelerprofiel</h4>
               <p>${escapeHtml(program.profileSummary)}</p>
             </div>
+            <div class="meta-row">
+              <span class="meta-pill">${escapeHtml(`Kernroute ${program.coreExerciseCount} oef.`)}</span>
+              <span class="meta-pill">${escapeHtml("Raaptijd inbegrepen")}</span>
+              <span class="meta-pill meta-pill-soft">${escapeHtml(`${program.applicationMinutes} min toepassingsvorm`)}</span>
+            </div>
             <div class="program-sequence">${sequence}</div>
             <p>${escapeHtml(program.goal)}</p>
             <div class="content-box program-kpi-box">
